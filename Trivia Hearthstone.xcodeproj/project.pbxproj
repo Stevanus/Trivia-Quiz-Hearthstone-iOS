@@ -15,8 +15,8 @@
 		59DA93AB1C11590C0024A025 /* Background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59DA93AA1C11590C0024A025 /* Background.jpg */; };
 		59DA93AD1C115C090024A025 /* bliz-quadrata.woff in Resources */ = {isa = PBXBuildFile; fileRef = 59DA93AC1C115C090024A025 /* bliz-quadrata.woff */; };
 		59DA93B11C1161EF0024A025 /* OPTIBelwe-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 59DA93B01C1161EF0024A025 /* OPTIBelwe-Medium.otf */; };
-		59DA93B31C116BAD0024A025 /* Trivia Hearthstone UI.png in Resources */ = {isa = PBXBuildFile; fileRef = 59DA93B21C116BAD0024A025 /* Trivia Hearthstone UI.png */; };
 		59DA93B51C116DE30024A025 /* secretsymbol.png in Resources */ = {isa = PBXBuildFile; fileRef = 59DA93B41C116DE30024A025 /* secretsymbol.png */; };
+		59DA93B91C1177260024A025 /* Trivia Hearthstone UI.png in Resources */ = {isa = PBXBuildFile; fileRef = 59DA93B81C1177260024A025 /* Trivia Hearthstone UI.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,8 +30,8 @@
 		59DA93AA1C11590C0024A025 /* Background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Background.jpg; sourceTree = "<group>"; };
 		59DA93AC1C115C090024A025 /* bliz-quadrata.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "bliz-quadrata.woff"; sourceTree = "<group>"; };
 		59DA93B01C1161EF0024A025 /* OPTIBelwe-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OPTIBelwe-Medium.otf"; sourceTree = "<group>"; };
-		59DA93B21C116BAD0024A025 /* Trivia Hearthstone UI.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Trivia Hearthstone UI.png"; sourceTree = "<group>"; };
 		59DA93B41C116DE30024A025 /* secretsymbol.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = secretsymbol.png; sourceTree = "<group>"; };
+		59DA93B81C1177260024A025 /* Trivia Hearthstone UI.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Trivia Hearthstone UI.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,8 +73,8 @@
 				59DA93AA1C11590C0024A025 /* Background.jpg */,
 				59DA93AC1C115C090024A025 /* bliz-quadrata.woff */,
 				59DA93B01C1161EF0024A025 /* OPTIBelwe-Medium.otf */,
-				59DA93B21C116BAD0024A025 /* Trivia Hearthstone UI.png */,
 				59DA93B41C116DE30024A025 /* secretsymbol.png */,
+				59DA93B81C1177260024A025 /* Trivia Hearthstone UI.png */,
 			);
 			path = "Trivia Hearthstone";
 			sourceTree = "<group>";
@@ -143,8 +143,8 @@
 				59DA93AB1C11590C0024A025 /* Background.jpg in Resources */,
 				59DA93A01C114BC60024A025 /* Assets.xcassets in Resources */,
 				59DA939E1C114BC60024A025 /* Main.storyboard in Resources */,
-				59DA93B31C116BAD0024A025 /* Trivia Hearthstone UI.png in Resources */,
 				59DA93AD1C115C090024A025 /* bliz-quadrata.woff in Resources */,
+				59DA93B91C1177260024A025 /* Trivia Hearthstone UI.png in Resources */,
 				59DA93B51C116DE30024A025 /* secretsymbol.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
