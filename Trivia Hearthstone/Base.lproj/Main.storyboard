@@ -32,30 +32,23 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                                 <animations/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="HEARTHSTONE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1gs-4f-q0Q">
-                                <rect key="frame" x="-5" y="50" width="247" height="45"/>
-                                <animations/>
-                                <fontDescription key="fontDescription" name="OPTIBelwe-Medium" family="OPTIBelwe-Medium" pointSize="25"/>
-                                <color key="textColor" red="0.88627450980392153" green="0.58039215686274515" blue="0.094117647058823528" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="TRIVIA &amp; QUIZ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zih-e5-99y">
-                                <rect key="frame" x="-5" y="16" width="236" height="43"/>
+                                <rect key="frame" x="-4" y="16" width="236" height="43"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" name="OPTIBelwe-Medium" family="OPTIBelwe-Medium" pointSize="25"/>
                                 <color key="textColor" red="1" green="0.93060097909999995" blue="0.085327239439999994" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Trivia Hearthstone UI.png" translatesAutoresizingMaskIntoConstraints="NO" id="ks8-AK-kKA">
-                                <rect key="frame" x="41" y="92" width="236" height="296"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Trivia Hearthstone UI.png" translatesAutoresizingMaskIntoConstraints="NO" id="ks8-AK-kKA">
+                                <rect key="frame" x="42" y="92" width="236" height="296"/>
                                 <animations/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="236" id="8gF-qK-X3v"/>
                                     <constraint firstAttribute="height" constant="296" id="ZjY-u3-u1n"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jn4-qU-oQx">
-                                <rect key="frame" x="79" y="189" width="160" height="38"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jn4-qU-oQx">
+                                <rect key="frame" x="80" y="189" width="160" height="38"/>
                                 <animations/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="160" id="2T4-hO-DN4"/>
@@ -66,8 +59,8 @@
                                     <color key="titleColor" red="0.24313725489999999" green="0.18039215689999999" blue="0.094117647060000004" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EIo-BS-anc">
-                                <rect key="frame" x="79" y="254" width="160" height="38"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EIo-BS-anc">
+                                <rect key="frame" x="80" y="254" width="160" height="38"/>
                                 <animations/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="38" id="3we-ow-e4V"/>
@@ -78,8 +71,8 @@
                                     <color key="titleColor" red="0.24313725489999999" green="0.18039215689999999" blue="0.094117647060000004" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bPL-UL-RKj">
-                                <rect key="frame" x="79" y="320" width="160" height="38"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bPL-UL-RKj">
+                                <rect key="frame" x="80" y="320" width="160" height="38"/>
                                 <animations/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="160" id="9xg-7Q-Srv"/>
@@ -90,8 +83,8 @@
                                     <color key="titleColor" red="0.24313725489999999" green="0.18039215689999999" blue="0.094117647060000004" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Utv-0s-OEb">
-                                <rect key="frame" x="79" y="123" width="160" height="38"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Utv-0s-OEb">
+                                <rect key="frame" x="80" y="123" width="160" height="38"/>
                                 <animations/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="38" id="8Di-Ru-gVt"/>
@@ -103,13 +96,20 @@
                                 </state>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="secretsymbol.png" translatesAutoresizingMaskIntoConstraints="NO" id="gGj-1b-uzZ">
-                                <rect key="frame" x="241" y="28" width="79" height="62"/>
+                                <rect key="frame" x="241" y="33" width="79" height="62"/>
                                 <animations/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="62" id="19u-ef-Wrz"/>
                                     <constraint firstAttribute="width" constant="79" id="e4z-9s-B1X"/>
                                 </constraints>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="HEARTHSTONE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1gs-4f-q0Q">
+                                <rect key="frame" x="-4" y="50" width="247" height="45"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="OPTIBelwe-Medium" family="OPTIBelwe-Medium" pointSize="25"/>
+                                <color key="textColor" red="0.88627450980392153" green="0.58039215686274515" blue="0.094117647058823528" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
