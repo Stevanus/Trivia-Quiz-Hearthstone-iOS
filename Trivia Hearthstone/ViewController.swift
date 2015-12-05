@@ -20,7 +20,7 @@ class ViewController: UIViewController {
     var QNumber = Int() // Question Number
     var ANumber = Int() // Answer Number
     
-    @IBOutlet var header: UILabel!
+
     
 
     override func viewDidLoad() {
