@@ -8,35 +8,17 @@
 
 import UIKit
 
-struct Question {
-    var Question : String!
-    var Answers : [String]!
-    var Answer : Int!
-}
+
 
 class ViewController: UIViewController {
     
-    var Questions = [Question]()
-    var QNumber = Int() // Question Number
-    var ANumber = Int() // Answer Number
-    
+
 
     
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        //header.font = UIFont(name: "Belwe-Medium", size 50)
-        
-
-        for family: String in UIFont.familyNames()
-        {
-            print("\(family)")
-            for names: String in UIFont.fontNamesForFamilyName(family)
-            {
-                print("== \(names)")
-            }
-        }
         
     }
 

@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		59B147371C12A7EB00F8F6D8 /* Questionnare.png in Resources */ = {isa = PBXBuildFile; fileRef = 59B147361C12A7EB00F8F6D8 /* Questionnare.png */; };
+		59B147391C12B6B700F8F6D8 /* TriviaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B147381C12B6B700F8F6D8 /* TriviaViewController.swift */; };
+		59B1473D1C12BB6400F8F6D8 /* backbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 59B1473C1C12BB6400F8F6D8 /* backbutton.png */; };
 		59DA93991C114BC60024A025 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DA93981C114BC60024A025 /* AppDelegate.swift */; };
 		59DA939B1C114BC60024A025 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DA939A1C114BC60024A025 /* ViewController.swift */; };
 		59DA939E1C114BC60024A025 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59DA939C1C114BC60024A025 /* Main.storyboard */; };
@@ -22,6 +24,8 @@
 
 /* Begin PBXFileReference section */
 		59B147361C12A7EB00F8F6D8 /* Questionnare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Questionnare.png; sourceTree = "<group>"; };
+		59B147381C12B6B700F8F6D8 /* TriviaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriviaViewController.swift; sourceTree = "<group>"; };
+		59B1473C1C12BB6400F8F6D8 /* backbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backbutton.png; sourceTree = "<group>"; };
 		59DA93951C114BC60024A025 /* Trivia Hearthstone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trivia Hearthstone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		59DA93981C114BC60024A025 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		59DA939A1C114BC60024A025 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -68,6 +72,7 @@
 			children = (
 				59DA93981C114BC60024A025 /* AppDelegate.swift */,
 				59DA939A1C114BC60024A025 /* ViewController.swift */,
+				59B147381C12B6B700F8F6D8 /* TriviaViewController.swift */,
 				59DA939C1C114BC60024A025 /* Main.storyboard */,
 				59DA939F1C114BC60024A025 /* Assets.xcassets */,
 				59DA93A11C114BC60024A025 /* LaunchScreen.storyboard */,
@@ -78,6 +83,7 @@
 				59DA93B41C116DE30024A025 /* secretsymbol.png */,
 				59DA93B81C1177260024A025 /* Trivia Hearthstone UI.png */,
 				59B147361C12A7EB00F8F6D8 /* Questionnare.png */,
+				59B1473C1C12BB6400F8F6D8 /* backbutton.png */,
 			);
 			path = "Trivia Hearthstone";
 			sourceTree = "<group>";
@@ -141,6 +147,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59B1473D1C12BB6400F8F6D8 /* backbutton.png in Resources */,
 				59DA93B11C1161EF0024A025 /* OPTIBelwe-Medium.otf in Resources */,
 				59DA93A31C114BC60024A025 /* LaunchScreen.storyboard in Resources */,
 				59B147371C12A7EB00F8F6D8 /* Questionnare.png in Resources */,
@@ -161,6 +168,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				59DA939B1C114BC60024A025 /* ViewController.swift in Sources */,
+				59B147391C12B6B700F8F6D8 /* TriviaViewController.swift in Sources */,
 				59DA93991C114BC60024A025 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
