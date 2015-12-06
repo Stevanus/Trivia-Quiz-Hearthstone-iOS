@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Social
 
 class GameOverViewController: UIViewController {
 
@@ -16,6 +17,12 @@ class GameOverViewController: UIViewController {
     }
     
     
+    @IBAction func sharescore(sender: AnyObject) {
+        var sharescore : SLComposeViewController = SLComposeViewController(forServiceType: SLServiceTypeFacebook)
+        sharescore.setInitialText("I scored 25  on Trivia & Quiz Hearthstone!")
+        
+        self.presentViewController(sharescore, animated: true, completion: nil)
+    }
     
     
     override func viewDidLoad() {

@@ -134,6 +134,7 @@ class TriviaViewController: UIViewController {
             aButtons[2].enabled = false
             aButtons[3].enabled = false
             backLabel.enabled = false
+            bgm.stop()
             
             
         }

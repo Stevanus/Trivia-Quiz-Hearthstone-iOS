@@ -80,7 +80,7 @@
                                     <constraint firstAttribute="width" constant="160" id="VNH-ln-cwP"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="OPTIBelwe-Medium" family="OPTIBelwe-Medium" pointSize="18"/>
-                                <state key="normal" title="MORE TRIVIA">
+                                <state key="normal" title="REMOVE ADS">
                                     <color key="titleColor" red="0.24313725489999999" green="0.18039215689999999" blue="0.094117647060000004" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                             </button>
@@ -396,17 +396,23 @@
                                 <rect key="frame" x="20" y="53" width="180" height="27"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" name="OPTIBelwe-Medium" family="OPTIBelwe-Medium" pointSize="15"/>
-                                <state key="normal" title="Rate App (+25 Trivia)">
+                                <state key="normal" title="Play Again">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="uZb-vl-XFr" kind="show" animates="NO" id="ttg-T0-emM"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uF5-rd-sIh">
                                 <rect key="frame" x="20" y="106" width="180" height="27"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" name="OPTIBelwe-Medium" family="OPTIBelwe-Medium" pointSize="15"/>
-                                <state key="normal" title="Buy More (+100 Trivia)">
+                                <state key="normal" title="Share your Score!">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="sharescore:" destination="XPm-CW-GbZ" eventType="touchUpInside" id="h7q-T2-tJ4"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MEB-Ap-i5O">
                                 <rect key="frame" x="20" y="158" width="180" height="27"/>
@@ -417,7 +423,7 @@
                                 </state>
                                 <connections>
                                     <action selector="mainmenubutton:" destination="XPm-CW-GbZ" eventType="touchUpInside" id="N40-Hk-6zp"/>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="ZdX-Ms-9J2"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" animates="NO" id="ZdX-Ms-9J2"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -427,7 +433,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BtT-cp-Y0W" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1067" y="-62"/>
+            <point key="canvasLocation" x="1049" y="70"/>
         </scene>
     </scenes>
     <resources>
@@ -439,6 +445,7 @@
         <image name="secretsymbol.png" width="300" height="300"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="ttg-T0-emM"/>
         <segue reference="ZdX-Ms-9J2"/>
     </inferredMetricsTieBreakers>
 </document>
