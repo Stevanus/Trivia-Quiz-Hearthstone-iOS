@@ -192,7 +192,7 @@
                                 <color key="textColor" red="1" green="0.93060097909999995" blue="0.085327239439999994" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="999" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3ON-au-Cyl">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3ON-au-Cyl">
                                 <rect key="frame" x="120" y="21" width="42" height="29"/>
                                 <animations/>
                                 <constraints>
@@ -342,6 +342,8 @@
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
                     <connections>
+                        <outlet property="displayScore" destination="3ON-au-Cyl" id="CYu-uF-qmb"/>
+                        <outlet property="displayTimeLeft" destination="Vlx-sB-Yuc" id="4Vf-fg-QIJ"/>
                         <outlet property="qLabel" destination="mNj-bG-hVA" id="wzv-zq-l8u"/>
                         <outletCollection property="aButtons" destination="Eer-fv-dRb" collectionClass="NSMutableArray" id="cDe-we-ykU"/>
                         <outletCollection property="aButtons" destination="zmj-Uk-QAb" collectionClass="NSMutableArray" id="m6U-HK-hsQ"/>

@@ -32,6 +32,12 @@ class TriviaViewController: UIViewController {
     var qNumber = Int() // Question Number
     var aNumber = Int() // Answer Number
     
+    
+    @IBOutlet var displayScore: UILabel!
+    @IBOutlet var displayTimeLeft: UILabel!
+    
+    var score = 0
+    var timer = 7
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -74,6 +80,8 @@ class TriviaViewController: UIViewController {
     
     func PickQuestion(){
         
+
+        
         if questions.count > 0 {
             qNumber = 0
             qLabel.text = questions[qNumber].question
@@ -93,7 +101,13 @@ class TriviaViewController: UIViewController {
             print("Out of questions!")
             
         }
+        
+
     }
+    
+
+    
+
     
     @IBAction func button1(sender: AnyObject) {
         
@@ -128,12 +142,16 @@ class TriviaViewController: UIViewController {
         
         if aNumber == number{
             correctSound.play()
+            score = score + 1
             print("Correct")
         }
         else{
             wrongSound.play()
             print("Wrong")
         }
+        
+        print(score)
+        displayScore.text = String(score)
         
         let myTimer : NSTimer = NSTimer.scheduledTimerWithTimeInterval(1.25, target: self, selector: Selector("nextQuestion:"), userInfo: nil, repeats: false)
         
