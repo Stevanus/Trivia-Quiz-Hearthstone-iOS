@@ -28,6 +28,7 @@ class TriviaViewController: UIViewController {
     
     @IBOutlet var qLabel: UILabel!
     @IBOutlet var aButtons: [UIButton]!
+    @IBOutlet var backLabel: UIButton!
     
     
     var questions = [Question]()
@@ -44,9 +45,14 @@ class TriviaViewController: UIViewController {
     
     var clock = NSTimer()
     
+    
+    @IBOutlet var gameoverscreen: UIView!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
         
         clock = NSTimer.scheduledTimerWithTimeInterval(1.0, target: self, selector: Selector("countdown:"), userInfo: nil, repeats: true)
 
@@ -119,6 +125,16 @@ class TriviaViewController: UIViewController {
         
         else {
             print("Out of questions!")
+            gameoverscreen.hidden = false
+            self.view.backgroundColor = UIColor.blackColor()
+            self.view.alpha = 0.8
+            clock.invalidate()
+            aButtons[0].enabled = false
+            aButtons[1].enabled = false
+            aButtons[2].enabled = false
+            aButtons[3].enabled = false
+            backLabel.enabled = false
+            
             
         }
         
