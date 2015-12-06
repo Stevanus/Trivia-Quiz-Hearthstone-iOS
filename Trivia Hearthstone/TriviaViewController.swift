@@ -37,10 +37,16 @@ class TriviaViewController: UIViewController {
     @IBOutlet var displayTimeLeft: UILabel!
     
     var score = 0
-    var timer = 7
+    var timeleft = 7
+    
+    var clock = NSTimer()
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        clock = NSTimer.scheduledTimerWithTimeInterval(1.0, target: self, selector: Selector("countdown:"), userInfo: nil, repeats: true)
+
         
         do {
             correctSound = try AVAudioPlayer(contentsOfURL: importcorrectSound)
@@ -102,11 +108,32 @@ class TriviaViewController: UIViewController {
             
         }
         
+        timeleft = 7
+
+        
+
 
     }
     
-
+    func countdown(timer : NSTimer)  {
+        
+        print (timeleft)
+        displayTimeLeft.text = String(timeleft)
+        if timeleft > 0 {
+            timeleft--
+        }
+        else {
+            wrongSound.play()
+            PickQuestion()
+        }
+        
+    }
     
+    
+    
+    @IBAction func backButton(sender: AnyObject) {
+        clock.invalidate()
+    }
 
     
     @IBAction func button1(sender: AnyObject) {

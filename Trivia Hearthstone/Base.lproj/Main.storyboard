@@ -305,6 +305,7 @@
                                 </constraints>
                                 <state key="normal" image="backbutton.png"/>
                                 <connections>
+                                    <action selector="backButton:" destination="uZb-vl-XFr" eventType="touchUpInside" id="YfQ-at-grL"/>
                                     <segue destination="BYZ-38-t0r" kind="show" animates="NO" id="T2l-KW-wvk"/>
                                 </connections>
                             </button>
