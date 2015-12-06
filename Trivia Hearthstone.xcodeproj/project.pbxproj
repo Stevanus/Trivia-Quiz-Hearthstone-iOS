@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		595E3E7D1C13B07C009B5967 /* correct.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 595E3E7C1C13B07C009B5967 /* correct.mp3 */; };
 		595E3E811C13B1AF009B5967 /* wrong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 595E3E801C13B1AF009B5967 /* wrong.mp3 */; };
+		595E3E831C13CD49009B5967 /* Hearthstonepiano.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 595E3E821C13CD49009B5967 /* Hearthstonepiano.mp3 */; };
 		59B147371C12A7EB00F8F6D8 /* Questionnare.png in Resources */ = {isa = PBXBuildFile; fileRef = 59B147361C12A7EB00F8F6D8 /* Questionnare.png */; };
 		59B147391C12B6B700F8F6D8 /* TriviaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B147381C12B6B700F8F6D8 /* TriviaViewController.swift */; };
 		59B1473D1C12BB6400F8F6D8 /* backbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 59B1473C1C12BB6400F8F6D8 /* backbutton.png */; };
@@ -27,6 +28,7 @@
 /* Begin PBXFileReference section */
 		595E3E7C1C13B07C009B5967 /* correct.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = correct.mp3; sourceTree = "<group>"; };
 		595E3E801C13B1AF009B5967 /* wrong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wrong.mp3; sourceTree = "<group>"; };
+		595E3E821C13CD49009B5967 /* Hearthstonepiano.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Hearthstonepiano.mp3; sourceTree = "<group>"; };
 		59B147361C12A7EB00F8F6D8 /* Questionnare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Questionnare.png; sourceTree = "<group>"; };
 		59B147381C12B6B700F8F6D8 /* TriviaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriviaViewController.swift; sourceTree = "<group>"; };
 		59B1473C1C12BB6400F8F6D8 /* backbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backbutton.png; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 				59B1473C1C12BB6400F8F6D8 /* backbutton.png */,
 				595E3E7C1C13B07C009B5967 /* correct.mp3 */,
 				595E3E801C13B1AF009B5967 /* wrong.mp3 */,
+				595E3E821C13CD49009B5967 /* Hearthstonepiano.mp3 */,
 			);
 			path = "Trivia Hearthstone";
 			sourceTree = "<group>";
@@ -165,6 +168,7 @@
 				59DA93B91C1177260024A025 /* Trivia Hearthstone UI.png in Resources */,
 				595E3E7D1C13B07C009B5967 /* correct.mp3 in Resources */,
 				59DA93B51C116DE30024A025 /* secretsymbol.png in Resources */,
+				595E3E831C13CD49009B5967 /* Hearthstonepiano.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

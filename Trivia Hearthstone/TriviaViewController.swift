@@ -23,6 +23,9 @@ class TriviaViewController: UIViewController {
     var importwrongSound = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("wrong", ofType: "mp3")!)
     var wrongSound = AVAudioPlayer()
     
+    var importmusic = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("Hearthstonepiano", ofType: "mp3")!)
+    var bgm = AVAudioPlayer()
+    
     @IBOutlet var qLabel: UILabel!
     @IBOutlet var aButtons: [UIButton]!
     
@@ -64,7 +67,18 @@ class TriviaViewController: UIViewController {
         
         wrongSound.volume = 0.25
         wrongSound.prepareToPlay()
-
+        
+        
+        do {
+            bgm = try AVAudioPlayer(contentsOfURL: importmusic)
+        } catch let error as NSError {
+            print("AV Sound Error: \(error.localizedDescription)")
+        }
+        
+        bgm.numberOfLoops = -1
+        bgm.play()
+        
+        
         questions =
         
         [Question(question: "What is the most amount of gold you can win in the Arena?", answers: ["155 gold", "170 gold", "185 gold", "200 gold"], answer: 3),
@@ -108,8 +122,6 @@ class TriviaViewController: UIViewController {
             
         }
         
-        timeleft = 7
-
         
 
 
@@ -123,8 +135,21 @@ class TriviaViewController: UIViewController {
             timeleft--
         }
         else {
+            
+            timeleft = 7
+            
             wrongSound.play()
-            PickQuestion()
+            
+            UIApplication.sharedApplication().beginIgnoringInteractionEvents()
+            
+            aButtons[0].setTitleColor(UIColor.redColor() , forState: UIControlState.Normal)
+            aButtons[1].setTitleColor(UIColor.redColor() , forState: UIControlState.Normal)
+            aButtons[2].setTitleColor(UIColor.redColor() , forState: UIControlState.Normal)
+            aButtons[3].setTitleColor(UIColor.redColor() , forState: UIControlState.Normal)
+            
+            aButtons[aNumber-1].setTitleColor(UIColor.yellowColor() , forState: UIControlState.Normal)
+            
+            let myTimer : NSTimer = NSTimer.scheduledTimerWithTimeInterval(1.25, target: self, selector: Selector("nextQuestion:"), userInfo: nil, repeats: false)
         }
         
     }
@@ -133,6 +158,7 @@ class TriviaViewController: UIViewController {
     
     @IBAction func backButton(sender: AnyObject) {
         clock.invalidate()
+        bgm.stop()
     }
 
     
@@ -180,6 +206,8 @@ class TriviaViewController: UIViewController {
         print(score)
         displayScore.text = String(score)
         
+        timeleft = 7
+        
         let myTimer : NSTimer = NSTimer.scheduledTimerWithTimeInterval(1.25, target: self, selector: Selector("nextQuestion:"), userInfo: nil, repeats: false)
         
     }
@@ -193,6 +221,8 @@ class TriviaViewController: UIViewController {
         
         UIApplication.sharedApplication().endIgnoringInteractionEvents()
         
+        timeleft = 7
+
         PickQuestion()
         
     }

@@ -76,7 +76,7 @@
                                     <constraint firstAttribute="width" constant="160" id="VNH-ln-cwP"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="OPTIBelwe-Medium" family="OPTIBelwe-Medium" pointSize="18"/>
-                                <state key="normal" title="REMOVE ADS">
+                                <state key="normal" title="MORE TRIVIA">
                                     <color key="titleColor" red="0.24313725489999999" green="0.18039215689999999" blue="0.094117647060000004" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                             </button>
@@ -88,7 +88,7 @@
                                     <constraint firstAttribute="height" constant="38" id="edh-sz-PKg"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="OPTIBelwe-Medium" family="OPTIBelwe-Medium" pointSize="18"/>
-                                <state key="normal" title="RATE GAME">
+                                <state key="normal" title="SEND FEEDBACK">
                                     <color key="titleColor" red="0.24313725489999999" green="0.18039215689999999" blue="0.094117647060000004" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                             </button>
@@ -309,6 +309,13 @@
                                     <segue destination="BYZ-38-t0r" kind="show" animates="NO" id="T2l-KW-wvk"/>
                                 </connections>
                             </button>
+                            <containerView hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6ma-LM-A2r">
+                                <rect key="frame" x="40" y="142" width="241" height="195"/>
+                                <animations/>
+                                <connections>
+                                    <segue destination="XPm-CW-GbZ" kind="embed" id="cEw-sZ-EmB"/>
+                                </connections>
+                            </containerView>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -354,7 +361,21 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4gf-MT-bdn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="654" y="175"/>
+            <point key="canvasLocation" x="674" y="81"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="KKd-C1-Lcu">
+            <objects>
+                <viewController id="XPm-CW-GbZ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="S0c-nz-rCj">
+                        <rect key="frame" x="0.0" y="0.0" width="241" height="195"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BtT-cp-Y0W" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
         </scene>
     </scenes>
     <resources>
