@@ -234,7 +234,7 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" name="OPTIBelwe-Medium" family="OPTIBelwe-Medium" pointSize="19"/>
                                 <state key="normal" title="155 gold">
-                                    <color key="titleColor" red="0.1843137255" green="0.1333333333" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="button1:" destination="uZb-vl-XFr" eventType="touchUpInside" id="HBO-jQ-G9S"/>
@@ -249,7 +249,7 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" name="OPTIBelwe-Medium" family="OPTIBelwe-Medium" pointSize="19"/>
                                 <state key="normal" title="170 gold">
-                                    <color key="titleColor" red="0.1843137255" green="0.1333333333" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="button2:" destination="uZb-vl-XFr" eventType="touchUpInside" id="fSv-ue-9bq"/>
@@ -264,7 +264,7 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" name="OPTIBelwe-Medium" family="OPTIBelwe-Medium" pointSize="19"/>
                                 <state key="normal" title="185 gold">
-                                    <color key="titleColor" red="0.1843137255" green="0.1333333333" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="button3:" destination="uZb-vl-XFr" eventType="touchUpInside" id="amH-Bg-9Fl"/>
@@ -279,7 +279,7 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" name="OPTIBelwe-Medium" family="OPTIBelwe-Medium" pointSize="19"/>
                                 <state key="normal" title="200 gold">
-                                    <color key="titleColor" red="0.1843137255" green="0.1333333333" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="button4:" destination="uZb-vl-XFr" eventType="touchUpInside" id="b5R-AH-hCw"/>
