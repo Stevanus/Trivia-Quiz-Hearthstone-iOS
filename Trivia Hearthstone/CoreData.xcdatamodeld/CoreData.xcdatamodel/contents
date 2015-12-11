@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9057" systemVersion="15A284" minimumToolsVersion="Xcode 7.0">
+    <entity name="User" representedClassName=".User" syncable="YES">
+        <attribute name="gold" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="initialized" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="rated" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="removeads" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="unlocked2" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="unlocked3" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="unlocked4" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="unlocked5" optional="YES" attributeType="Boolean" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="User" positionX="-63" positionY="-18" width="128" height="165"/>
+    </elements>
+</model>
