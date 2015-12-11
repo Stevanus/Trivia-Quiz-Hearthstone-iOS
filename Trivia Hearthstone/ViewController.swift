@@ -13,7 +13,9 @@ import UIKit
 class ViewController: UIViewController {
     
 
-
+    override func prefersStatusBarHidden() -> Bool {
+        return true
+    }
     
 
     override func viewDidLoad() {

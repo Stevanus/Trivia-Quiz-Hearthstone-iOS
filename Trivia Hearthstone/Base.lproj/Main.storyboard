@@ -26,6 +26,13 @@
             <string>OPTIBelwe-Medium</string>
             <string>OPTIBelwe-Medium</string>
             <string>OPTIBelwe-Medium</string>
+            <string>OPTIBelwe-Medium</string>
+            <string>OPTIBelwe-Medium</string>
+            <string>OPTIBelwe-Medium</string>
+            <string>OPTIBelwe-Medium</string>
+            <string>OPTIBelwe-Medium</string>
+            <string>OPTIBelwe-Medium</string>
+            <string>OPTIBelwe-Medium</string>
         </mutableArray>
     </customFonts>
     <scenes>
@@ -108,7 +115,7 @@
                                     <color key="titleColor" red="0.24313725490196078" green="0.1803921568627451" blue="0.094117647058823528" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="uZb-vl-XFr" kind="show" animates="NO" id="Dym-0P-nYZ"/>
+                                    <segue destination="WnB-cT-yze" kind="show" id="34V-r0-l31"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="secretsymbol.png" translatesAutoresizingMaskIntoConstraints="NO" id="gGj-1b-uzZ">
@@ -159,7 +166,128 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="267" y="361"/>
+            <point key="canvasLocation" x="-367" y="18"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="eHX-Pg-sz6">
+            <objects>
+                <viewController id="WnB-cT-yze" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="oXa-E7-gwO"/>
+                        <viewControllerLayoutGuide type="bottom" id="JwZ-mO-8Pe"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ST1-2L-7Cv">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Background.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="tnU-R6-hHR">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                                <animations/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qrl-yF-ujZ">
+                                <rect key="frame" x="67" y="108" width="187" height="44"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.69803921568627447" green="0.32941176470588235" blue="0.27058823529411763" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="OPTIBelwe-Medium" family="OPTIBelwe-Medium" pointSize="20"/>
+                                <state key="normal" title="Level 1">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" alpha="0.5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RwG-MC-RYI">
+                                <rect key="frame" x="67" y="163" width="187" height="44"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.69803921570000005" green="0.3294117647" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="OPTIBelwe-Medium" family="OPTIBelwe-Medium" pointSize="20"/>
+                                <state key="normal" title="Level 2">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" alpha="0.5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hw8-SX-x4d">
+                                <rect key="frame" x="67" y="218" width="187" height="44"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.69803921570000005" green="0.3294117647" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="OPTIBelwe-Medium" family="OPTIBelwe-Medium" pointSize="20"/>
+                                <state key="normal" title="Level 3">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" alpha="0.5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I7h-ll-6SU">
+                                <rect key="frame" x="67" y="273" width="187" height="44"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.69803921570000005" green="0.3294117647" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="OPTIBelwe-Medium" family="OPTIBelwe-Medium" pointSize="20"/>
+                                <state key="normal" title="Level 4">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" alpha="0.5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mcl-TM-0wX">
+                                <rect key="frame" x="67" y="328" width="187" height="44"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.69803921570000005" green="0.3294117647" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="OPTIBelwe-Medium" family="OPTIBelwe-Medium" pointSize="20"/>
+                                <state key="normal" title="Level 5">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="locked.png" translatesAutoresizingMaskIntoConstraints="NO" id="dsm-ak-hiO">
+                                <rect key="frame" x="77" y="170" width="30" height="30"/>
+                                <animations/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="locked.png" translatesAutoresizingMaskIntoConstraints="NO" id="WB7-DI-AyX">
+                                <rect key="frame" x="77" y="225" width="30" height="30"/>
+                                <animations/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="locked.png" translatesAutoresizingMaskIntoConstraints="NO" id="XVA-hB-K2B">
+                                <rect key="frame" x="77" y="280" width="30" height="30"/>
+                                <animations/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="locked.png" translatesAutoresizingMaskIntoConstraints="NO" id="8T9-vJ-LmV">
+                                <rect key="frame" x="77" y="335" width="30" height="30"/>
+                                <animations/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PNq-Bn-ZCj">
+                                <rect key="frame" x="20" y="22" width="40" height="40"/>
+                                <animations/>
+                                <state key="normal" image="backbutton.png"/>
+                                <connections>
+                                    <action selector="backButton:" destination="uZb-vl-XFr" eventType="touchUpInside" id="GMK-5J-peN"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Select a level" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M7x-QA-nxO">
+                                <rect key="frame" x="77" y="31" width="166" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="OPTIBelwe-Medium" family="OPTIBelwe-Medium" pointSize="20"/>
+                                <color key="textColor" red="1" green="0.92941176470588238" blue="0.082352941176470587" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Np-OW-G3R">
+                                <rect key="frame" x="244" y="28" width="70" height="27"/>
+                                <animations/>
+                                <state key="normal" image="orangerectangle.png"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="67y-c5-6m6">
+                                <rect key="frame" x="270" y="31" width="37" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="OPTIBelwe-Medium" family="OPTIBelwe-Medium" pointSize="15"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gold.png" translatesAutoresizingMaskIntoConstraints="NO" id="eEA-Fv-vG9">
+                                <rect key="frame" x="251" y="33" width="18" height="18"/>
+                                <animations/>
+                            </imageView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <segue destination="uZb-vl-XFr" kind="show" id="DGV-Dx-uZ0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ieE-Qi-b6f" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="162" y="18"/>
         </scene>
         <!--Trivia View Controller-->
         <scene sceneID="52i-gs-pLg">
@@ -310,7 +438,6 @@
                                 <state key="normal" image="backbutton.png"/>
                                 <connections>
                                     <action selector="backButton:" destination="uZb-vl-XFr" eventType="touchUpInside" id="YfQ-at-grL"/>
-                                    <segue destination="BYZ-38-t0r" kind="show" animates="NO" id="T2l-KW-wvk"/>
                                 </connections>
                             </button>
                             <containerView hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6ma-LM-A2r">
@@ -367,7 +494,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4gf-MT-bdn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="674" y="81"/>
+            <point key="canvasLocation" x="668" y="18"/>
         </scene>
         <!--Game Over View Controller-->
         <scene sceneID="KKd-C1-Lcu">
@@ -430,10 +557,12 @@
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="220" height="220"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BtT-cp-Y0W" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1049" y="70"/>
+            <point key="canvasLocation" x="1078" y="-8"/>
         </scene>
     </scenes>
     <resources>
@@ -442,10 +571,12 @@
         <image name="Questionnare.png" width="291" height="390"/>
         <image name="Trivia Hearthstone UI.png" width="864" height="1034"/>
         <image name="backbutton.png" width="290" height="300"/>
+        <image name="gold.png" width="427" height="427"/>
+        <image name="locked.png" width="420" height="420"/>
+        <image name="orangerectangle.png" width="69" height="32"/>
         <image name="secretsymbol.png" width="300" height="300"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="ttg-T0-emM"/>
-        <segue reference="ZdX-Ms-9J2"/>
+        <segue reference="DGV-Dx-uZ0"/>
     </inferredMetricsTieBreakers>
 </document>

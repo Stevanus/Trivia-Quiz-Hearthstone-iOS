@@ -13,6 +13,10 @@
 		59B147371C12A7EB00F8F6D8 /* Questionnare.png in Resources */ = {isa = PBXBuildFile; fileRef = 59B147361C12A7EB00F8F6D8 /* Questionnare.png */; };
 		59B147391C12B6B700F8F6D8 /* TriviaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B147381C12B6B700F8F6D8 /* TriviaViewController.swift */; };
 		59B1473D1C12BB6400F8F6D8 /* backbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 59B1473C1C12BB6400F8F6D8 /* backbutton.png */; };
+		59C538641C1A86D900CCE7D0 /* locked.png in Resources */ = {isa = PBXBuildFile; fileRef = 59C538631C1A86D900CCE7D0 /* locked.png */; };
+		59C538661C1A87CA00CCE7D0 /* backplain.png in Resources */ = {isa = PBXBuildFile; fileRef = 59C538651C1A87CA00CCE7D0 /* backplain.png */; };
+		59C538681C1A8A2E00CCE7D0 /* gold.png in Resources */ = {isa = PBXBuildFile; fileRef = 59C538671C1A8A2E00CCE7D0 /* gold.png */; };
+		59C5386A1C1A8CE600CCE7D0 /* orangerectangle.png in Resources */ = {isa = PBXBuildFile; fileRef = 59C538691C1A8CE600CCE7D0 /* orangerectangle.png */; };
 		59DA93991C114BC60024A025 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DA93981C114BC60024A025 /* AppDelegate.swift */; };
 		59DA939B1C114BC60024A025 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DA939A1C114BC60024A025 /* ViewController.swift */; };
 		59DA939E1C114BC60024A025 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59DA939C1C114BC60024A025 /* Main.storyboard */; };
@@ -35,6 +39,10 @@
 		59B147361C12A7EB00F8F6D8 /* Questionnare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Questionnare.png; sourceTree = "<group>"; };
 		59B147381C12B6B700F8F6D8 /* TriviaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriviaViewController.swift; sourceTree = "<group>"; };
 		59B1473C1C12BB6400F8F6D8 /* backbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backbutton.png; sourceTree = "<group>"; };
+		59C538631C1A86D900CCE7D0 /* locked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = locked.png; path = ../../../../Downloads/locked.png; sourceTree = "<group>"; };
+		59C538651C1A87CA00CCE7D0 /* backplain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backplain.png; sourceTree = "<group>"; };
+		59C538671C1A8A2E00CCE7D0 /* gold.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gold.png; sourceTree = "<group>"; };
+		59C538691C1A8CE600CCE7D0 /* orangerectangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orangerectangle.png; sourceTree = "<group>"; };
 		59DA93951C114BC60024A025 /* Trivia Hearthstone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trivia Hearthstone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		59DA93981C114BC60024A025 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		59DA939A1C114BC60024A025 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +111,10 @@
 				595E3E7C1C13B07C009B5967 /* correct.mp3 */,
 				595E3E801C13B1AF009B5967 /* wrong.mp3 */,
 				595E3E821C13CD49009B5967 /* Hearthstonepiano.mp3 */,
+				59C538691C1A8CE600CCE7D0 /* orangerectangle.png */,
+				59C538631C1A86D900CCE7D0 /* locked.png */,
+				59C538651C1A87CA00CCE7D0 /* backplain.png */,
+				59C538671C1A8A2E00CCE7D0 /* gold.png */,
 			);
 			path = "Trivia Hearthstone";
 			sourceTree = "<group>";
@@ -169,7 +181,10 @@
 				59B1473D1C12BB6400F8F6D8 /* backbutton.png in Resources */,
 				59DA93B11C1161EF0024A025 /* OPTIBelwe-Medium.otf in Resources */,
 				59DA93A31C114BC60024A025 /* LaunchScreen.storyboard in Resources */,
+				59C538641C1A86D900CCE7D0 /* locked.png in Resources */,
 				59B147371C12A7EB00F8F6D8 /* Questionnare.png in Resources */,
+				59C5386A1C1A8CE600CCE7D0 /* orangerectangle.png in Resources */,
+				59C538661C1A87CA00CCE7D0 /* backplain.png in Resources */,
 				595E3E811C13B1AF009B5967 /* wrong.mp3 in Resources */,
 				59DA93AB1C11590C0024A025 /* Background.jpg in Resources */,
 				59DA93A01C114BC60024A025 /* Assets.xcassets in Resources */,
@@ -180,6 +195,7 @@
 				59F43D511C14093A00761AC2 /* GameOver.png in Resources */,
 				59DA93B51C116DE30024A025 /* secretsymbol.png in Resources */,
 				595E3E831C13CD49009B5967 /* Hearthstonepiano.mp3 in Resources */,
+				59C538681C1A8A2E00CCE7D0 /* gold.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
