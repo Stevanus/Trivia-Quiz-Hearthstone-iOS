@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5900D0A91C1B660A00831218 /* LevelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5900D0A81C1B660A00831218 /* LevelViewController.swift */; };
 		595E3E7D1C13B07C009B5967 /* correct.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 595E3E7C1C13B07C009B5967 /* correct.mp3 */; };
 		595E3E811C13B1AF009B5967 /* wrong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 595E3E801C13B1AF009B5967 /* wrong.mp3 */; };
 		595E3E831C13CD49009B5967 /* Hearthstonepiano.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 595E3E821C13CD49009B5967 /* Hearthstonepiano.mp3 */; };
@@ -37,6 +38,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5900D0A81C1B660A00831218 /* LevelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelViewController.swift; sourceTree = "<group>"; };
 		595E3E7C1C13B07C009B5967 /* correct.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = correct.mp3; sourceTree = "<group>"; };
 		595E3E801C13B1AF009B5967 /* wrong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wrong.mp3; sourceTree = "<group>"; };
 		595E3E821C13CD49009B5967 /* Hearthstonepiano.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Hearthstonepiano.mp3; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 				59C538721C1AAA6000CCE7D0 /* DataController.swift */,
 				59DA93981C114BC60024A025 /* AppDelegate.swift */,
 				59DA939A1C114BC60024A025 /* ViewController.swift */,
+				5900D0A81C1B660A00831218 /* LevelViewController.swift */,
 				59B147381C12B6B700F8F6D8 /* TriviaViewController.swift */,
 				59F43D4A1C13FEEA00761AC2 /* GameOverViewController.swift */,
 				59DA939C1C114BC60024A025 /* Main.storyboard */,
@@ -221,6 +224,7 @@
 				59F43D4B1C13FEEA00761AC2 /* GameOverViewController.swift in Sources */,
 				59DA939B1C114BC60024A025 /* ViewController.swift in Sources */,
 				59C5386D1C1AA91600CCE7D0 /* CoreData.xcdatamodeld in Sources */,
+				5900D0A91C1B660A00831218 /* LevelViewController.swift in Sources */,
 				59C538761C1AB68000CCE7D0 /* User+CoreDataProperties.swift in Sources */,
 				59C538771C1AB68000CCE7D0 /* User.swift in Sources */,
 				59B147391C12B6B700F8F6D8 /* TriviaViewController.swift in Sources */,

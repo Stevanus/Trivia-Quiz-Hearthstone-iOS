@@ -168,10 +168,10 @@
             </objects>
             <point key="canvasLocation" x="-367" y="18"/>
         </scene>
-        <!--View Controller-->
+        <!--Level View Controller-->
         <scene sceneID="eHX-Pg-sz6">
             <objects>
-                <viewController id="WnB-cT-yze" sceneMemberID="viewController">
+                <viewController id="WnB-cT-yze" customClass="LevelViewController" customModule="Trivia_Hearthstone" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="oXa-E7-gwO"/>
                         <viewControllerLayoutGuide type="bottom" id="JwZ-mO-8Pe"/>
@@ -264,6 +264,9 @@
                                 <rect key="frame" x="244" y="28" width="70" height="27"/>
                                 <animations/>
                                 <state key="normal" image="orangerectangle.png"/>
+                                <connections>
+                                    <action selector="store:" destination="WnB-cT-yze" eventType="touchUpInside" id="iYH-8a-1p1"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="67y-c5-6m6">
                                 <rect key="frame" x="270" y="31" width="37" height="21"/>
@@ -282,6 +285,7 @@
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
                     <connections>
+                        <outlet property="goldLabel" destination="67y-c5-6m6" id="eze-ev-3I5"/>
                         <segue destination="uZb-vl-XFr" kind="show" id="DGV-Dx-uZ0"/>
                     </connections>
                 </viewController>
