@@ -279,6 +279,9 @@
                                         <state key="normal" title="Level 1">
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="uZb-vl-XFr" kind="show" animates="NO" id="vOY-kh-rsz"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" alpha="0.5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rqi-Hn-rED">
                                         <rect key="frame" x="35" y="75" width="250" height="44"/>
@@ -708,7 +711,7 @@
                         <outlet property="scrollView" destination="seq-oB-ex1" id="5oF-D1-waS"/>
                         <outlet property="storeLabel" destination="7Np-OW-G3R" id="nP2-jT-eKv"/>
                         <outlet property="storeView" destination="3r6-bW-Pu5" id="YzR-pb-PYY"/>
-                        <segue destination="uZb-vl-XFr" kind="show" id="DGV-Dx-uZ0"/>
+                        <segue destination="uZb-vl-XFr" kind="show" animates="NO" id="DGV-Dx-uZ0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ieE-Qi-b6f" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -864,6 +867,7 @@
                                 <state key="normal" image="backbutton.png"/>
                                 <connections>
                                     <action selector="backButton:" destination="uZb-vl-XFr" eventType="touchUpInside" id="YfQ-at-grL"/>
+                                    <segue destination="WnB-cT-yze" kind="show" animates="NO" id="GBQ-jw-TUn"/>
                                 </connections>
                             </button>
                             <containerView hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6ma-LM-A2r">
@@ -1075,7 +1079,8 @@
         <image name="storeMenu.png" width="813" height="660"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="nER-6Q-Ypb"/>
-        <segue reference="DGV-Dx-uZ0"/>
+        <segue reference="vOY-kh-rsz"/>
+        <segue reference="GBQ-jw-TUn"/>
+        <segue reference="ZdX-Ms-9J2"/>
     </inferredMetricsTieBreakers>
 </document>

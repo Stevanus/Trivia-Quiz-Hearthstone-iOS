@@ -86,7 +86,7 @@ class TriviaViewController: UIViewController {
         bgm.play()
         
         
-        questionsarray[0] =
+        questions =
         
         [Question(question: "What is the most amount of gold you can win in the Arena?", answers: ["155 gold", "170 gold", "185 gold", "200 gold"], answer: 3),
         Question(question: "Who is the Lead Designer for Hearthstone?", answers: ["Reno Jackson", "Ben Brode", "Trump", "Michael Morhaime"], answer: 2),
@@ -98,7 +98,7 @@ class TriviaViewController: UIViewController {
         
         
         
-        questions = questionsarray[0]
+        
         
         PickQuestion()
         
