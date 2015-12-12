@@ -19,9 +19,12 @@ class LevelViewController: UIViewController {
     }
     
     
+    @IBOutlet var scrollView: UIScrollView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        scrollView.contentSize.height = 1210
 
         let userFetch = NSFetchRequest(entityName: "User")
         

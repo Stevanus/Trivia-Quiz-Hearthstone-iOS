@@ -37,6 +37,30 @@
             <string>OPTIBelwe-Medium</string>
             <string>OPTIBelwe-Medium</string>
             <string>OPTIBelwe-Medium</string>
+            <string>OPTIBelwe-Medium</string>
+            <string>OPTIBelwe-Medium</string>
+            <string>OPTIBelwe-Medium</string>
+            <string>OPTIBelwe-Medium</string>
+            <string>OPTIBelwe-Medium</string>
+            <string>OPTIBelwe-Medium</string>
+            <string>OPTIBelwe-Medium</string>
+            <string>OPTIBelwe-Medium</string>
+            <string>OPTIBelwe-Medium</string>
+            <string>OPTIBelwe-Medium</string>
+            <string>OPTIBelwe-Medium</string>
+            <string>OPTIBelwe-Medium</string>
+            <string>OPTIBelwe-Medium</string>
+            <string>OPTIBelwe-Medium</string>
+            <string>OPTIBelwe-Medium</string>
+            <string>OPTIBelwe-Medium</string>
+            <string>OPTIBelwe-Medium</string>
+            <string>OPTIBelwe-Medium</string>
+            <string>OPTIBelwe-Medium</string>
+            <string>OPTIBelwe-Medium</string>
+            <string>OPTIBelwe-Medium</string>
+            <string>OPTIBelwe-Medium</string>
+            <string>OPTIBelwe-Medium</string>
+            <string>OPTIBelwe-Medium</string>
         </mutableArray>
     </customFonts>
     <scenes>
@@ -181,68 +205,11 @@
                         <viewControllerLayoutGuide type="bottom" id="JwZ-mO-8Pe"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="ST1-2L-7Cv">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="1000"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Background.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="tnU-R6-hHR">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
-                                <animations/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qrl-yF-ujZ">
-                                <rect key="frame" x="35" y="111" width="250" height="44"/>
-                                <animations/>
-                                <color key="backgroundColor" red="0.69803921568627447" green="0.32941176470588235" blue="0.27058823529411763" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" name="OPTIBelwe-Medium" family="OPTIBelwe-Medium" pointSize="20"/>
-                                <state key="normal" title="Level 1">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" alpha="0.5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RwG-MC-RYI">
-                                <rect key="frame" x="35" y="163" width="250" height="44"/>
-                                <animations/>
-                                <color key="backgroundColor" red="0.69803921570000005" green="0.3294117647" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" name="OPTIBelwe-Medium" family="OPTIBelwe-Medium" pointSize="20"/>
-                                <state key="normal" title="Level 2">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" alpha="0.5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hw8-SX-x4d">
-                                <rect key="frame" x="35" y="218" width="250" height="44"/>
-                                <animations/>
-                                <color key="backgroundColor" red="0.69803921570000005" green="0.3294117647" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" name="OPTIBelwe-Medium" family="OPTIBelwe-Medium" pointSize="20"/>
-                                <state key="normal" title="Level 3">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" alpha="0.5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I7h-ll-6SU">
-                                <rect key="frame" x="35" y="273" width="250" height="44"/>
-                                <animations/>
-                                <color key="backgroundColor" red="0.69803921570000005" green="0.3294117647" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" name="OPTIBelwe-Medium" family="OPTIBelwe-Medium" pointSize="20"/>
-                                <state key="normal" title="Level 4">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" alpha="0.5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mcl-TM-0wX">
-                                <rect key="frame" x="35" y="328" width="250" height="44"/>
-                                <animations/>
-                                <color key="backgroundColor" red="0.69803921570000005" green="0.3294117647" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" name="OPTIBelwe-Medium" family="OPTIBelwe-Medium" pointSize="20"/>
-                                <state key="normal" title="Level 5">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                            </button>
-                            <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="locked.png" translatesAutoresizingMaskIntoConstraints="NO" id="dsm-ak-hiO">
-                                <rect key="frame" x="198" y="170" width="30" height="30"/>
-                                <animations/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="locked.png" translatesAutoresizingMaskIntoConstraints="NO" id="WB7-DI-AyX">
-                                <rect key="frame" x="198" y="225" width="30" height="30"/>
-                                <animations/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="locked.png" translatesAutoresizingMaskIntoConstraints="NO" id="XVA-hB-K2B">
-                                <rect key="frame" x="198" y="280" width="30" height="30"/>
                                 <animations/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PNq-Bn-ZCj">
@@ -279,61 +246,414 @@
                                 <rect key="frame" x="251" y="33" width="18" height="18"/>
                                 <animations/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gold.png" translatesAutoresizingMaskIntoConstraints="NO" id="sKr-O3-kT9">
-                                <rect key="frame" x="55" y="177" width="18" height="18"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="seq-oB-ex1">
+                                <rect key="frame" x="0.0" y="65" width="320" height="930"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qWh-if-e02">
+                                        <rect key="frame" x="35" y="25" width="250" height="44"/>
+                                        <animations/>
+                                        <color key="backgroundColor" red="0.69803921570000005" green="0.3294117647" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="OPTIBelwe-Medium" family="OPTIBelwe-Medium" pointSize="20"/>
+                                        <state key="normal" title="Level 1">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" alpha="0.5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rqi-Hn-rED">
+                                        <rect key="frame" x="35" y="75" width="250" height="44"/>
+                                        <animations/>
+                                        <color key="backgroundColor" red="0.69803921570000005" green="0.3294117647" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="OPTIBelwe-Medium" family="OPTIBelwe-Medium" pointSize="20"/>
+                                        <state key="normal" title="Level 2">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" alpha="0.5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="53C-pj-5kd">
+                                        <rect key="frame" x="35" y="125" width="250" height="44"/>
+                                        <animations/>
+                                        <color key="backgroundColor" red="0.69803921570000005" green="0.3294117647" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="OPTIBelwe-Medium" family="OPTIBelwe-Medium" pointSize="20"/>
+                                        <state key="normal" title="Level 3">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" alpha="0.5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5JF-ye-tje">
+                                        <rect key="frame" x="35" y="175" width="250" height="44"/>
+                                        <animations/>
+                                        <color key="backgroundColor" red="0.69803921570000005" green="0.3294117647" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="OPTIBelwe-Medium" family="OPTIBelwe-Medium" pointSize="20"/>
+                                        <state key="normal" title="Level 4">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" alpha="0.5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="imZ-JU-lsZ">
+                                        <rect key="frame" x="35" y="225" width="250" height="44"/>
+                                        <animations/>
+                                        <color key="backgroundColor" red="0.69803921570000005" green="0.3294117647" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="OPTIBelwe-Medium" family="OPTIBelwe-Medium" pointSize="20"/>
+                                        <state key="normal" title="Level 5">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                    </button>
+                                    <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="locked.png" translatesAutoresizingMaskIntoConstraints="NO" id="arB-IH-CDK">
+                                        <rect key="frame" x="198" y="82" width="30" height="30"/>
+                                        <animations/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="locked.png" translatesAutoresizingMaskIntoConstraints="NO" id="shH-2Q-nJE">
+                                        <rect key="frame" x="198" y="132" width="30" height="30"/>
+                                        <animations/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="locked.png" translatesAutoresizingMaskIntoConstraints="NO" id="KBO-xk-y9K">
+                                        <rect key="frame" x="198" y="182" width="30" height="30"/>
+                                        <animations/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gold.png" translatesAutoresizingMaskIntoConstraints="NO" id="Z6N-1d-i8c">
+                                        <rect key="frame" x="55" y="89" width="18" height="18"/>
+                                        <animations/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gold.png" translatesAutoresizingMaskIntoConstraints="NO" id="7dT-eu-sPV">
+                                        <rect key="frame" x="55" y="188" width="18" height="18"/>
+                                        <animations/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="100" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="364-fL-e3z">
+                                        <rect key="frame" x="76" y="186" width="30" height="21"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" name="OPTIBelwe-Medium" family="OPTIBelwe-Medium" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gold.png" translatesAutoresizingMaskIntoConstraints="NO" id="lyJ-gq-q9T">
+                                        <rect key="frame" x="55" y="239" width="18" height="18"/>
+                                        <animations/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="100" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jhj-j8-WhQ">
+                                        <rect key="frame" x="76" y="237" width="30" height="21"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" name="OPTIBelwe-Medium" family="OPTIBelwe-Medium" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="locked.png" translatesAutoresizingMaskIntoConstraints="NO" id="02m-gu-xH6">
+                                        <rect key="frame" x="198" y="233" width="30" height="30"/>
+                                        <animations/>
+                                    </imageView>
+                                    <button opaque="NO" alpha="0.5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aoj-ti-6Db">
+                                        <rect key="frame" x="35" y="275" width="250" height="44"/>
+                                        <animations/>
+                                        <color key="backgroundColor" red="0.69803921570000005" green="0.3294117647" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="OPTIBelwe-Medium" family="OPTIBelwe-Medium" pointSize="20"/>
+                                        <state key="normal" title="Level 6">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                    </button>
+                                    <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gold.png" translatesAutoresizingMaskIntoConstraints="NO" id="U4T-Fn-l57">
+                                        <rect key="frame" x="55" y="289" width="18" height="18"/>
+                                        <animations/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="100" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IQ3-yU-uGt">
+                                        <rect key="frame" x="76" y="287" width="30" height="21"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" name="OPTIBelwe-Medium" family="OPTIBelwe-Medium" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="locked.png" translatesAutoresizingMaskIntoConstraints="NO" id="8di-uL-QDH">
+                                        <rect key="frame" x="198" y="283" width="30" height="30"/>
+                                        <animations/>
+                                    </imageView>
+                                    <button opaque="NO" alpha="0.5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FnH-XN-Khq">
+                                        <rect key="frame" x="35" y="325" width="250" height="44"/>
+                                        <animations/>
+                                        <color key="backgroundColor" red="0.69803921570000005" green="0.3294117647" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="OPTIBelwe-Medium" family="OPTIBelwe-Medium" pointSize="20"/>
+                                        <state key="normal" title="Level 7">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                    </button>
+                                    <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gold.png" translatesAutoresizingMaskIntoConstraints="NO" id="32L-s1-Fud">
+                                        <rect key="frame" x="55" y="340" width="18" height="18"/>
+                                        <animations/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="100" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Qu-lx-esP">
+                                        <rect key="frame" x="76" y="338" width="30" height="21"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" name="OPTIBelwe-Medium" family="OPTIBelwe-Medium" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="locked.png" translatesAutoresizingMaskIntoConstraints="NO" id="SfD-5N-XK6">
+                                        <rect key="frame" x="198" y="333" width="30" height="30"/>
+                                        <animations/>
+                                    </imageView>
+                                    <button opaque="NO" alpha="0.5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AIZ-Mw-bEF">
+                                        <rect key="frame" x="35" y="375" width="250" height="44"/>
+                                        <animations/>
+                                        <color key="backgroundColor" red="0.69803921570000005" green="0.3294117647" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="OPTIBelwe-Medium" family="OPTIBelwe-Medium" pointSize="20"/>
+                                        <state key="normal" title="Level 8">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                    </button>
+                                    <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gold.png" translatesAutoresizingMaskIntoConstraints="NO" id="OVI-bf-w9o">
+                                        <rect key="frame" x="55" y="389" width="18" height="18"/>
+                                        <animations/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="100" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VvB-br-3D4">
+                                        <rect key="frame" x="76" y="387" width="30" height="21"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" name="OPTIBelwe-Medium" family="OPTIBelwe-Medium" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="locked.png" translatesAutoresizingMaskIntoConstraints="NO" id="wim-Ar-BEX">
+                                        <rect key="frame" x="198" y="383" width="30" height="30"/>
+                                        <animations/>
+                                    </imageView>
+                                    <button opaque="NO" alpha="0.5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8bx-Vo-XZb">
+                                        <rect key="frame" x="35" y="425" width="250" height="44"/>
+                                        <animations/>
+                                        <color key="backgroundColor" red="0.69803921570000005" green="0.3294117647" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="OPTIBelwe-Medium" family="OPTIBelwe-Medium" pointSize="20"/>
+                                        <state key="normal" title="Level 9">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                    </button>
+                                    <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gold.png" translatesAutoresizingMaskIntoConstraints="NO" id="Il8-1P-NaO">
+                                        <rect key="frame" x="55" y="439" width="18" height="18"/>
+                                        <animations/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="100" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e1M-9I-sIE">
+                                        <rect key="frame" x="76" y="437" width="30" height="21"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" name="OPTIBelwe-Medium" family="OPTIBelwe-Medium" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="locked.png" translatesAutoresizingMaskIntoConstraints="NO" id="X8g-kh-Xn9">
+                                        <rect key="frame" x="198" y="433" width="30" height="30"/>
+                                        <animations/>
+                                    </imageView>
+                                    <button opaque="NO" alpha="0.5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RgH-7U-G01">
+                                        <rect key="frame" x="35" y="475" width="250" height="44"/>
+                                        <animations/>
+                                        <color key="backgroundColor" red="0.69803921570000005" green="0.3294117647" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="OPTIBelwe-Medium" family="OPTIBelwe-Medium" pointSize="20"/>
+                                        <state key="normal" title="Level 10">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                    </button>
+                                    <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gold.png" translatesAutoresizingMaskIntoConstraints="NO" id="CXF-fn-jfA">
+                                        <rect key="frame" x="55" y="489" width="18" height="18"/>
+                                        <animations/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="100" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="slq-w0-zCu">
+                                        <rect key="frame" x="76" y="487" width="30" height="21"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" name="OPTIBelwe-Medium" family="OPTIBelwe-Medium" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="locked.png" translatesAutoresizingMaskIntoConstraints="NO" id="m3C-7b-Dio">
+                                        <rect key="frame" x="198" y="483" width="30" height="30"/>
+                                        <animations/>
+                                    </imageView>
+                                    <button opaque="NO" alpha="0.5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6aV-Mm-5pP">
+                                        <rect key="frame" x="35" y="525" width="250" height="44"/>
+                                        <animations/>
+                                        <color key="backgroundColor" red="0.69803921570000005" green="0.3294117647" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="OPTIBelwe-Medium" family="OPTIBelwe-Medium" pointSize="20"/>
+                                        <state key="normal" title="Level 11">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                    </button>
+                                    <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gold.png" translatesAutoresizingMaskIntoConstraints="NO" id="zbD-pp-bko">
+                                        <rect key="frame" x="55" y="540" width="18" height="18"/>
+                                        <animations/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="100" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9eX-AY-A9f">
+                                        <rect key="frame" x="76" y="538" width="30" height="21"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" name="OPTIBelwe-Medium" family="OPTIBelwe-Medium" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="locked.png" translatesAutoresizingMaskIntoConstraints="NO" id="5VM-NN-0L2">
+                                        <rect key="frame" x="198" y="534" width="30" height="30"/>
+                                        <animations/>
+                                    </imageView>
+                                    <button opaque="NO" alpha="0.5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J0N-Zo-cKd">
+                                        <rect key="frame" x="35" y="575" width="250" height="44"/>
+                                        <animations/>
+                                        <color key="backgroundColor" red="0.69803921570000005" green="0.3294117647" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="OPTIBelwe-Medium" family="OPTIBelwe-Medium" pointSize="20"/>
+                                        <state key="normal" title="Level 12">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                    </button>
+                                    <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gold.png" translatesAutoresizingMaskIntoConstraints="NO" id="Sai-lB-YWr">
+                                        <rect key="frame" x="55" y="589" width="18" height="18"/>
+                                        <animations/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="100" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="89n-eB-Zgx">
+                                        <rect key="frame" x="76" y="587" width="30" height="21"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" name="OPTIBelwe-Medium" family="OPTIBelwe-Medium" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="locked.png" translatesAutoresizingMaskIntoConstraints="NO" id="5ZN-Ud-fqD">
+                                        <rect key="frame" x="198" y="583" width="30" height="30"/>
+                                        <animations/>
+                                    </imageView>
+                                    <button opaque="NO" alpha="0.5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LLc-Zr-cZS">
+                                        <rect key="frame" x="35" y="625" width="250" height="44"/>
+                                        <animations/>
+                                        <color key="backgroundColor" red="0.69803921570000005" green="0.3294117647" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="OPTIBelwe-Medium" family="OPTIBelwe-Medium" pointSize="20"/>
+                                        <state key="normal" title="Level 13">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                    </button>
+                                    <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gold.png" translatesAutoresizingMaskIntoConstraints="NO" id="gcE-L1-c2K">
+                                        <rect key="frame" x="55" y="639" width="18" height="18"/>
+                                        <animations/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="100" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AWi-IU-9I3">
+                                        <rect key="frame" x="76" y="637" width="30" height="21"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" name="OPTIBelwe-Medium" family="OPTIBelwe-Medium" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="locked.png" translatesAutoresizingMaskIntoConstraints="NO" id="DKK-Iz-NQM">
+                                        <rect key="frame" x="198" y="633" width="30" height="30"/>
+                                        <animations/>
+                                    </imageView>
+                                    <button opaque="NO" alpha="0.5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ctL-bK-3xX">
+                                        <rect key="frame" x="35" y="675" width="250" height="44"/>
+                                        <animations/>
+                                        <color key="backgroundColor" red="0.69803921570000005" green="0.3294117647" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="OPTIBelwe-Medium" family="OPTIBelwe-Medium" pointSize="20"/>
+                                        <state key="normal" title="Level 14">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                    </button>
+                                    <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gold.png" translatesAutoresizingMaskIntoConstraints="NO" id="OPA-8f-Hp6">
+                                        <rect key="frame" x="55" y="689" width="18" height="18"/>
+                                        <animations/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="100" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gAr-jf-F1a">
+                                        <rect key="frame" x="76" y="687" width="30" height="21"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" name="OPTIBelwe-Medium" family="OPTIBelwe-Medium" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="locked.png" translatesAutoresizingMaskIntoConstraints="NO" id="36a-yq-Dfm">
+                                        <rect key="frame" x="198" y="683" width="30" height="30"/>
+                                        <animations/>
+                                    </imageView>
+                                    <button opaque="NO" alpha="0.5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="azr-KM-WbR">
+                                        <rect key="frame" x="35" y="725" width="250" height="44"/>
+                                        <animations/>
+                                        <color key="backgroundColor" red="0.69803921570000005" green="0.3294117647" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="OPTIBelwe-Medium" family="OPTIBelwe-Medium" pointSize="20"/>
+                                        <state key="normal" title="Level 15">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                    </button>
+                                    <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gold.png" translatesAutoresizingMaskIntoConstraints="NO" id="e6I-jk-KKq">
+                                        <rect key="frame" x="55" y="739" width="18" height="18"/>
+                                        <animations/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="100" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="USF-Q4-eXm">
+                                        <rect key="frame" x="76" y="737" width="30" height="21"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" name="OPTIBelwe-Medium" family="OPTIBelwe-Medium" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="locked.png" translatesAutoresizingMaskIntoConstraints="NO" id="ROb-7Y-lSx">
+                                        <rect key="frame" x="198" y="733" width="30" height="30"/>
+                                        <animations/>
+                                    </imageView>
+                                    <button opaque="NO" alpha="0.5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nXV-y3-FEh">
+                                        <rect key="frame" x="35" y="775" width="250" height="44"/>
+                                        <animations/>
+                                        <color key="backgroundColor" red="0.69803921570000005" green="0.3294117647" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="OPTIBelwe-Medium" family="OPTIBelwe-Medium" pointSize="20"/>
+                                        <state key="normal" title="Level 16">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                    </button>
+                                    <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gold.png" translatesAutoresizingMaskIntoConstraints="NO" id="acs-Ft-QB5">
+                                        <rect key="frame" x="55" y="789" width="18" height="18"/>
+                                        <animations/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="100" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QoY-dg-DUp">
+                                        <rect key="frame" x="76" y="787" width="30" height="21"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" name="OPTIBelwe-Medium" family="OPTIBelwe-Medium" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="locked.png" translatesAutoresizingMaskIntoConstraints="NO" id="tMY-RD-k8S">
+                                        <rect key="frame" x="198" y="783" width="30" height="30"/>
+                                        <animations/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gold.png" translatesAutoresizingMaskIntoConstraints="NO" id="nmh-pB-2pN">
+                                        <rect key="frame" x="55" y="838" width="18" height="18"/>
+                                        <animations/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="100" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dDF-Qz-XUT">
+                                        <rect key="frame" x="76" y="836" width="30" height="21"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" name="OPTIBelwe-Medium" family="OPTIBelwe-Medium" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="locked.png" translatesAutoresizingMaskIntoConstraints="NO" id="Veq-qi-Zk5">
+                                        <rect key="frame" x="198" y="832" width="30" height="30"/>
+                                        <animations/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gold.png" translatesAutoresizingMaskIntoConstraints="NO" id="bJN-YN-pob">
+                                        <rect key="frame" x="55" y="138" width="18" height="18"/>
+                                        <animations/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="100" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SxZ-iI-r69">
+                                        <rect key="frame" x="76" y="136" width="30" height="21"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" name="OPTIBelwe-Medium" family="OPTIBelwe-Medium" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="100" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KGu-O2-Jpl">
+                                        <rect key="frame" x="76" y="87" width="30" height="21"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" name="OPTIBelwe-Medium" family="OPTIBelwe-Medium" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" alpha="0.5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8lF-On-aWl">
+                                        <rect key="frame" x="35" y="825" width="250" height="44"/>
+                                        <animations/>
+                                        <color key="backgroundColor" red="0.69803921570000005" green="0.3294117647" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="OPTIBelwe-Medium" family="OPTIBelwe-Medium" pointSize="20"/>
+                                        <state key="normal" title="Level 17">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                    </button>
+                                </subviews>
                                 <animations/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gold.png" translatesAutoresizingMaskIntoConstraints="NO" id="fP1-l5-SA9">
-                                <rect key="frame" x="55" y="286" width="18" height="18"/>
-                                <animations/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="100" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zW1-qC-LCf">
-                                <rect key="frame" x="76" y="284" width="30" height="21"/>
-                                <animations/>
-                                <fontDescription key="fontDescription" name="OPTIBelwe-Medium" family="OPTIBelwe-Medium" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gold.png" translatesAutoresizingMaskIntoConstraints="NO" id="URk-c0-m2Y">
-                                <rect key="frame" x="55" y="341" width="18" height="18"/>
-                                <animations/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="100" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WB2-yX-y65">
-                                <rect key="frame" x="76" y="339" width="30" height="21"/>
-                                <animations/>
-                                <fontDescription key="fontDescription" name="OPTIBelwe-Medium" family="OPTIBelwe-Medium" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="locked.png" translatesAutoresizingMaskIntoConstraints="NO" id="8T9-vJ-LmV">
-                                <rect key="frame" x="198" y="335" width="30" height="30"/>
-                                <animations/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gold.png" translatesAutoresizingMaskIntoConstraints="NO" id="5p0-Cu-4fx">
-                                <rect key="frame" x="55" y="231" width="18" height="18"/>
-                                <animations/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="100" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7gm-Ko-bas">
-                                <rect key="frame" x="76" y="229" width="30" height="21"/>
-                                <animations/>
-                                <fontDescription key="fontDescription" name="OPTIBelwe-Medium" family="OPTIBelwe-Medium" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="100" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sOc-mX-VxP">
-                                <rect key="frame" x="76" y="175" width="30" height="21"/>
-                                <animations/>
-                                <fontDescription key="fontDescription" name="OPTIBelwe-Medium" family="OPTIBelwe-Medium" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            </scrollView>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="1000"/>
                     <connections>
                         <outlet property="goldLabel" destination="67y-c5-6m6" id="eze-ev-3I5"/>
+                        <outlet property="scrollView" destination="seq-oB-ex1" id="5oF-D1-waS"/>
                         <segue destination="uZb-vl-XFr" kind="show" id="DGV-Dx-uZ0"/>
                     </connections>
                 </viewController>
