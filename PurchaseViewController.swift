@@ -21,6 +21,19 @@ class PurchaseViewController: UIViewController {
         parentVC.storeLabel.enabled = true
     }
     
+    @IBAction func rateButton(sender: AnyObject) {
+        
+    }
+    
+    
+    @IBAction func oneDollar(sender: AnyObject) {
+    }
+    
+    @IBAction func twoDollar(sender: AnyObject) {
+    }
+    
+    @IBAction func fourDollar(sender: AnyObject) {
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()

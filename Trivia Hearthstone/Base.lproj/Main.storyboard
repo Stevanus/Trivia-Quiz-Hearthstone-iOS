@@ -966,6 +966,41 @@
                                     <action selector="exitButton:" destination="bkf-1F-XaC" eventType="touchUpInside" id="5JI-f1-jCE"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hCN-ip-HqB">
+                                <rect key="frame" x="34" y="107" width="77" height="28"/>
+                                <animations/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="rateButton:" destination="bkf-1F-XaC" eventType="touchUpInside" id="3Kf-Hl-vk9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="55V-W1-sZT">
+                                <rect key="frame" x="34" y="172" width="77" height="28"/>
+                                <animations/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="rateButton:" destination="bkf-1F-XaC" eventType="touchUpInside" id="e47-qD-nRC"/>
+                                    <action selector="twoDollar:" destination="bkf-1F-XaC" eventType="touchUpInside" id="ZLC-ef-oN7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sj0-YX-ZB2">
+                                <rect key="frame" x="158" y="172" width="77" height="28"/>
+                                <animations/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="fourDollar:" destination="bkf-1F-XaC" eventType="touchUpInside" id="Bdx-jd-M32"/>
+                                    <action selector="rateButton:" destination="bkf-1F-XaC" eventType="touchUpInside" id="uN6-hY-maI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CO2-UU-qL2">
+                                <rect key="frame" x="158" y="107" width="77" height="28"/>
+                                <animations/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="oneDollar:" destination="bkf-1F-XaC" eventType="touchUpInside" id="cOA-q8-a5T"/>
+                                    <action selector="rateButton:" destination="bkf-1F-XaC" eventType="touchUpInside" id="hXX-Dg-E9Z"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
