@@ -16,15 +16,35 @@ class LevelViewController: UIViewController {
     @IBOutlet var goldLabel: UILabel!
     
     @IBAction func store(sender: AnyObject) {
+        openStore()
     }
     
     
+    @IBAction func backButton(sender: AnyObject) {
+    }
+    
+    
+    @IBOutlet var storeView: UIView!
+    
     @IBOutlet var scrollView: UIScrollView!
+    
+    @IBOutlet var backLabel: UIButton!
+    @IBOutlet var storeLabel: UIButton!
+    
+    func openStore(){
+        
+        scrollView.userInteractionEnabled = false
+        storeView.hidden = false
+        backLabel.enabled = false
+        storeLabel.enabled = false
+        
+        
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        scrollView.contentSize.height = 1210
+        scrollView.contentSize.height = 1500
 
         let userFetch = NSFetchRequest(entityName: "User")
         
@@ -47,14 +67,6 @@ class LevelViewController: UIViewController {
     
     
 
-    /*
-    // MARK: - Navigation
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

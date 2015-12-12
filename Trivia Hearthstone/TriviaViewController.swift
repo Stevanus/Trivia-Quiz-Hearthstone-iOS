@@ -31,6 +31,7 @@ class TriviaViewController: UIViewController {
     @IBOutlet var backLabel: UIButton!
     
     
+    var questionsarray = [[Question]]()
     var questions = [Question]()
     
     var qNumber = Int() // Question Number
@@ -85,7 +86,7 @@ class TriviaViewController: UIViewController {
         bgm.play()
         
         
-        questions =
+        questionsarray[0] =
         
         [Question(question: "What is the most amount of gold you can win in the Arena?", answers: ["155 gold", "170 gold", "185 gold", "200 gold"], answer: 3),
         Question(question: "Who is the Lead Designer for Hearthstone?", answers: ["Reno Jackson", "Ben Brode", "Trump", "Michael Morhaime"], answer: 2),
@@ -94,6 +95,10 @@ class TriviaViewController: UIViewController {
         Question(question: "What is the most amount of gold you can in the arena?", answers: ["155 gold", "170 gold", "185 gold", "200 gold"], answer: 4),
         Question(question: "What is the most amount of gold you can in the arena?", answers: ["155 gold", "170 gold", "185 gold", "200 gold"], answer: 4)]
         
+        
+        
+        
+        questions = questionsarray[0]
         
         PickQuestion()
         
