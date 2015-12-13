@@ -59,14 +59,13 @@
             <string>OPTIBelwe-Medium</string>
             <string>OPTIBelwe-Medium</string>
             <string>OPTIBelwe-Medium</string>
-            <string>OPTIBelwe-Medium</string>
-            <string>OPTIBelwe-Medium</string>
         </mutableArray>
     </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Trivia_Hearthstone" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
@@ -80,63 +79,46 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                                 <animations/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="TRIVIA &amp; QUIZ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zih-e5-99y">
-                                <rect key="frame" x="-4" y="16" width="236" height="43"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TRIVIA &amp; QUIZ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zih-e5-99y">
+                                <rect key="frame" x="63" y="98" width="195" height="25"/>
                                 <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="195" id="Hh4-1I-D6f"/>
+                                    <constraint firstAttribute="height" constant="25" id="cCg-Bw-P9y"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="OPTIBelwe-Medium" family="OPTIBelwe-Medium" pointSize="25"/>
                                 <color key="textColor" red="1" green="0.93060097909999995" blue="0.085327239439999994" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Trivia Hearthstone UI.png" translatesAutoresizingMaskIntoConstraints="NO" id="ks8-AK-kKA">
-                                <rect key="frame" x="42" y="92" width="236" height="296"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mainmenu.png" translatesAutoresizingMaskIntoConstraints="NO" id="ks8-AK-kKA">
+                                <rect key="frame" x="31" y="167" width="259" height="145"/>
                                 <animations/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="236" id="8gF-qK-X3v"/>
-                                    <constraint firstAttribute="height" constant="296" id="ZjY-u3-u1n"/>
+                                    <constraint firstAttribute="height" constant="145" id="Hhh-MZ-s5N"/>
+                                    <constraint firstAttribute="width" constant="259" id="Re1-UL-gHG"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jn4-qU-oQx">
-                                <rect key="frame" x="80" y="189" width="160" height="38"/>
-                                <animations/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="160" id="2T4-hO-DN4"/>
-                                    <constraint firstAttribute="height" constant="38" id="xrg-ug-Owa"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="OPTIBelwe-Medium" family="OPTIBelwe-Medium" pointSize="18"/>
-                                <state key="normal" title="LEADERBOARD">
-                                    <color key="titleColor" red="0.24313725489999999" green="0.18039215689999999" blue="0.094117647060000004" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EIo-BS-anc">
-                                <rect key="frame" x="80" y="254" width="160" height="38"/>
-                                <animations/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="38" id="3we-ow-e4V"/>
-                                    <constraint firstAttribute="width" constant="160" id="VNH-ln-cwP"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="OPTIBelwe-Medium" family="OPTIBelwe-Medium" pointSize="18"/>
-                                <state key="normal" title="REMOVE ADS">
-                                    <color key="titleColor" red="0.24313725489999999" green="0.18039215689999999" blue="0.094117647060000004" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bPL-UL-RKj">
-                                <rect key="frame" x="80" y="320" width="160" height="38"/>
+                                <rect key="frame" x="79" y="248" width="162" height="33"/>
                                 <animations/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="160" id="9xg-7Q-Srv"/>
-                                    <constraint firstAttribute="height" constant="38" id="edh-sz-PKg"/>
+                                    <constraint firstAttribute="height" constant="33" id="26b-9d-STi"/>
+                                    <constraint firstAttribute="width" constant="162" id="pfe-pA-w6Q"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="OPTIBelwe-Medium" family="OPTIBelwe-Medium" pointSize="18"/>
+                                <fontDescription key="fontDescription" name="OPTIBelwe-Medium" family="OPTIBelwe-Medium" pointSize="17"/>
                                 <state key="normal" title="SEND FEEDBACK">
                                     <color key="titleColor" red="0.24313725489999999" green="0.18039215689999999" blue="0.094117647060000004" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="feedbackButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YiE-0H-pEK"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Utv-0s-OEb">
-                                <rect key="frame" x="80" y="123" width="160" height="38"/>
+                                <rect key="frame" x="79" y="199" width="162" height="32"/>
                                 <animations/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="38" id="8Di-Ru-gVt"/>
-                                    <constraint firstAttribute="width" constant="160" id="kAl-XZ-GTs"/>
+                                    <constraint firstAttribute="width" constant="162" id="Rwh-qF-jW6"/>
+                                    <constraint firstAttribute="height" constant="32" id="xAD-yA-dTJ"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="OPTIBelwe-Medium" family="OPTIBelwe-Medium" pointSize="18"/>
                                 <state key="normal" title="PLAY">
@@ -146,21 +128,25 @@
                                     <segue destination="WnB-cT-yze" kind="show" animates="NO" id="34V-r0-l31"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="secretsymbol.png" translatesAutoresizingMaskIntoConstraints="NO" id="gGj-1b-uzZ">
-                                <rect key="frame" x="241" y="33" width="79" height="62"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HEARTHSTONE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1gs-4f-q0Q">
+                                <rect key="frame" x="60" y="131" width="200" height="33"/>
                                 <animations/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="62" id="19u-ef-Wrz"/>
-                                    <constraint firstAttribute="width" constant="79" id="e4z-9s-B1X"/>
+                                    <constraint firstAttribute="height" constant="33" id="4Wv-rE-BQT"/>
+                                    <constraint firstAttribute="width" constant="200" id="nBK-E6-b34"/>
                                 </constraints>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="HEARTHSTONE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1gs-4f-q0Q">
-                                <rect key="frame" x="-4" y="50" width="247" height="45"/>
-                                <animations/>
                                 <fontDescription key="fontDescription" name="OPTIBelwe-Medium" family="OPTIBelwe-Medium" pointSize="25"/>
                                 <color key="textColor" red="0.88627450980392153" green="0.58039215686274515" blue="0.094117647058823528" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="secretsymbol.png" translatesAutoresizingMaskIntoConstraints="NO" id="gGj-1b-uzZ">
+                                <rect key="frame" x="121" y="28" width="79" height="62"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="79" id="0xF-In-bir"/>
+                                    <constraint firstAttribute="height" constant="62" id="SyY-Qu-d0s"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -168,31 +154,28 @@
                             <accessibilityTraits key="traits" image="YES"/>
                         </accessibility>
                         <constraints>
-                            <constraint firstItem="EIo-BS-anc" firstAttribute="top" secondItem="ks8-AK-kKA" secondAttribute="bottom" constant="-134" id="2nK-Vb-iqN"/>
-                            <constraint firstItem="ks8-AK-kKA" firstAttribute="leading" secondItem="1gs-4f-q0Q" secondAttribute="trailing" constant="-201" id="4fl-pI-xw4"/>
-                            <constraint firstItem="bPL-UL-RKj" firstAttribute="top" secondItem="ks8-AK-kKA" secondAttribute="bottom" constant="-68" id="6gH-Uh-ddm"/>
-                            <constraint firstItem="ks8-AK-kKA" firstAttribute="top" secondItem="zih-e5-99y" secondAttribute="bottom" constant="33" id="866-5M-y7m"/>
-                            <constraint firstItem="pwz-uG-LQS" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="8V9-rU-4T7"/>
-                            <constraint firstItem="ks8-AK-kKA" firstAttribute="top" secondItem="Jn4-qU-oQx" secondAttribute="bottom" constant="-135" id="94o-dz-Icf"/>
-                            <constraint firstItem="pwz-uG-LQS" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="E0V-AS-lns"/>
-                            <constraint firstItem="ks8-AK-kKA" firstAttribute="leading" secondItem="zih-e5-99y" secondAttribute="trailing" constant="-190" id="FdW-kt-opk"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="pwz-uG-LQS" secondAttribute="trailing" constant="-20" id="IkM-GI-RsJ"/>
-                            <constraint firstItem="Utv-0s-OEb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="JAk-ZN-wAS"/>
-                            <constraint firstItem="Jn4-qU-oQx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="LzA-sB-zwN"/>
-                            <constraint firstItem="gGj-1b-uzZ" firstAttribute="leading" secondItem="1gs-4f-q0Q" secondAttribute="trailing" constant="-1" id="Q06-FG-FA0"/>
-                            <constraint firstItem="ks8-AK-kKA" firstAttribute="top" secondItem="gGj-1b-uzZ" secondAttribute="bottom" constant="2" id="TVY-VF-kxs"/>
-                            <constraint firstItem="ks8-AK-kKA" firstAttribute="top" secondItem="1gs-4f-q0Q" secondAttribute="bottom" constant="-3" id="Zgo-Af-NQH"/>
-                            <constraint firstItem="EIo-BS-anc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cEi-9H-nFS"/>
-                            <constraint firstItem="ks8-AK-kKA" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="f9J-Cc-TCr"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="pwz-uG-LQS" secondAttribute="bottom" id="gHt-L1-Npf"/>
-                            <constraint firstItem="bPL-UL-RKj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gMY-sM-1GH"/>
-                            <constraint firstItem="ks8-AK-kKA" firstAttribute="top" secondItem="Utv-0s-OEb" secondAttribute="bottom" constant="-69" id="icP-Ae-Hy1"/>
-                            <constraint firstItem="ks8-AK-kKA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rff-3x-Mdo"/>
+                            <constraint firstItem="pwz-uG-LQS" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="24h-0a-XNT"/>
+                            <constraint firstItem="ks8-AK-kKA" firstAttribute="top" secondItem="Utv-0s-OEb" secondAttribute="bottom" constant="-64" id="2SN-jd-Gdn"/>
+                            <constraint firstItem="ks8-AK-kKA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5I7-b1-Tmp"/>
+                            <constraint firstItem="gGj-1b-uzZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6VN-Pu-wUg"/>
+                            <constraint firstItem="ks8-AK-kKA" firstAttribute="top" secondItem="gGj-1b-uzZ" secondAttribute="bottom" constant="77" id="6lN-ig-FxR"/>
+                            <constraint firstItem="ks8-AK-kKA" firstAttribute="top" secondItem="zih-e5-99y" secondAttribute="bottom" constant="44" id="Ayv-hU-ecD"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="pwz-uG-LQS" secondAttribute="trailing" constant="-20" id="Bfi-7Z-AIF"/>
+                            <constraint firstItem="ks8-AK-kKA" firstAttribute="top" secondItem="1gs-4f-q0Q" secondAttribute="bottom" constant="3" id="CRJ-Vx-lzz"/>
+                            <constraint firstItem="bPL-UL-RKj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ItU-0Q-cVt"/>
+                            <constraint firstItem="zih-e5-99y" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="N9V-QS-H6Y"/>
+                            <constraint firstItem="bPL-UL-RKj" firstAttribute="top" secondItem="ks8-AK-kKA" secondAttribute="bottom" constant="-64" id="QZf-W6-U01"/>
+                            <constraint firstItem="pwz-uG-LQS" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="T1U-77-SWH"/>
+                            <constraint firstItem="ks8-AK-kKA" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="WPi-6y-kjz"/>
+                            <constraint firstItem="pwz-uG-LQS" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="fPu-Fh-zbv"/>
+                            <constraint firstItem="Utv-0s-OEb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kPv-Fh-ZMe"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="pwz-uG-LQS" secondAttribute="bottom" id="kcP-3r-kLu"/>
+                            <constraint firstItem="1gs-4f-q0Q" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="mWH-Oq-Vwh"/>
+                            <constraint firstItem="pwz-uG-LQS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zck-gW-FyT"/>
                         </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-367" y="18"/>
         </scene>
@@ -705,6 +688,7 @@
                             <constraint firstItem="tnU-R6-hHR" firstAttribute="top" secondItem="ST1-2L-7Cv" secondAttribute="topMargin" id="xTJ-Cf-CFA"/>
                         </constraints>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
                     <connections>
                         <outlet property="backLabel" destination="PNq-Bn-ZCj" id="Y1i-BY-lej"/>
                         <outlet property="goldLabel" destination="67y-c5-6m6" id="eze-ev-3I5"/>
@@ -1006,10 +990,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="271" height="220"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="storeMenu.png" translatesAutoresizingMaskIntoConstraints="NO" id="6oI-fg-yeN">
-                                <rect key="frame" x="0.0" y="0.0" width="271" height="220"/>
-                                <animations/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hxJ-DM-YZA">
                                 <rect key="frame" x="245" y="0.0" width="26" height="24"/>
                                 <animations/>
@@ -1048,6 +1028,10 @@
                                     <action selector="rateButton:" destination="bkf-1F-XaC" eventType="touchUpInside" id="hXX-Dg-E9Z"/>
                                 </connections>
                             </button>
+                            <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="storeMenu.png" translatesAutoresizingMaskIntoConstraints="NO" id="6oI-fg-yeN">
+                                <rect key="frame" x="0.0" y="0.0" width="271" height="220"/>
+                                <animations/>
+                            </imageView>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -1070,17 +1054,17 @@
         <image name="Background.jpg" width="1200" height="1920"/>
         <image name="GameOver.png" width="220" height="220"/>
         <image name="Questionnare.png" width="291" height="390"/>
-        <image name="Trivia Hearthstone UI.png" width="864" height="1034"/>
         <image name="backbutton.png" width="290" height="300"/>
         <image name="gold.png" width="427" height="427"/>
         <image name="locked.png" width="420" height="420"/>
+        <image name="mainmenu.png" width="654" height="378"/>
         <image name="orangerectangle.png" width="69" height="32"/>
         <image name="secretsymbol.png" width="300" height="300"/>
         <image name="storeMenu.png" width="813" height="660"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="vOY-kh-rsz"/>
-        <segue reference="GBQ-jw-TUn"/>
-        <segue reference="ZdX-Ms-9J2"/>
+        <segue reference="34V-r0-l31"/>
+        <segue reference="nER-6Q-Ypb"/>
     </inferredMetricsTieBreakers>
 </document>

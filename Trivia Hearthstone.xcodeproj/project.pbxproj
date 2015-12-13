@@ -13,6 +13,7 @@
 		595E3E7D1C13B07C009B5967 /* correct.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 595E3E7C1C13B07C009B5967 /* correct.mp3 */; };
 		595E3E811C13B1AF009B5967 /* wrong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 595E3E801C13B1AF009B5967 /* wrong.mp3 */; };
 		595E3E831C13CD49009B5967 /* Hearthstonepiano.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 595E3E821C13CD49009B5967 /* Hearthstonepiano.mp3 */; };
+		5965D3411C1D635300127258 /* mainmenu.png in Resources */ = {isa = PBXBuildFile; fileRef = 5965D3401C1D635300127258 /* mainmenu.png */; };
 		59B147371C12A7EB00F8F6D8 /* Questionnare.png in Resources */ = {isa = PBXBuildFile; fileRef = 59B147361C12A7EB00F8F6D8 /* Questionnare.png */; };
 		59B147391C12B6B700F8F6D8 /* TriviaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B147381C12B6B700F8F6D8 /* TriviaViewController.swift */; };
 		59B1473D1C12BB6400F8F6D8 /* backbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 59B1473C1C12BB6400F8F6D8 /* backbutton.png */; };
@@ -45,6 +46,7 @@
 		595E3E7C1C13B07C009B5967 /* correct.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = correct.mp3; sourceTree = "<group>"; };
 		595E3E801C13B1AF009B5967 /* wrong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wrong.mp3; sourceTree = "<group>"; };
 		595E3E821C13CD49009B5967 /* Hearthstonepiano.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Hearthstonepiano.mp3; sourceTree = "<group>"; };
+		5965D3401C1D635300127258 /* mainmenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mainmenu.png; sourceTree = "<group>"; };
 		59B147361C12A7EB00F8F6D8 /* Questionnare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Questionnare.png; sourceTree = "<group>"; };
 		59B147381C12B6B700F8F6D8 /* TriviaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriviaViewController.swift; sourceTree = "<group>"; };
 		59B1473C1C12BB6400F8F6D8 /* backbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backbutton.png; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 				59DA93AA1C11590C0024A025 /* Background.jpg */,
 				59DA93B01C1161EF0024A025 /* OPTIBelwe-Medium.otf */,
 				59DA93B41C116DE30024A025 /* secretsymbol.png */,
+				5965D3401C1D635300127258 /* mainmenu.png */,
 				59DA93B81C1177260024A025 /* Trivia Hearthstone UI.png */,
 				59B147361C12A7EB00F8F6D8 /* Questionnare.png */,
 				59B1473C1C12BB6400F8F6D8 /* backbutton.png */,
@@ -202,6 +205,7 @@
 				59C538641C1A86D900CCE7D0 /* locked.png in Resources */,
 				59B147371C12A7EB00F8F6D8 /* Questionnare.png in Resources */,
 				59C5386A1C1A8CE600CCE7D0 /* orangerectangle.png in Resources */,
+				5965D3411C1D635300127258 /* mainmenu.png in Resources */,
 				5900D0B31C1BD07F00831218 /* storeMenu.png in Resources */,
 				59C538661C1A87CA00CCE7D0 /* backplain.png in Resources */,
 				595E3E811C13B1AF009B5967 /* wrong.mp3 in Resources */,

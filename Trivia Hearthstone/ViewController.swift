@@ -8,22 +8,43 @@
 
 import UIKit
 import CoreData
+import MessageUI
 
 
 
 let moc = DataController().managedObjectContext
 
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, MFMailComposeViewControllerDelegate {
     
 
     override func prefersStatusBarHidden() -> Bool {
         return true
     }
     
+    @IBAction func feedbackButton(sender: AnyObject) {
+        if (MFMailComposeViewController.canSendMail()) {
+            
+            let emailTitle = "Trivia & Quiz Hearthstone Feedback"
+            let toRecipients = ["kokatooentertainment@gmail.com"]
+            
+            let mc : MFMailComposeViewController = MFMailComposeViewController()
+            
+            mc.mailComposeDelegate = self
+            mc.setSubject(emailTitle)
+            mc.setToRecipients(toRecipients)
+            
+            self.presentViewController(mc, animated: true, completion: nil)
+        }
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+
+        
+        
+        
 
         let userFetch = NSFetchRequest(entityName: "User")
         
@@ -63,6 +84,26 @@ class ViewController: UIViewController {
             fatalError("Save failed to core data")
         }
 
+    }
+    
+    func mailComposeController(controller: MFMailComposeViewController, didFinishWithResult result: MFMailComposeResult, error: NSError?) {
+        
+        switch result.rawValue {
+            
+        case MFMailComposeResultCancelled.rawValue:
+            print("Mail Cancelled")
+        case MFMailComposeResultSaved.rawValue:
+            print("Mail Saved")
+        case MFMailComposeResultSent.rawValue:
+            print("Mail Sent")
+        case MFMailComposeResultFailed.rawValue:
+            print("Mail Failed")
+        default:
+            break
+            
+        }
+        
+        self.dismissViewControllerAnimated(false, completion: nil)
     }
 
     override func didReceiveMemoryWarning() {

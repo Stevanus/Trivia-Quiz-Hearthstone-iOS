@@ -18,8 +18,8 @@ class GameOverViewController: UIViewController {
     
     
     @IBAction func sharescore(sender: AnyObject) {
-        var sharescore : SLComposeViewController = SLComposeViewController(forServiceType: SLServiceTypeFacebook)
-        sharescore.setInitialText("I scored 25  on Trivia & Quiz Hearthstone!")
+        let sharescore : SLComposeViewController = SLComposeViewController(forServiceType: SLServiceTypeFacebook)
+        sharescore.addURL(NSURL(string: "www.google.com"))
         
         self.presentViewController(sharescore, animated: true, completion: nil)
     }
