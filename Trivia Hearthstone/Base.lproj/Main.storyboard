@@ -65,7 +65,6 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Trivia_Hearthstone" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
@@ -176,6 +175,7 @@
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-367" y="18"/>
         </scene>
@@ -188,15 +188,15 @@
                         <viewControllerLayoutGuide type="bottom" id="JwZ-mO-8Pe"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="ST1-2L-7Cv">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="1500"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Background.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="tnU-R6-hHR">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="1500"/>
                                 <animations/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PNq-Bn-ZCj">
-                                <rect key="frame" x="20" y="22" width="40" height="40"/>
+                                <rect key="frame" x="20" y="532" width="40" height="40"/>
                                 <animations/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="0bY-le-TSC"/>
@@ -210,7 +210,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select a level" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M7x-QA-nxO">
-                                <rect key="frame" x="77" y="31" width="166" height="21"/>
+                                <rect key="frame" x="77" y="541" width="166" height="21"/>
                                 <animations/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="Hvh-fe-PQI"/>
@@ -221,7 +221,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Np-OW-G3R">
-                                <rect key="frame" x="244" y="28" width="70" height="27"/>
+                                <rect key="frame" x="244" y="538" width="70" height="27"/>
                                 <animations/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="27" id="6Lb-pG-clu"/>
@@ -233,7 +233,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="67y-c5-6m6">
-                                <rect key="frame" x="270" y="31" width="37" height="21"/>
+                                <rect key="frame" x="270" y="541" width="37" height="21"/>
                                 <animations/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="BkE-su-jZP"/>
@@ -244,7 +244,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gold.png" translatesAutoresizingMaskIntoConstraints="NO" id="eEA-Fv-vG9">
-                                <rect key="frame" x="251" y="33" width="18" height="18"/>
+                                <rect key="frame" x="251" y="543" width="18" height="18"/>
                                 <animations/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="18" id="RVZ-e9-e8m"/>
@@ -252,7 +252,7 @@
                                 </constraints>
                             </imageView>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="seq-oB-ex1">
-                                <rect key="frame" x="0.0" y="65" width="320" height="930"/>
+                                <rect key="frame" x="0.0" y="575" width="320" height="930"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qWh-if-e02">
                                         <rect key="frame" x="35" y="25" width="250" height="44"/>
@@ -302,6 +302,20 @@
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                     </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="100" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KGu-O2-Jpl">
+                                        <rect key="frame" x="76" y="87" width="30" height="21"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" name="OPTIBelwe-Medium" family="OPTIBelwe-Medium" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="100" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SxZ-iI-r69">
+                                        <rect key="frame" x="76" y="136" width="30" height="21"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" name="OPTIBelwe-Medium" family="OPTIBelwe-Medium" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                     <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="locked.png" translatesAutoresizingMaskIntoConstraints="NO" id="arB-IH-CDK">
                                         <rect key="frame" x="198" y="82" width="30" height="30"/>
                                         <animations/>
@@ -636,25 +650,11 @@
                                         <rect key="frame" x="55" y="138" width="18" height="18"/>
                                         <animations/>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="100" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SxZ-iI-r69">
-                                        <rect key="frame" x="76" y="136" width="30" height="21"/>
-                                        <animations/>
-                                        <fontDescription key="fontDescription" name="OPTIBelwe-Medium" family="OPTIBelwe-Medium" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="100" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KGu-O2-Jpl">
-                                        <rect key="frame" x="76" y="87" width="30" height="21"/>
-                                        <animations/>
-                                        <fontDescription key="fontDescription" name="OPTIBelwe-Medium" family="OPTIBelwe-Medium" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
                                 </subviews>
                                 <animations/>
                             </scrollView>
                             <containerView hidden="YES" opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3r6-bW-Pu5">
-                                <rect key="frame" x="25" y="130" width="271" height="220"/>
+                                <rect key="frame" x="25" y="640" width="271" height="220"/>
                                 <animations/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="271" id="Kzz-uH-3rb"/>
@@ -688,13 +688,78 @@
                             <constraint firstItem="tnU-R6-hHR" firstAttribute="top" secondItem="ST1-2L-7Cv" secondAttribute="topMargin" id="xTJ-Cf-CFA"/>
                         </constraints>
                     </view>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="1500"/>
                     <connections>
                         <outlet property="backLabel" destination="PNq-Bn-ZCj" id="Y1i-BY-lej"/>
                         <outlet property="goldLabel" destination="67y-c5-6m6" id="eze-ev-3I5"/>
                         <outlet property="scrollView" destination="seq-oB-ex1" id="5oF-D1-waS"/>
                         <outlet property="storeLabel" destination="7Np-OW-G3R" id="nP2-jT-eKv"/>
                         <outlet property="storeView" destination="3r6-bW-Pu5" id="YzR-pb-PYY"/>
+                        <outletCollection property="locked" destination="arB-IH-CDK" collectionClass="NSMutableArray" id="ckY-ry-1tg"/>
+                        <outletCollection property="locked" destination="shH-2Q-nJE" collectionClass="NSMutableArray" id="vRi-a1-qIT"/>
+                        <outletCollection property="locked" destination="KBO-xk-y9K" collectionClass="NSMutableArray" id="Gdl-gK-Ehl"/>
+                        <outletCollection property="locked" destination="02m-gu-xH6" collectionClass="NSMutableArray" id="soP-dS-txP"/>
+                        <outletCollection property="locked" destination="8di-uL-QDH" collectionClass="NSMutableArray" id="PdR-Ek-lox"/>
+                        <outletCollection property="locked" destination="SfD-5N-XK6" collectionClass="NSMutableArray" id="Lgm-Xn-h9J"/>
+                        <outletCollection property="locked" destination="wim-Ar-BEX" collectionClass="NSMutableArray" id="V1X-MF-Rm0"/>
+                        <outletCollection property="locked" destination="X8g-kh-Xn9" collectionClass="NSMutableArray" id="adc-DX-Rxl"/>
+                        <outletCollection property="locked" destination="m3C-7b-Dio" collectionClass="NSMutableArray" id="toM-nX-rqH"/>
+                        <outletCollection property="locked" destination="5VM-NN-0L2" collectionClass="NSMutableArray" id="Cu3-eg-KFc"/>
+                        <outletCollection property="locked" destination="5ZN-Ud-fqD" collectionClass="NSMutableArray" id="EQp-1x-8r5"/>
+                        <outletCollection property="locked" destination="DKK-Iz-NQM" collectionClass="NSMutableArray" id="v2R-u3-iL6"/>
+                        <outletCollection property="locked" destination="36a-yq-Dfm" collectionClass="NSMutableArray" id="eGK-tx-4Lf"/>
+                        <outletCollection property="locked" destination="ROb-7Y-lSx" collectionClass="NSMutableArray" id="0Ka-n4-ZQR"/>
+                        <outletCollection property="locked" destination="tMY-RD-k8S" collectionClass="NSMutableArray" id="Dsa-yt-aJ2"/>
+                        <outletCollection property="locked" destination="Veq-qi-Zk5" collectionClass="NSMutableArray" id="Xi1-BG-HQo"/>
+                        <outletCollection property="goldArray" destination="Z6N-1d-i8c" collectionClass="NSMutableArray" id="hWN-82-f1v"/>
+                        <outletCollection property="goldArray" destination="bJN-YN-pob" collectionClass="NSMutableArray" id="GmF-uA-i55"/>
+                        <outletCollection property="goldArray" destination="7dT-eu-sPV" collectionClass="NSMutableArray" id="KdQ-9I-8PC"/>
+                        <outletCollection property="goldArray" destination="lyJ-gq-q9T" collectionClass="NSMutableArray" id="4PL-5f-epf"/>
+                        <outletCollection property="goldArray" destination="U4T-Fn-l57" collectionClass="NSMutableArray" id="1s4-kY-bKx"/>
+                        <outletCollection property="goldArray" destination="32L-s1-Fud" collectionClass="NSMutableArray" id="afc-zH-lLN"/>
+                        <outletCollection property="goldArray" destination="OVI-bf-w9o" collectionClass="NSMutableArray" id="tA1-61-hHa"/>
+                        <outletCollection property="goldArray" destination="Il8-1P-NaO" collectionClass="NSMutableArray" id="DWX-fc-Mjz"/>
+                        <outletCollection property="goldArray" destination="CXF-fn-jfA" collectionClass="NSMutableArray" id="riw-U3-lFj"/>
+                        <outletCollection property="goldArray" destination="zbD-pp-bko" collectionClass="NSMutableArray" id="lC7-mJ-oq3"/>
+                        <outletCollection property="goldArray" destination="Sai-lB-YWr" collectionClass="NSMutableArray" id="2BX-vV-I1f"/>
+                        <outletCollection property="goldArray" destination="gcE-L1-c2K" collectionClass="NSMutableArray" id="Elc-io-76u"/>
+                        <outletCollection property="goldArray" destination="OPA-8f-Hp6" collectionClass="NSMutableArray" id="5WL-HV-77o"/>
+                        <outletCollection property="goldArray" destination="e6I-jk-KKq" collectionClass="NSMutableArray" id="dMq-bB-K7B"/>
+                        <outletCollection property="goldArray" destination="acs-Ft-QB5" collectionClass="NSMutableArray" id="Mib-Hr-C6Y"/>
+                        <outletCollection property="goldArray" destination="nmh-pB-2pN" collectionClass="NSMutableArray" id="64h-eX-m9L"/>
+                        <outletCollection property="label100" destination="KGu-O2-Jpl" collectionClass="NSMutableArray" id="Xtk-Pd-A7J"/>
+                        <outletCollection property="label100" destination="SxZ-iI-r69" collectionClass="NSMutableArray" id="7Sj-I2-TQU"/>
+                        <outletCollection property="label100" destination="364-fL-e3z" collectionClass="NSMutableArray" id="Pwy-jc-UVT"/>
+                        <outletCollection property="label100" destination="Jhj-j8-WhQ" collectionClass="NSMutableArray" id="Lll-KM-SpT"/>
+                        <outletCollection property="label100" destination="IQ3-yU-uGt" collectionClass="NSMutableArray" id="It3-mj-j5o"/>
+                        <outletCollection property="label100" destination="2Qu-lx-esP" collectionClass="NSMutableArray" id="p5S-ZN-PZg"/>
+                        <outletCollection property="label100" destination="VvB-br-3D4" collectionClass="NSMutableArray" id="y97-Dx-sX0"/>
+                        <outletCollection property="label100" destination="e1M-9I-sIE" collectionClass="NSMutableArray" id="TS4-XY-LG7"/>
+                        <outletCollection property="label100" destination="slq-w0-zCu" collectionClass="NSMutableArray" id="ARH-Jg-VTF"/>
+                        <outletCollection property="label100" destination="9eX-AY-A9f" collectionClass="NSMutableArray" id="2hh-bP-8T3"/>
+                        <outletCollection property="label100" destination="89n-eB-Zgx" collectionClass="NSMutableArray" id="TlZ-Rp-zZh"/>
+                        <outletCollection property="label100" destination="AWi-IU-9I3" collectionClass="NSMutableArray" id="39W-bb-wpc"/>
+                        <outletCollection property="label100" destination="gAr-jf-F1a" collectionClass="NSMutableArray" id="zEI-Gr-ICB"/>
+                        <outletCollection property="label100" destination="USF-Q4-eXm" collectionClass="NSMutableArray" id="HL1-Av-qmW"/>
+                        <outletCollection property="label100" destination="QoY-dg-DUp" collectionClass="NSMutableArray" id="rR1-FV-Loe"/>
+                        <outletCollection property="label100" destination="dDF-Qz-XUT" collectionClass="NSMutableArray" id="TNv-1c-Eos"/>
+                        <outletCollection property="levels" destination="rqi-Hn-rED" collectionClass="NSMutableArray" id="w3l-r5-qXB"/>
+                        <outletCollection property="levels" destination="53C-pj-5kd" collectionClass="NSMutableArray" id="Kaf-Ne-tBa"/>
+                        <outletCollection property="levels" destination="5JF-ye-tje" collectionClass="NSMutableArray" id="kry-j9-gI2"/>
+                        <outletCollection property="levels" destination="imZ-JU-lsZ" collectionClass="NSMutableArray" id="eZK-dF-eyn"/>
+                        <outletCollection property="levels" destination="aoj-ti-6Db" collectionClass="NSMutableArray" id="bx4-dy-QiH"/>
+                        <outletCollection property="levels" destination="FnH-XN-Khq" collectionClass="NSMutableArray" id="m2o-WQ-dov"/>
+                        <outletCollection property="levels" destination="AIZ-Mw-bEF" collectionClass="NSMutableArray" id="vZe-SS-5uJ"/>
+                        <outletCollection property="levels" destination="8bx-Vo-XZb" collectionClass="NSMutableArray" id="3UQ-j8-gVI"/>
+                        <outletCollection property="levels" destination="RgH-7U-G01" collectionClass="NSMutableArray" id="bjI-v5-TPk"/>
+                        <outletCollection property="levels" destination="6aV-Mm-5pP" collectionClass="NSMutableArray" id="yAc-ZY-p2i"/>
+                        <outletCollection property="levels" destination="J0N-Zo-cKd" collectionClass="NSMutableArray" id="1hm-eH-rKf"/>
+                        <outletCollection property="levels" destination="LLc-Zr-cZS" collectionClass="NSMutableArray" id="l9E-JA-6MM"/>
+                        <outletCollection property="levels" destination="ctL-bK-3xX" collectionClass="NSMutableArray" id="76b-hu-sQy"/>
+                        <outletCollection property="levels" destination="azr-KM-WbR" collectionClass="NSMutableArray" id="C5B-rt-tp3"/>
+                        <outletCollection property="levels" destination="nXV-y3-FEh" collectionClass="NSMutableArray" id="6jj-EQ-qcK"/>
+                        <outletCollection property="levels" destination="8lF-On-aWl" collectionClass="NSMutableArray" id="cgv-aT-i9j"/>
                         <segue destination="uZb-vl-XFr" kind="show" animates="NO" id="DGV-Dx-uZ0"/>
                     </connections>
                 </viewController>
@@ -908,7 +973,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4gf-MT-bdn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="668" y="18"/>
+            <point key="canvasLocation" x="596" y="-412"/>
         </scene>
         <!--Game Over View Controller-->
         <scene sceneID="KKd-C1-Lcu">
@@ -976,7 +1041,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BtT-cp-Y0W" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1078" y="-8"/>
+            <point key="canvasLocation" x="1154" y="-166"/>
         </scene>
         <!--Purchase View Controller-->
         <scene sceneID="hYY-Bn-CXG">
@@ -991,7 +1056,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hxJ-DM-YZA">
-                                <rect key="frame" x="245" y="0.0" width="26" height="24"/>
+                                <rect key="frame" x="240" y="0.0" width="31" height="31"/>
                                 <animations/>
                                 <connections>
                                     <action selector="exitButton:" destination="bkf-1F-XaC" eventType="touchUpInside" id="5JI-f1-jCE"/>
@@ -1047,7 +1112,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eLn-dA-e3P" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="110.5" y="-707"/>
+            <point key="canvasLocation" x="154.5" y="-537"/>
         </scene>
     </scenes>
     <resources>
@@ -1064,7 +1129,7 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="vOY-kh-rsz"/>
-        <segue reference="34V-r0-l31"/>
+        <segue reference="GBQ-jw-TUn"/>
         <segue reference="nER-6Q-Ypb"/>
     </inferredMetricsTieBreakers>
 </document>
