@@ -1,0 +1,19 @@
+{
+    "Level1" : {
+        "Question1" : {
+            "Question" : "What is the most amount of gold you can win in the Arena?"
+            "Answer1" : "155 gold"
+            "Answer2" : "170 gold"
+            "Answer3" : "185 gold"
+            "Answer4" : "200 gold"
+            "Correct" : "3"
+        },
+    },
+    "Level2" : {
+        "Question1" : {
+            
+        }
+    }
+    
+        
+}
