@@ -28,6 +28,8 @@ class LevelViewController: UIViewController {
     @IBOutlet var goldArray: [UIImageView]!
     @IBOutlet var label100: [UILabel]!
     @IBOutlet var levels: [UIButton]!
+    var levelchosen = 0
+    
     
     
     @IBAction func store(sender: AnyObject) {
@@ -39,6 +41,20 @@ class LevelViewController: UIViewController {
     }
     
     
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if (segue.identifier == "questionchosen"){
+            let Dest : TriviaViewController = segue.destinationViewController as! TriviaViewController
+            Dest.questionchosen = levelchosen
+        }
+    }
+    
+    
+    @IBAction func level1(sender: AnyObject) {
+        levelchosen = 1
+        performSegueWithIdentifier("questionchosen", sender: nil)
+        
+    }
+    
     @IBAction func level2(sender: AnyObject) {
         
         let userFetch = NSFetchRequest(entityName: "User")
@@ -47,7 +63,8 @@ class LevelViewController: UIViewController {
             let fetchedUser = try moc.executeFetchRequest(userFetch) as! [User]
             
             if(fetchedUser.first!.unlocked2 == true) {
-                //Go to questions
+                levelchosen = 2
+                performSegueWithIdentifier("questionchosen", sender: nil)
             }
             else{
                 if(Int(fetchedUser.first!.gold!) < 100){
@@ -79,7 +96,8 @@ class LevelViewController: UIViewController {
             let fetchedUser = try moc.executeFetchRequest(userFetch) as! [User]
             
             if(fetchedUser.first!.unlocked3 == true) {
-                //Go to questions
+                levelchosen = 3
+                performSegueWithIdentifier("questionchosen", sender: nil)
             }
             else{
                 if(Int(fetchedUser.first!.gold!) < 100){
@@ -117,7 +135,8 @@ class LevelViewController: UIViewController {
             let fetchedUser = try moc.executeFetchRequest(userFetch) as! [User]
             
             if(fetchedUser.first!.unlocked4 == true) {
-                //Go to questions
+                levelchosen = 4
+                performSegueWithIdentifier("questionchosen", sender: nil)
             }
             else{
                 if(Int(fetchedUser.first!.gold!) < 100){
@@ -155,7 +174,8 @@ class LevelViewController: UIViewController {
             let fetchedUser = try moc.executeFetchRequest(userFetch) as! [User]
             
             if(fetchedUser.first!.unlocked5 == true) {
-                //Go to questions
+                levelchosen = 5
+                performSegueWithIdentifier("questionchosen", sender: nil)
             }
             else{
                 if(Int(fetchedUser.first!.gold!) < 100){
@@ -193,7 +213,8 @@ class LevelViewController: UIViewController {
             let fetchedUser = try moc.executeFetchRequest(userFetch) as! [User]
             
             if(fetchedUser.first!.unlocked6 == true) {
-                //Go to questions
+                levelchosen = 6
+                performSegueWithIdentifier("questionchosen", sender: nil)
             }
             else{
                 if(Int(fetchedUser.first!.gold!) < 100){
@@ -231,7 +252,8 @@ class LevelViewController: UIViewController {
             let fetchedUser = try moc.executeFetchRequest(userFetch) as! [User]
             
             if(fetchedUser.first!.unlocked7 == true) {
-                //Go to questions
+                levelchosen = 7
+                performSegueWithIdentifier("questionchosen", sender: nil)
             }
             else{
                 if(Int(fetchedUser.first!.gold!) < 100){
@@ -269,7 +291,8 @@ class LevelViewController: UIViewController {
             let fetchedUser = try moc.executeFetchRequest(userFetch) as! [User]
             
             if(fetchedUser.first!.unlocked8 == true) {
-                //Go to questions
+                levelchosen = 8
+                performSegueWithIdentifier("questionchosen", sender: nil)
             }
             else{
                 if(Int(fetchedUser.first!.gold!) < 100){
@@ -307,7 +330,8 @@ class LevelViewController: UIViewController {
             let fetchedUser = try moc.executeFetchRequest(userFetch) as! [User]
             
             if(fetchedUser.first!.unlocked9 == true) {
-                //Go to questions
+                levelchosen = 9
+                performSegueWithIdentifier("questionchosen", sender: nil)
             }
             else{
                 if(Int(fetchedUser.first!.gold!) < 100){
@@ -345,7 +369,8 @@ class LevelViewController: UIViewController {
             let fetchedUser = try moc.executeFetchRequest(userFetch) as! [User]
             
             if(fetchedUser.first!.unlocked10 == true) {
-                //Go to questions
+                levelchosen = 10
+                performSegueWithIdentifier("questionchosen", sender: nil)
             }
             else{
                 if(Int(fetchedUser.first!.gold!) < 100){
@@ -383,7 +408,8 @@ class LevelViewController: UIViewController {
             let fetchedUser = try moc.executeFetchRequest(userFetch) as! [User]
             
             if(fetchedUser.first!.unlocked11 == true) {
-                //Go to questions
+                levelchosen = 11
+                performSegueWithIdentifier("questionchosen", sender: nil)
             }
             else{
                 if(Int(fetchedUser.first!.gold!) < 100){
@@ -421,7 +447,8 @@ class LevelViewController: UIViewController {
             let fetchedUser = try moc.executeFetchRequest(userFetch) as! [User]
             
             if(fetchedUser.first!.unlocked12 == true) {
-                //Go to questions
+                levelchosen = 12
+                performSegueWithIdentifier("questionchosen", sender: nil)
             }
             else{
                 if(Int(fetchedUser.first!.gold!) < 100){
@@ -459,7 +486,8 @@ class LevelViewController: UIViewController {
             let fetchedUser = try moc.executeFetchRequest(userFetch) as! [User]
             
             if(fetchedUser.first!.unlocked13 == true) {
-                //Go to questions
+                levelchosen = 13
+                performSegueWithIdentifier("questionchosen", sender: nil)
             }
             else{
                 if(Int(fetchedUser.first!.gold!) < 100){
@@ -497,7 +525,8 @@ class LevelViewController: UIViewController {
             let fetchedUser = try moc.executeFetchRequest(userFetch) as! [User]
             
             if(fetchedUser.first!.unlocked14 == true) {
-                //Go to questions
+                levelchosen = 14
+                performSegueWithIdentifier("questionchosen", sender: nil)
             }
             else{
                 if(Int(fetchedUser.first!.gold!) < 100){
@@ -535,7 +564,8 @@ class LevelViewController: UIViewController {
             let fetchedUser = try moc.executeFetchRequest(userFetch) as! [User]
             
             if(fetchedUser.first!.unlocked15 == true) {
-                //Go to questions
+                levelchosen = 15
+                performSegueWithIdentifier("questionchosen", sender: nil)
             }
             else{
                 if(Int(fetchedUser.first!.gold!) < 100){
@@ -573,7 +603,8 @@ class LevelViewController: UIViewController {
             let fetchedUser = try moc.executeFetchRequest(userFetch) as! [User]
             
             if(fetchedUser.first!.unlocked16 == true) {
-                //Go to questions
+                levelchosen = 16
+                performSegueWithIdentifier("questionchosen", sender: nil)
             }
             else{
                 if(Int(fetchedUser.first!.gold!) < 100){
@@ -611,7 +642,8 @@ class LevelViewController: UIViewController {
             let fetchedUser = try moc.executeFetchRequest(userFetch) as! [User]
             
             if(fetchedUser.first!.unlocked17 == true) {
-                //Go to questions
+                levelchosen = 17
+                performSegueWithIdentifier("questionchosen", sender: nil)
             }
             else{
                 if(Int(fetchedUser.first!.gold!) < 100){

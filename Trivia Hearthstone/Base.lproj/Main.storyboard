@@ -188,15 +188,15 @@
                         <viewControllerLayoutGuide type="bottom" id="JwZ-mO-8Pe"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="ST1-2L-7Cv">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="1500"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Background.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="tnU-R6-hHR">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="1500"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                                 <animations/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PNq-Bn-ZCj">
-                                <rect key="frame" x="20" y="532" width="40" height="40"/>
+                                <rect key="frame" x="20" y="22" width="40" height="40"/>
                                 <animations/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="0bY-le-TSC"/>
@@ -210,7 +210,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select a level" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M7x-QA-nxO">
-                                <rect key="frame" x="77" y="541" width="166" height="21"/>
+                                <rect key="frame" x="77" y="31" width="166" height="21"/>
                                 <animations/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="Hvh-fe-PQI"/>
@@ -221,7 +221,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Np-OW-G3R">
-                                <rect key="frame" x="244" y="538" width="70" height="27"/>
+                                <rect key="frame" x="244" y="28" width="70" height="27"/>
                                 <animations/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="27" id="6Lb-pG-clu"/>
@@ -233,7 +233,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="67y-c5-6m6">
-                                <rect key="frame" x="270" y="541" width="37" height="21"/>
+                                <rect key="frame" x="270" y="31" width="37" height="21"/>
                                 <animations/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="BkE-su-jZP"/>
@@ -244,7 +244,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gold.png" translatesAutoresizingMaskIntoConstraints="NO" id="eEA-Fv-vG9">
-                                <rect key="frame" x="251" y="543" width="18" height="18"/>
+                                <rect key="frame" x="251" y="33" width="18" height="18"/>
                                 <animations/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="18" id="RVZ-e9-e8m"/>
@@ -252,7 +252,7 @@
                                 </constraints>
                             </imageView>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="seq-oB-ex1">
-                                <rect key="frame" x="0.0" y="575" width="320" height="930"/>
+                                <rect key="frame" x="0.0" y="65" width="320" height="930"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qWh-if-e02">
                                         <rect key="frame" x="35" y="25" width="250" height="44"/>
@@ -263,7 +263,7 @@
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
-                                            <segue destination="uZb-vl-XFr" kind="show" animates="NO" id="vOY-kh-rsz"/>
+                                            <action selector="level1:" destination="WnB-cT-yze" eventType="touchUpInside" id="gak-UZ-TK0"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" alpha="0.5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rqi-Hn-rED">
@@ -702,7 +702,7 @@
                                 <animations/>
                             </scrollView>
                             <containerView hidden="YES" opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3r6-bW-Pu5">
-                                <rect key="frame" x="25" y="640" width="271" height="220"/>
+                                <rect key="frame" x="25" y="130" width="271" height="220"/>
                                 <animations/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="271" id="Kzz-uH-3rb"/>
@@ -736,8 +736,7 @@
                             <constraint firstItem="tnU-R6-hHR" firstAttribute="top" secondItem="ST1-2L-7Cv" secondAttribute="topMargin" id="xTJ-Cf-CFA"/>
                         </constraints>
                     </view>
-                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-                    <size key="freeformSize" width="320" height="1500"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
                     <connections>
                         <outlet property="backLabel" destination="PNq-Bn-ZCj" id="Y1i-BY-lej"/>
                         <outlet property="goldLabel" destination="67y-c5-6m6" id="eze-ev-3I5"/>
@@ -808,7 +807,7 @@
                         <outletCollection property="levels" destination="azr-KM-WbR" collectionClass="NSMutableArray" id="C5B-rt-tp3"/>
                         <outletCollection property="levels" destination="nXV-y3-FEh" collectionClass="NSMutableArray" id="6jj-EQ-qcK"/>
                         <outletCollection property="levels" destination="8lF-On-aWl" collectionClass="NSMutableArray" id="cgv-aT-i9j"/>
-                        <segue destination="uZb-vl-XFr" kind="show" animates="NO" id="DGV-Dx-uZ0"/>
+                        <segue destination="uZb-vl-XFr" kind="show" identifier="questionchosen" animates="NO" id="DGV-Dx-uZ0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ieE-Qi-b6f" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1176,8 +1175,8 @@
         <image name="storeMenu.png" width="813" height="660"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="vOY-kh-rsz"/>
-        <segue reference="GBQ-jw-TUn"/>
-        <segue reference="ZdX-Ms-9J2"/>
+        <segue reference="DGV-Dx-uZ0"/>
+        <segue reference="34V-r0-l31"/>
+        <segue reference="nER-6Q-Ypb"/>
     </inferredMetricsTieBreakers>
 </document>
