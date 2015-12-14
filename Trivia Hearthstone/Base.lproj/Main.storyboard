@@ -274,6 +274,9 @@
                                         <state key="normal" title="Level 2">
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="level2:" destination="WnB-cT-yze" eventType="touchUpInside" id="asV-ia-Msr"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" alpha="0.5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="53C-pj-5kd">
                                         <rect key="frame" x="35" y="125" width="250" height="44"/>
@@ -283,6 +286,9 @@
                                         <state key="normal" title="Level 3">
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="level3:" destination="WnB-cT-yze" eventType="touchUpInside" id="Hlc-kb-9jc"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" alpha="0.5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5JF-ye-tje">
                                         <rect key="frame" x="35" y="175" width="250" height="44"/>
@@ -292,6 +298,9 @@
                                         <state key="normal" title="Level 4">
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="level4:" destination="WnB-cT-yze" eventType="touchUpInside" id="W0E-1t-FOQ"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" alpha="0.5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="imZ-JU-lsZ">
                                         <rect key="frame" x="35" y="225" width="250" height="44"/>
@@ -301,6 +310,9 @@
                                         <state key="normal" title="Level 5">
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="level5:" destination="WnB-cT-yze" eventType="touchUpInside" id="6nn-R8-zKu"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="100" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KGu-O2-Jpl">
                                         <rect key="frame" x="76" y="87" width="30" height="21"/>
@@ -366,6 +378,9 @@
                                         <state key="normal" title="Level 6">
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="level6:" destination="WnB-cT-yze" eventType="touchUpInside" id="cK1-8q-4R3"/>
+                                        </connections>
                                     </button>
                                     <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gold.png" translatesAutoresizingMaskIntoConstraints="NO" id="U4T-Fn-l57">
                                         <rect key="frame" x="55" y="289" width="18" height="18"/>
@@ -390,6 +405,9 @@
                                         <state key="normal" title="Level 7">
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="level7:" destination="WnB-cT-yze" eventType="touchUpInside" id="KNB-My-pbc"/>
+                                        </connections>
                                     </button>
                                     <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gold.png" translatesAutoresizingMaskIntoConstraints="NO" id="32L-s1-Fud">
                                         <rect key="frame" x="55" y="340" width="18" height="18"/>
@@ -414,6 +432,9 @@
                                         <state key="normal" title="Level 8">
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="level8:" destination="WnB-cT-yze" eventType="touchUpInside" id="4xw-YS-dpb"/>
+                                        </connections>
                                     </button>
                                     <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gold.png" translatesAutoresizingMaskIntoConstraints="NO" id="OVI-bf-w9o">
                                         <rect key="frame" x="55" y="389" width="18" height="18"/>
@@ -438,6 +459,9 @@
                                         <state key="normal" title="Level 9">
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="level9:" destination="WnB-cT-yze" eventType="touchUpInside" id="Dm2-CO-yTz"/>
+                                        </connections>
                                     </button>
                                     <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gold.png" translatesAutoresizingMaskIntoConstraints="NO" id="Il8-1P-NaO">
                                         <rect key="frame" x="55" y="439" width="18" height="18"/>
@@ -462,6 +486,9 @@
                                         <state key="normal" title="Level 10">
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="level10:" destination="WnB-cT-yze" eventType="touchUpInside" id="uTB-Mb-BFC"/>
+                                        </connections>
                                     </button>
                                     <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gold.png" translatesAutoresizingMaskIntoConstraints="NO" id="CXF-fn-jfA">
                                         <rect key="frame" x="55" y="489" width="18" height="18"/>
@@ -486,6 +513,9 @@
                                         <state key="normal" title="Level 11">
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="level11:" destination="WnB-cT-yze" eventType="touchUpInside" id="aRM-iw-vjW"/>
+                                        </connections>
                                     </button>
                                     <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gold.png" translatesAutoresizingMaskIntoConstraints="NO" id="zbD-pp-bko">
                                         <rect key="frame" x="55" y="540" width="18" height="18"/>
@@ -510,6 +540,9 @@
                                         <state key="normal" title="Level 12">
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="level12:" destination="WnB-cT-yze" eventType="touchUpInside" id="5ae-4Q-9bW"/>
+                                        </connections>
                                     </button>
                                     <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gold.png" translatesAutoresizingMaskIntoConstraints="NO" id="Sai-lB-YWr">
                                         <rect key="frame" x="55" y="589" width="18" height="18"/>
@@ -534,6 +567,9 @@
                                         <state key="normal" title="Level 13">
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="level13:" destination="WnB-cT-yze" eventType="touchUpInside" id="tol-vE-kQZ"/>
+                                        </connections>
                                     </button>
                                     <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gold.png" translatesAutoresizingMaskIntoConstraints="NO" id="gcE-L1-c2K">
                                         <rect key="frame" x="55" y="639" width="18" height="18"/>
@@ -558,6 +594,9 @@
                                         <state key="normal" title="Level 14">
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="level14:" destination="WnB-cT-yze" eventType="touchUpInside" id="xT4-OI-2G9"/>
+                                        </connections>
                                     </button>
                                     <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gold.png" translatesAutoresizingMaskIntoConstraints="NO" id="OPA-8f-Hp6">
                                         <rect key="frame" x="55" y="689" width="18" height="18"/>
@@ -582,6 +621,9 @@
                                         <state key="normal" title="Level 15">
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="level15:" destination="WnB-cT-yze" eventType="touchUpInside" id="6lJ-8E-6Ob"/>
+                                        </connections>
                                     </button>
                                     <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gold.png" translatesAutoresizingMaskIntoConstraints="NO" id="e6I-jk-KKq">
                                         <rect key="frame" x="55" y="739" width="18" height="18"/>
@@ -606,6 +648,9 @@
                                         <state key="normal" title="Level 16">
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="level16:" destination="WnB-cT-yze" eventType="touchUpInside" id="ens-Xd-NA6"/>
+                                        </connections>
                                     </button>
                                     <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gold.png" translatesAutoresizingMaskIntoConstraints="NO" id="acs-Ft-QB5">
                                         <rect key="frame" x="55" y="789" width="18" height="18"/>
@@ -630,6 +675,9 @@
                                         <state key="normal" title="Level 17">
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="level17:" destination="WnB-cT-yze" eventType="touchUpInside" id="cM1-j0-tVD"/>
+                                        </connections>
                                     </button>
                                     <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gold.png" translatesAutoresizingMaskIntoConstraints="NO" id="nmh-pB-2pN">
                                         <rect key="frame" x="55" y="838" width="18" height="18"/>
@@ -1130,6 +1178,6 @@
     <inferredMetricsTieBreakers>
         <segue reference="vOY-kh-rsz"/>
         <segue reference="GBQ-jw-TUn"/>
-        <segue reference="nER-6Q-Ypb"/>
+        <segue reference="ZdX-Ms-9J2"/>
     </inferredMetricsTieBreakers>
 </document>

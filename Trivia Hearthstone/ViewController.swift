@@ -70,10 +70,10 @@ class ViewController: UIViewController, MFMailComposeViewControllerDelegate {
         let entity = NSEntityDescription.insertNewObjectForEntityForName("User", inManagedObjectContext: moc) as! User
         
         entity.setValue(true, forKey: "initialized")
-        entity.setValue(100, forKey:  "gold")
+        entity.setValue(2000, forKey:  "gold")
         entity.setValue(false, forKey: "rated")
         entity.setValue(false, forKey: "removeads")
-        entity.setValue(true, forKey: "unlocked2")
+        entity.setValue(false, forKey: "unlocked2")
         entity.setValue(false, forKey: "unlocked3")
         entity.setValue(false, forKey: "unlocked4")
         entity.setValue(false, forKey: "unlocked5")

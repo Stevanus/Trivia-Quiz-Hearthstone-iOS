@@ -15,14 +15,7 @@ class LevelViewController: UIViewController {
 
     @IBOutlet var goldLabel: UILabel!
     
-    @IBAction func store(sender: AnyObject) {
-        openStore()
-    }
-    
-    
-    @IBAction func backButton(sender: AnyObject) {
-    }
-    
+
     
     @IBOutlet var storeView: UIView!
     
@@ -37,6 +30,630 @@ class LevelViewController: UIViewController {
     @IBOutlet var levels: [UIButton]!
     
     
+    @IBAction func store(sender: AnyObject) {
+        openStore()
+    }
+    
+    
+    @IBAction func backButton(sender: AnyObject) {
+    }
+    
+    
+    @IBAction func level2(sender: AnyObject) {
+        
+        let userFetch = NSFetchRequest(entityName: "User")
+        
+        do{
+            let fetchedUser = try moc.executeFetchRequest(userFetch) as! [User]
+            
+            if(fetchedUser.first!.unlocked2 == true) {
+                //Go to questions
+            }
+            else{
+                if(Int(fetchedUser.first!.gold!) < 100){
+                    openStore()
+                }
+                else{
+                    var currentgold = Int(fetchedUser.first!.gold!)
+                    fetchedUser.first!.setValue(currentgold - 100, forKey: "gold")
+                    
+                    fetchedUser.first!.setValue(true, forKey: "unlocked2")
+                    
+                    goldLabel.text = String(fetchedUser.first!.gold!)
+                    checkdata()
+                }
+            }
+            
+            
+        } catch {
+            fatalError("Core Data Error")
+        }
+        
+    }
+    
+    @IBAction func level3(sender: AnyObject) {
+        
+        let userFetch = NSFetchRequest(entityName: "User")
+        
+        do{
+            let fetchedUser = try moc.executeFetchRequest(userFetch) as! [User]
+            
+            if(fetchedUser.first!.unlocked3 == true) {
+                //Go to questions
+            }
+            else{
+                if(Int(fetchedUser.first!.gold!) < 100){
+                    openStore()
+                }
+                else{
+                    var currentgold = Int(fetchedUser.first!.gold!)
+                    fetchedUser.first!.setValue(currentgold - 100, forKey: "gold")
+                    
+                    fetchedUser.first!.setValue(true, forKey: "unlocked3")
+                    
+                    goldLabel.text = String(fetchedUser.first!.gold!)
+                    checkdata()
+                    
+                    do {
+                        try moc.save()
+                    } catch {
+                        fatalError("Save failed to core data")
+                    }
+
+                }
+            }
+            
+            
+        } catch {
+            fatalError("Core Data Error")
+        }
+    }
+    
+    @IBAction func level4(sender: AnyObject) {
+        
+        let userFetch = NSFetchRequest(entityName: "User")
+        
+        do{
+            let fetchedUser = try moc.executeFetchRequest(userFetch) as! [User]
+            
+            if(fetchedUser.first!.unlocked4 == true) {
+                //Go to questions
+            }
+            else{
+                if(Int(fetchedUser.first!.gold!) < 100){
+                    openStore()
+                }
+                else{
+                    var currentgold = Int(fetchedUser.first!.gold!)
+                    fetchedUser.first!.setValue(currentgold - 100, forKey: "gold")
+                    
+                    fetchedUser.first!.setValue(true, forKey: "unlocked4")
+                    
+                    goldLabel.text = String(fetchedUser.first!.gold!)
+                    checkdata()
+                    
+                    do {
+                        try moc.save()
+                    } catch {
+                        fatalError("Save failed to core data")
+                    }
+                    
+                }
+            }
+            
+            
+        } catch {
+            fatalError("Core Data Error")
+        }
+    }
+    
+    @IBAction func level5(sender: AnyObject) {
+        
+        let userFetch = NSFetchRequest(entityName: "User")
+        
+        do{
+            let fetchedUser = try moc.executeFetchRequest(userFetch) as! [User]
+            
+            if(fetchedUser.first!.unlocked5 == true) {
+                //Go to questions
+            }
+            else{
+                if(Int(fetchedUser.first!.gold!) < 100){
+                    openStore()
+                }
+                else{
+                    var currentgold = Int(fetchedUser.first!.gold!)
+                    fetchedUser.first!.setValue(currentgold - 100, forKey: "gold")
+                    
+                    fetchedUser.first!.setValue(true, forKey: "unlocked5")
+                    
+                    goldLabel.text = String(fetchedUser.first!.gold!)
+                    checkdata()
+                    
+                    do {
+                        try moc.save()
+                    } catch {
+                        fatalError("Save failed to core data")
+                    }
+                    
+                }
+            }
+            
+            
+        } catch {
+            fatalError("Core Data Error")
+        }
+    }
+    
+    @IBAction func level6(sender: AnyObject) {
+        
+        let userFetch = NSFetchRequest(entityName: "User")
+        
+        do{
+            let fetchedUser = try moc.executeFetchRequest(userFetch) as! [User]
+            
+            if(fetchedUser.first!.unlocked6 == true) {
+                //Go to questions
+            }
+            else{
+                if(Int(fetchedUser.first!.gold!) < 100){
+                    openStore()
+                }
+                else{
+                    var currentgold = Int(fetchedUser.first!.gold!)
+                    fetchedUser.first!.setValue(currentgold - 100, forKey: "gold")
+                    
+                    fetchedUser.first!.setValue(true, forKey: "unlocked6")
+                    
+                    goldLabel.text = String(fetchedUser.first!.gold!)
+                    checkdata()
+                    
+                    do {
+                        try moc.save()
+                    } catch {
+                        fatalError("Save failed to core data")
+                    }
+                    
+                }
+            }
+            
+            
+        } catch {
+            fatalError("Core Data Error")
+        }
+    }
+    
+    @IBAction func level7(sender: AnyObject) {
+        
+        let userFetch = NSFetchRequest(entityName: "User")
+        
+        do{
+            let fetchedUser = try moc.executeFetchRequest(userFetch) as! [User]
+            
+            if(fetchedUser.first!.unlocked7 == true) {
+                //Go to questions
+            }
+            else{
+                if(Int(fetchedUser.first!.gold!) < 100){
+                    openStore()
+                }
+                else{
+                    var currentgold = Int(fetchedUser.first!.gold!)
+                    fetchedUser.first!.setValue(currentgold - 100, forKey: "gold")
+                    
+                    fetchedUser.first!.setValue(true, forKey: "unlocked7")
+                    
+                    goldLabel.text = String(fetchedUser.first!.gold!)
+                    checkdata()
+                    
+                    do {
+                        try moc.save()
+                    } catch {
+                        fatalError("Save failed to core data")
+                    }
+                    
+                }
+            }
+            
+            
+        } catch {
+            fatalError("Core Data Error")
+        }
+    }
+    
+    @IBAction func level8(sender: AnyObject) {
+        
+        let userFetch = NSFetchRequest(entityName: "User")
+        
+        do{
+            let fetchedUser = try moc.executeFetchRequest(userFetch) as! [User]
+            
+            if(fetchedUser.first!.unlocked8 == true) {
+                //Go to questions
+            }
+            else{
+                if(Int(fetchedUser.first!.gold!) < 100){
+                    openStore()
+                }
+                else{
+                    var currentgold = Int(fetchedUser.first!.gold!)
+                    fetchedUser.first!.setValue(currentgold - 100, forKey: "gold")
+                    
+                    fetchedUser.first!.setValue(true, forKey: "unlocked8")
+                    
+                    goldLabel.text = String(fetchedUser.first!.gold!)
+                    checkdata()
+                    
+                    do {
+                        try moc.save()
+                    } catch {
+                        fatalError("Save failed to core data")
+                    }
+                    
+                }
+            }
+            
+            
+        } catch {
+            fatalError("Core Data Error")
+        }
+    }
+    
+    @IBAction func level9(sender: AnyObject) {
+        
+        let userFetch = NSFetchRequest(entityName: "User")
+        
+        do{
+            let fetchedUser = try moc.executeFetchRequest(userFetch) as! [User]
+            
+            if(fetchedUser.first!.unlocked9 == true) {
+                //Go to questions
+            }
+            else{
+                if(Int(fetchedUser.first!.gold!) < 100){
+                    openStore()
+                }
+                else{
+                    var currentgold = Int(fetchedUser.first!.gold!)
+                    fetchedUser.first!.setValue(currentgold - 100, forKey: "gold")
+                    
+                    fetchedUser.first!.setValue(true, forKey: "unlocked9")
+                    
+                    goldLabel.text = String(fetchedUser.first!.gold!)
+                    checkdata()
+                    
+                    do {
+                        try moc.save()
+                    } catch {
+                        fatalError("Save failed to core data")
+                    }
+                    
+                }
+            }
+            
+            
+        } catch {
+            fatalError("Core Data Error")
+        }
+    }
+    
+    @IBAction func level10(sender: AnyObject) {
+        
+        let userFetch = NSFetchRequest(entityName: "User")
+        
+        do{
+            let fetchedUser = try moc.executeFetchRequest(userFetch) as! [User]
+            
+            if(fetchedUser.first!.unlocked10 == true) {
+                //Go to questions
+            }
+            else{
+                if(Int(fetchedUser.first!.gold!) < 100){
+                    openStore()
+                }
+                else{
+                    var currentgold = Int(fetchedUser.first!.gold!)
+                    fetchedUser.first!.setValue(currentgold - 100, forKey: "gold")
+                    
+                    fetchedUser.first!.setValue(true, forKey: "unlocked10")
+                    
+                    goldLabel.text = String(fetchedUser.first!.gold!)
+                    checkdata()
+                    
+                    do {
+                        try moc.save()
+                    } catch {
+                        fatalError("Save failed to core data")
+                    }
+                    
+                }
+            }
+            
+            
+        } catch {
+            fatalError("Core Data Error")
+        }
+    }
+    
+    @IBAction func level11(sender: AnyObject) {
+        
+        let userFetch = NSFetchRequest(entityName: "User")
+        
+        do{
+            let fetchedUser = try moc.executeFetchRequest(userFetch) as! [User]
+            
+            if(fetchedUser.first!.unlocked11 == true) {
+                //Go to questions
+            }
+            else{
+                if(Int(fetchedUser.first!.gold!) < 100){
+                    openStore()
+                }
+                else{
+                    var currentgold = Int(fetchedUser.first!.gold!)
+                    fetchedUser.first!.setValue(currentgold - 100, forKey: "gold")
+                    
+                    fetchedUser.first!.setValue(true, forKey: "unlocked11")
+                    
+                    goldLabel.text = String(fetchedUser.first!.gold!)
+                    checkdata()
+                    
+                    do {
+                        try moc.save()
+                    } catch {
+                        fatalError("Save failed to core data")
+                    }
+                    
+                }
+            }
+            
+            
+        } catch {
+            fatalError("Core Data Error")
+        }
+    }
+    
+    @IBAction func level12(sender: AnyObject) {
+        
+        let userFetch = NSFetchRequest(entityName: "User")
+        
+        do{
+            let fetchedUser = try moc.executeFetchRequest(userFetch) as! [User]
+            
+            if(fetchedUser.first!.unlocked12 == true) {
+                //Go to questions
+            }
+            else{
+                if(Int(fetchedUser.first!.gold!) < 100){
+                    openStore()
+                }
+                else{
+                    var currentgold = Int(fetchedUser.first!.gold!)
+                    fetchedUser.first!.setValue(currentgold - 100, forKey: "gold")
+                    
+                    fetchedUser.first!.setValue(true, forKey: "unlocked12")
+                    
+                    goldLabel.text = String(fetchedUser.first!.gold!)
+                    checkdata()
+                    
+                    do {
+                        try moc.save()
+                    } catch {
+                        fatalError("Save failed to core data")
+                    }
+                    
+                }
+            }
+            
+            
+        } catch {
+            fatalError("Core Data Error")
+        }
+    }
+    
+    @IBAction func level13(sender: AnyObject) {
+        
+        let userFetch = NSFetchRequest(entityName: "User")
+        
+        do{
+            let fetchedUser = try moc.executeFetchRequest(userFetch) as! [User]
+            
+            if(fetchedUser.first!.unlocked13 == true) {
+                //Go to questions
+            }
+            else{
+                if(Int(fetchedUser.first!.gold!) < 100){
+                    openStore()
+                }
+                else{
+                    var currentgold = Int(fetchedUser.first!.gold!)
+                    fetchedUser.first!.setValue(currentgold - 100, forKey: "gold")
+                    
+                    fetchedUser.first!.setValue(true, forKey: "unlocked13")
+                    
+                    goldLabel.text = String(fetchedUser.first!.gold!)
+                    checkdata()
+                    
+                    do {
+                        try moc.save()
+                    } catch {
+                        fatalError("Save failed to core data")
+                    }
+                    
+                }
+            }
+            
+            
+        } catch {
+            fatalError("Core Data Error")
+        }
+    }
+    
+    @IBAction func level14(sender: AnyObject) {
+        
+        let userFetch = NSFetchRequest(entityName: "User")
+        
+        do{
+            let fetchedUser = try moc.executeFetchRequest(userFetch) as! [User]
+            
+            if(fetchedUser.first!.unlocked14 == true) {
+                //Go to questions
+            }
+            else{
+                if(Int(fetchedUser.first!.gold!) < 100){
+                    openStore()
+                }
+                else{
+                    var currentgold = Int(fetchedUser.first!.gold!)
+                    fetchedUser.first!.setValue(currentgold - 100, forKey: "gold")
+                    
+                    fetchedUser.first!.setValue(true, forKey: "unlocked14")
+                    
+                    goldLabel.text = String(fetchedUser.first!.gold!)
+                    checkdata()
+                    
+                    do {
+                        try moc.save()
+                    } catch {
+                        fatalError("Save failed to core data")
+                    }
+                    
+                }
+            }
+            
+            
+        } catch {
+            fatalError("Core Data Error")
+        }
+    }
+    
+    @IBAction func level15(sender: AnyObject) {
+        
+        let userFetch = NSFetchRequest(entityName: "User")
+        
+        do{
+            let fetchedUser = try moc.executeFetchRequest(userFetch) as! [User]
+            
+            if(fetchedUser.first!.unlocked15 == true) {
+                //Go to questions
+            }
+            else{
+                if(Int(fetchedUser.first!.gold!) < 100){
+                    openStore()
+                }
+                else{
+                    var currentgold = Int(fetchedUser.first!.gold!)
+                    fetchedUser.first!.setValue(currentgold - 100, forKey: "gold")
+                    
+                    fetchedUser.first!.setValue(true, forKey: "unlocked15")
+                    
+                    goldLabel.text = String(fetchedUser.first!.gold!)
+                    checkdata()
+                    
+                    do {
+                        try moc.save()
+                    } catch {
+                        fatalError("Save failed to core data")
+                    }
+                    
+                }
+            }
+            
+            
+        } catch {
+            fatalError("Core Data Error")
+        }
+    }
+    
+    @IBAction func level16(sender: AnyObject) {
+        
+        let userFetch = NSFetchRequest(entityName: "User")
+        
+        do{
+            let fetchedUser = try moc.executeFetchRequest(userFetch) as! [User]
+            
+            if(fetchedUser.first!.unlocked16 == true) {
+                //Go to questions
+            }
+            else{
+                if(Int(fetchedUser.first!.gold!) < 100){
+                    openStore()
+                }
+                else{
+                    var currentgold = Int(fetchedUser.first!.gold!)
+                    fetchedUser.first!.setValue(currentgold - 100, forKey: "gold")
+                    
+                    fetchedUser.first!.setValue(true, forKey: "unlocked16")
+                    
+                    goldLabel.text = String(fetchedUser.first!.gold!)
+                    checkdata()
+                    
+                    do {
+                        try moc.save()
+                    } catch {
+                        fatalError("Save failed to core data")
+                    }
+                    
+                }
+            }
+            
+            
+        } catch {
+            fatalError("Core Data Error")
+        }
+    }
+
+    @IBAction func level17(sender: AnyObject) {
+        
+        let userFetch = NSFetchRequest(entityName: "User")
+        
+        do{
+            let fetchedUser = try moc.executeFetchRequest(userFetch) as! [User]
+            
+            if(fetchedUser.first!.unlocked17 == true) {
+                //Go to questions
+            }
+            else{
+                if(Int(fetchedUser.first!.gold!) < 100){
+                    openStore()
+                }
+                else{
+                    var currentgold = Int(fetchedUser.first!.gold!)
+                    fetchedUser.first!.setValue(currentgold - 100, forKey: "gold")
+                    
+                    fetchedUser.first!.setValue(true, forKey: "unlocked17")
+                    
+                    goldLabel.text = String(fetchedUser.first!.gold!)
+                    checkdata()
+                    
+                    do {
+                        try moc.save()
+                    } catch {
+                        fatalError("Save failed to core data")
+                    }
+                    
+                }
+            }
+            
+            
+        } catch {
+            fatalError("Core Data Error")
+        }
+    }
+    
+    
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        scrollView.contentSize.height = 1500
+        checkdata()
+    }
+
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
     
     func openStore(){
         
@@ -46,21 +663,6 @@ class LevelViewController: UIViewController {
         storeLabel.enabled = false
         
         
-    }
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        scrollView.contentSize.height = 1500
-        checkdata()
-
-
-        
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
     func checkdata() {
