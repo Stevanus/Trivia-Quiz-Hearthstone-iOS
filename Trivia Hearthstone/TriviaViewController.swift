@@ -312,7 +312,7 @@ class TriviaViewController: UIViewController {
         )
         
         
-        questions = questionsarray[questionchosen-2]
+        questions = questionsarray[questionchosen-1]
         PickQuestion()
         
     }
@@ -348,6 +348,9 @@ class TriviaViewController: UIViewController {
         }
         
         else {
+            
+            
+            
             print("Out of questions!")
             gameoverscreen.hidden = false
             self.view.backgroundColor = UIColor.blackColor()
@@ -361,11 +364,19 @@ class TriviaViewController: UIViewController {
             bgm.stop()
             
             
+            
         }
         
         
 
 
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if (segue.identifier == "gameover"){
+            let Dest : GameOverViewController = segue.destinationViewController as! GameOverViewController
+            Dest.questionchosen = questionchosen
+        }
     }
     
     func countdown(timer : NSTimer)  {

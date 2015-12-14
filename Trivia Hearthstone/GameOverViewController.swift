@@ -12,6 +12,8 @@ import Social
 class GameOverViewController: UIViewController {
 
     
+    var questionchosen = Int()
+    
     @IBAction func mainmenubutton(sender: AnyObject) {
  
     }
@@ -37,7 +39,10 @@ class GameOverViewController: UIViewController {
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        
+        if (segue.identifier == "playagain"){
+            let Dest : TriviaViewController = segue.destinationViewController as! TriviaViewController
+            Dest.questionchosen = questionchosen
+        }
     }
 
 

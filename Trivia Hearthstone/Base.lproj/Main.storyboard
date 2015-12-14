@@ -970,7 +970,7 @@
                                 <rect key="frame" x="50" y="130" width="220" height="220"/>
                                 <animations/>
                                 <connections>
-                                    <segue destination="XPm-CW-GbZ" kind="embed" id="cEw-sZ-EmB"/>
+                                    <segue destination="XPm-CW-GbZ" kind="embed" identifier="gameover" id="cEw-sZ-EmB"/>
                                 </connections>
                             </containerView>
                         </subviews>
@@ -1053,7 +1053,7 @@
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="uZb-vl-XFr" kind="show" animates="NO" id="ttg-T0-emM"/>
+                                    <segue destination="uZb-vl-XFr" kind="show" identifier="playagain" animates="NO" id="ttg-T0-emM"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uF5-rd-sIh">
@@ -1175,8 +1175,8 @@
         <image name="storeMenu.png" width="813" height="660"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="DGV-Dx-uZ0"/>
+        <segue reference="ttg-T0-emM"/>
+        <segue reference="ZdX-Ms-9J2"/>
         <segue reference="34V-r0-l31"/>
-        <segue reference="nER-6Q-Ypb"/>
     </inferredMetricsTieBreakers>
 </document>
