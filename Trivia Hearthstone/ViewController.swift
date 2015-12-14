@@ -41,11 +41,6 @@ class ViewController: UIViewController, MFMailComposeViewControllerDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-
-        
-        
-        
-
         let userFetch = NSFetchRequest(entityName: "User")
         
         do{
@@ -60,10 +55,7 @@ class ViewController: UIViewController, MFMailComposeViewControllerDelegate {
             fatalError("Core Data Error")
         }
         
-
         
-        
-
     }
     
     func initializeUser() {
@@ -73,23 +65,11 @@ class ViewController: UIViewController, MFMailComposeViewControllerDelegate {
         entity.setValue(2000, forKey:  "gold")
         entity.setValue(false, forKey: "rated")
         entity.setValue(false, forKey: "removeads")
-        entity.setValue(false, forKey: "unlocked2")
-        entity.setValue(false, forKey: "unlocked3")
-        entity.setValue(false, forKey: "unlocked4")
-        entity.setValue(false, forKey: "unlocked5")
-        entity.setValue(false, forKey: "unlocked6")
-        entity.setValue(false, forKey: "unlocked7")
-        entity.setValue(false, forKey: "unlocked8")
-        entity.setValue(false, forKey: "unlocked9")
-        entity.setValue(false, forKey: "unlocked10")
-        entity.setValue(false, forKey: "unlocked11")
-        entity.setValue(false, forKey: "unlocked12")
-        entity.setValue(false, forKey: "unlocked13")
-        entity.setValue(false, forKey: "unlocked14")
-        entity.setValue(false, forKey: "unlocked15")
-        entity.setValue(false, forKey: "unlocked16")
-        entity.setValue(false, forKey: "unlocked17")
-
+        
+        for index in 2...17 {
+            let unlockedlevel = "unlocked\(index)"
+            entity.setValue(false, forKey: unlockedlevel)
+        }
         
         do {
             try moc.save()

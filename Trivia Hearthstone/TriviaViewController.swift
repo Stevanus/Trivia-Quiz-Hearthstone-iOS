@@ -349,28 +349,26 @@ class TriviaViewController: UIViewController {
         
         else {
             
-            
-            
-            print("Out of questions!")
-            gameoverscreen.hidden = false
-            self.view.backgroundColor = UIColor.blackColor()
-            self.view.alpha = 0.8
-            clock.invalidate()
-            aButtons[0].enabled = false
-            aButtons[1].enabled = false
-            aButtons[2].enabled = false
-            aButtons[3].enabled = false
-            backLabel.enabled = false
-            bgm.stop()
-            
-            
-            
+            gameover()
         }
-        
-        
-
-
     }
+    
+    func gameover(){
+        
+        print("Out of questions!")
+        gameoverscreen.hidden = false
+        self.view.backgroundColor = UIColor.blackColor()
+        self.view.alpha = 0.8
+        clock.invalidate()
+        aButtons[0].enabled = false
+        aButtons[1].enabled = false
+        aButtons[2].enabled = false
+        aButtons[3].enabled = false
+        backLabel.enabled = false
+        bgm.stop()
+    }
+    
+    
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if (segue.identifier == "gameover"){
@@ -479,6 +477,4 @@ class TriviaViewController: UIViewController {
         
     }
     
-    
-
 }
