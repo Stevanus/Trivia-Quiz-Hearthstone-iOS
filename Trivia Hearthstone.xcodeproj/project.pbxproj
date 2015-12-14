@@ -14,9 +14,12 @@
 		595E3E811C13B1AF009B5967 /* wrong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 595E3E801C13B1AF009B5967 /* wrong.mp3 */; };
 		595E3E831C13CD49009B5967 /* Hearthstonepiano.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 595E3E821C13CD49009B5967 /* Hearthstonepiano.mp3 */; };
 		5965D3411C1D635300127258 /* mainmenu.png in Resources */ = {isa = PBXBuildFile; fileRef = 5965D3401C1D635300127258 /* mainmenu.png */; };
+		5986D3581C1ED640000F7A4D /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5986D3571C1ED640000F7A4D /* SwiftyJSON.framework */; };
+		5986D35A1C1ED6DC000F7A4D /* QuestionsData.json in Resources */ = {isa = PBXBuildFile; fileRef = 5986D3591C1ED6DC000F7A4D /* QuestionsData.json */; };
 		59B147371C12A7EB00F8F6D8 /* Questionnare.png in Resources */ = {isa = PBXBuildFile; fileRef = 59B147361C12A7EB00F8F6D8 /* Questionnare.png */; };
 		59B147391C12B6B700F8F6D8 /* TriviaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B147381C12B6B700F8F6D8 /* TriviaViewController.swift */; };
 		59B1473D1C12BB6400F8F6D8 /* backbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 59B1473C1C12BB6400F8F6D8 /* backbutton.png */; };
+		59B517451C1ED3DC00D6DCC8 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 59B517441C1ED3DC00D6DCC8 /* Podfile */; };
 		59C538641C1A86D900CCE7D0 /* locked.png in Resources */ = {isa = PBXBuildFile; fileRef = 59C538631C1A86D900CCE7D0 /* locked.png */; };
 		59C538661C1A87CA00CCE7D0 /* backplain.png in Resources */ = {isa = PBXBuildFile; fileRef = 59C538651C1A87CA00CCE7D0 /* backplain.png */; };
 		59C538681C1A8A2E00CCE7D0 /* gold.png in Resources */ = {isa = PBXBuildFile; fileRef = 59C538671C1A8A2E00CCE7D0 /* gold.png */; };
@@ -37,9 +40,12 @@
 		59F43D4B1C13FEEA00761AC2 /* GameOverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F43D4A1C13FEEA00761AC2 /* GameOverViewController.swift */; };
 		59F43D511C14093A00761AC2 /* GameOver.png in Resources */ = {isa = PBXBuildFile; fileRef = 59F43D501C14093A00761AC2 /* GameOver.png */; };
 		59F43D531C14392600761AC2 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59F43D521C14392600761AC2 /* Social.framework */; };
+		9FEFBD442A8F08BCF9428A17 /* Pods_Trivia_Hearthstone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E179E309BB63EE596DFCAE9B /* Pods_Trivia_Hearthstone.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		17B9F4EC2C9F433E91759DBF /* Pods-Trivia Hearthstone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trivia Hearthstone.release.xcconfig"; path = "Pods/Target Support Files/Pods-Trivia Hearthstone/Pods-Trivia Hearthstone.release.xcconfig"; sourceTree = "<group>"; };
+		45B5606C00FC00B1E22ED114 /* Pods-Trivia Hearthstone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trivia Hearthstone.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Trivia Hearthstone/Pods-Trivia Hearthstone.debug.xcconfig"; sourceTree = "<group>"; };
 		5900D0A81C1B660A00831218 /* LevelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelViewController.swift; sourceTree = "<group>"; };
 		5900D0B01C1BC13100831218 /* PurchaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PurchaseViewController.swift; path = ../PurchaseViewController.swift; sourceTree = "<group>"; };
 		5900D0B21C1BD07F00831218 /* storeMenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = storeMenu.png; sourceTree = "<group>"; };
@@ -47,9 +53,12 @@
 		595E3E801C13B1AF009B5967 /* wrong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wrong.mp3; sourceTree = "<group>"; };
 		595E3E821C13CD49009B5967 /* Hearthstonepiano.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Hearthstonepiano.mp3; sourceTree = "<group>"; };
 		5965D3401C1D635300127258 /* mainmenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mainmenu.png; sourceTree = "<group>"; };
+		5986D3571C1ED640000F7A4D /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "Pods/../build/Debug-iphoneos/SwiftyJSON.framework"; sourceTree = "<group>"; };
+		5986D3591C1ED6DC000F7A4D /* QuestionsData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = QuestionsData.json; sourceTree = "<group>"; };
 		59B147361C12A7EB00F8F6D8 /* Questionnare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Questionnare.png; sourceTree = "<group>"; };
 		59B147381C12B6B700F8F6D8 /* TriviaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriviaViewController.swift; sourceTree = "<group>"; };
 		59B1473C1C12BB6400F8F6D8 /* backbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backbutton.png; sourceTree = "<group>"; };
+		59B517441C1ED3DC00D6DCC8 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = "<group>"; };
 		59C538631C1A86D900CCE7D0 /* locked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = locked.png; path = ../../../../Downloads/locked.png; sourceTree = "<group>"; };
 		59C538651C1A87CA00CCE7D0 /* backplain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backplain.png; sourceTree = "<group>"; };
 		59C538671C1A8A2E00CCE7D0 /* gold.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gold.png; sourceTree = "<group>"; };
@@ -72,6 +81,7 @@
 		59F43D4A1C13FEEA00761AC2 /* GameOverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverViewController.swift; sourceTree = "<group>"; };
 		59F43D501C14093A00761AC2 /* GameOver.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GameOver.png; sourceTree = "<group>"; };
 		59F43D521C14392600761AC2 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		E179E309BB63EE596DFCAE9B /* Pods_Trivia_Hearthstone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Trivia_Hearthstone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,13 +89,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5986D3581C1ED640000F7A4D /* SwiftyJSON.framework in Frameworks */,
 				59F43D531C14392600761AC2 /* Social.framework in Frameworks */,
+				9FEFBD442A8F08BCF9428A17 /* Pods_Trivia_Hearthstone.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D6F174C30065A250CA305C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5986D3571C1ED640000F7A4D /* SwiftyJSON.framework */,
+				E179E309BB63EE596DFCAE9B /* Pods_Trivia_Hearthstone.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		59DA938C1C114BC60024A025 = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +115,8 @@
 				59F43D521C14392600761AC2 /* Social.framework */,
 				59DA93971C114BC60024A025 /* Trivia Hearthstone */,
 				59DA93961C114BC60024A025 /* Products */,
+				6E6D81B68EFDDBED89DFEE4F /* Pods */,
+				4D6F174C30065A250CA305C9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,12 +131,14 @@
 		59DA93971C114BC60024A025 /* Trivia Hearthstone */ = {
 			isa = PBXGroup;
 			children = (
+				59B517441C1ED3DC00D6DCC8 /* Podfile */,
 				5900D0B01C1BC13100831218 /* PurchaseViewController.swift */,
 				59C538721C1AAA6000CCE7D0 /* DataController.swift */,
 				59DA93981C114BC60024A025 /* AppDelegate.swift */,
 				59DA939A1C114BC60024A025 /* ViewController.swift */,
 				5900D0A81C1B660A00831218 /* LevelViewController.swift */,
 				59B147381C12B6B700F8F6D8 /* TriviaViewController.swift */,
+				5986D3591C1ED6DC000F7A4D /* QuestionsData.json */,
 				59F43D4A1C13FEEA00761AC2 /* GameOverViewController.swift */,
 				59DA939C1C114BC60024A025 /* Main.storyboard */,
 				59C5386B1C1AA91600CCE7D0 /* CoreData.xcdatamodeld */,
@@ -140,6 +165,15 @@
 			path = "Trivia Hearthstone";
 			sourceTree = "<group>";
 		};
+		6E6D81B68EFDDBED89DFEE4F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				45B5606C00FC00B1E22ED114 /* Pods-Trivia Hearthstone.debug.xcconfig */,
+				17B9F4EC2C9F433E91759DBF /* Pods-Trivia Hearthstone.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +181,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 59DA93A71C114BC60024A025 /* Build configuration list for PBXNativeTarget "Trivia Hearthstone" */;
 			buildPhases = (
+				4A7EFA27E3C79443F8911A9A /* Check Pods Manifest.lock */,
 				59DA93911C114BC60024A025 /* Sources */,
 				59DA93921C114BC60024A025 /* Frameworks */,
 				59DA93931C114BC60024A025 /* Resources */,
+				2E4DA0A8E1393BD4FC9C0A86 /* Embed Pods Frameworks */,
+				BC641BE8A4C3E4125A10C699 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -209,6 +246,7 @@
 				5900D0B31C1BD07F00831218 /* storeMenu.png in Resources */,
 				59C538661C1A87CA00CCE7D0 /* backplain.png in Resources */,
 				595E3E811C13B1AF009B5967 /* wrong.mp3 in Resources */,
+				59B517451C1ED3DC00D6DCC8 /* Podfile in Resources */,
 				59DA93AB1C11590C0024A025 /* Background.jpg in Resources */,
 				59DA93A01C114BC60024A025 /* Assets.xcassets in Resources */,
 				59DA939E1C114BC60024A025 /* Main.storyboard in Resources */,
@@ -218,10 +256,59 @@
 				59DA93B51C116DE30024A025 /* secretsymbol.png in Resources */,
 				595E3E831C13CD49009B5967 /* Hearthstonepiano.mp3 in Resources */,
 				59C538681C1A8A2E00CCE7D0 /* gold.png in Resources */,
+				5986D35A1C1ED6DC000F7A4D /* QuestionsData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2E4DA0A8E1393BD4FC9C0A86 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Trivia Hearthstone/Pods-Trivia Hearthstone-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A7EFA27E3C79443F8911A9A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BC641BE8A4C3E4125A10C699 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Trivia Hearthstone/Pods-Trivia Hearthstone-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		59DA93911C114BC60024A025 /* Sources */ = {
@@ -348,9 +435,14 @@
 		};
 		59DA93A81C114BC60024A025 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45B5606C00FC00B1E22ED114 /* Pods-Trivia Hearthstone.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = "Trivia Hearthstone/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -362,9 +454,14 @@
 		};
 		59DA93A91C114BC60024A025 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17B9F4EC2C9F433E91759DBF /* Pods-Trivia Hearthstone.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = "Trivia Hearthstone/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

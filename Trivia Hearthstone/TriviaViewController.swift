@@ -8,6 +8,7 @@
 
 import UIKit
 import AVFoundation
+import SwiftyJSON
 
 struct Question {
     var question : String!
@@ -326,8 +327,6 @@ class TriviaViewController: UIViewController {
     
     func PickQuestion(){
         
-
-        
         if questions.count > 0 {
             qNumber = 0
             qLabel.text = questions[qNumber].question
@@ -339,7 +338,6 @@ class TriviaViewController: UIViewController {
             }
             
             questions.removeAtIndex(qNumber)
-            
             
         }
         
