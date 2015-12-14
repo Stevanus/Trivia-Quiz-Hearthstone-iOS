@@ -30,7 +30,9 @@ class LevelViewController: UIViewController {
     @IBOutlet var levels: [UIButton]!
     var levelchosen = 0
     
-    
+    override func prefersStatusBarHidden() -> Bool {
+        return true
+    }
     
     @IBAction func store(sender: AnyObject) {
         openStore()

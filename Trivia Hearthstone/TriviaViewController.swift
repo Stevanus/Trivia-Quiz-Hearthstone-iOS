@@ -55,11 +55,8 @@ class TriviaViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
-        
         clock = NSTimer.scheduledTimerWithTimeInterval(1.0, target: self, selector: Selector("countdown:"), userInfo: nil, repeats: true)
 
-        
         do {
             correctSound = try AVAudioPlayer(contentsOfURL: importcorrectSound)
         } catch let error as NSError {
@@ -76,7 +73,6 @@ class TriviaViewController: UIViewController {
         
         wrongSound.volume = 0.25
         wrongSound.prepareToPlay()
-        
         
         do {
             bgm = try AVAudioPlayer(contentsOfURL: importmusic)
@@ -367,8 +363,6 @@ class TriviaViewController: UIViewController {
         backLabel.enabled = false
         bgm.stop()
     }
-    
-    
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if (segue.identifier == "gameover"){
