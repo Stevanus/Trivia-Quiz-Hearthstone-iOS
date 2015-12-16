@@ -9,6 +9,8 @@
 import UIKit
 import CoreData
 import MessageUI
+import Parse
+import iAd
 
 
 
@@ -39,7 +41,7 @@ class ViewController: UIViewController, MFMailComposeViewControllerDelegate {
     }
 
     override func viewDidLoad() {
-        super.viewDidLoad()
+        super.viewDidLoad()        
         
         let userFetch = NSFetchRequest(entityName: "User")
         

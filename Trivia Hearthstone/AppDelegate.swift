@@ -7,6 +7,9 @@
 //
 
 import UIKit
+import Parse
+import Bolts
+import CoreData
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +19,108 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        // [Optional] Power your app with Local Datastore. For more info, go to
+        // https://parse.com/docs/ios/guide#local-datastore
+        Parse.enableLocalDatastore()
+        
+        // Initialize Parse.
+        Parse.setApplicationId("j9hoXnyAFnOkbi7Zvjq935JH5VQoAphkQVguuzFH",
+            clientKey: "Gt5AqtFgUeYsWJpB6v0eMkb2OwE5HXv3NkE2OUzr")
+        
+        // [Optional] Track statistics around application opens.
+        PFAnalytics.trackAppOpenedWithLaunchOptions(launchOptions)
+        
+        
+        PFPurchase.addObserverForProduct("300gold") {
+            (transaction: SKPaymentTransaction?) -> Void in
+            
+            print("onedollars")
+            
+            let userFetch = NSFetchRequest(entityName: "User")
+            
+            do{
+                let fetchedUser = try moc.executeFetchRequest(userFetch) as! [User]
+                
+                let currentgold = Int(fetchedUser.first!.gold!)
+                fetchedUser.first!.setValue(currentgold + 300, forKey: "gold")
+                fetchedUser.first!.setValue(true, forKey: "removeads")
+                
+                
+                do {
+                    try moc.save()
+                } catch {
+                    fatalError("Save failed to core data")
+                }
+                
+                
+                
+            } catch {
+                fatalError("Core Data Error")
+            }
+            
+        }
+        PFPurchase.addObserverForProduct("700gold") {
+            (transaction: SKPaymentTransaction?) -> Void in
+            
+            print("twodollars")
+            
+            let userFetch = NSFetchRequest(entityName: "User")
+            
+            do{
+                let fetchedUser = try moc.executeFetchRequest(userFetch) as! [User]
+                
+                let currentgold = Int(fetchedUser.first!.gold!)
+                fetchedUser.first!.setValue(currentgold + 700, forKey: "gold")
+                fetchedUser.first!.setValue(true, forKey: "removeads")
+                
+                
+                do {
+                    try moc.save()
+                } catch {
+                    fatalError("Save failed to core data")
+                }
+                
+                
+                
+            } catch {
+                fatalError("Core Data Error")
+            }
+            
+            
+            
+        }
+        PFPurchase.addObserverForProduct("1500gold") {
+            (transaction: SKPaymentTransaction?) -> Void in
+            
+            print("fourdollars")
+            
+            let userFetch = NSFetchRequest(entityName: "User")
+            
+            do{
+                let fetchedUser = try moc.executeFetchRequest(userFetch) as! [User]
+                
+                let currentgold = Int(fetchedUser.first!.gold!)
+                fetchedUser.first!.setValue(currentgold + 1500, forKey: "gold")
+                fetchedUser.first!.setValue(true, forKey: "removeads")
+                
+                do {
+                    try moc.save()
+                } catch {
+                    fatalError("Save failed to core data")
+                }
+                
+                
+                
+            } catch {
+                fatalError("Core Data Error")
+            }
+            
+            
+            
+        }
+
+        
+        
         return true
     }
 

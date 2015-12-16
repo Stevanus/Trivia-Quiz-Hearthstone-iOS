@@ -9,6 +9,7 @@
 import UIKit
 import AVFoundation
 import SwiftyJSON
+import iAd
 
 /*
 struct Question {
@@ -88,6 +89,8 @@ class TriviaViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        //self.canDisplayBannerAds = true
         
         clock = NSTimer.scheduledTimerWithTimeInterval(1.0, target: self, selector: Selector("countdown:"), userInfo: nil, repeats: true)
 
