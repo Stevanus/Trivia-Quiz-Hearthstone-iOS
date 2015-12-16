@@ -14,6 +14,7 @@ import iAd
 
 
 
+
 let moc = DataController().managedObjectContext
 
 
@@ -41,7 +42,9 @@ class ViewController: UIViewController, MFMailComposeViewControllerDelegate {
     }
 
     override func viewDidLoad() {
-        super.viewDidLoad()        
+        super.viewDidLoad()
+        
+        
         
         let userFetch = NSFetchRequest(entityName: "User")
         

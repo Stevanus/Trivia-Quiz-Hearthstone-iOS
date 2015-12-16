@@ -31,6 +31,10 @@
 		5977538B1C21332B00826B1E /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5977538A1C21332B00826B1E /* libz.tbd */; };
 		5977538D1C21333400826B1E /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5977538C1C21333400826B1E /* libsqlite3.tbd */; };
 		5977538F1C21456700826B1E /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5977538E1C21456700826B1E /* iAd.framework */; };
+		597753911C21590400826B1E /* Chartboost.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 597753901C21590400826B1E /* Chartboost.framework */; };
+		597753931C21592700826B1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 597753921C21592700826B1E /* Foundation.framework */; };
+		597753951C21593800826B1E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 597753941C21593800826B1E /* UIKit.framework */; };
+		5977539B1C21726900826B1E /* purchasemenu.png in Resources */ = {isa = PBXBuildFile; fileRef = 5977539A1C21726900826B1E /* purchasemenu.png */; };
 		5986D3581C1ED640000F7A4D /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5986D3571C1ED640000F7A4D /* SwiftyJSON.framework */; };
 		5986D35A1C1ED6DC000F7A4D /* QuestionsData.json in Resources */ = {isa = PBXBuildFile; fileRef = 5986D3591C1ED6DC000F7A4D /* QuestionsData.json */; };
 		59B147371C12A7EB00F8F6D8 /* Questionnare.png in Resources */ = {isa = PBXBuildFile; fileRef = 59B147361C12A7EB00F8F6D8 /* Questionnare.png */; };
@@ -87,6 +91,11 @@
 		5977538A1C21332B00826B1E /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		5977538C1C21333400826B1E /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		5977538E1C21456700826B1E /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		597753901C21590400826B1E /* Chartboost.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Chartboost.framework; sourceTree = "<group>"; };
+		597753921C21592700826B1E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		597753941C21593800826B1E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		597753991C216B5800826B1E /* Chartboost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chartboost.h; sourceTree = "<group>"; };
+		5977539A1C21726900826B1E /* purchasemenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = purchasemenu.png; sourceTree = "<group>"; };
 		5986D3571C1ED640000F7A4D /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "Pods/../build/Debug-iphoneos/SwiftyJSON.framework"; sourceTree = "<group>"; };
 		5986D3591C1ED6DC000F7A4D /* QuestionsData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = QuestionsData.json; sourceTree = "<group>"; };
 		59B147361C12A7EB00F8F6D8 /* Questionnare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Questionnare.png; sourceTree = "<group>"; };
@@ -123,15 +132,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				597753951C21593800826B1E /* UIKit.framework in Frameworks */,
+				597753811C2132FA00826B1E /* CoreGraphics.framework in Frameworks */,
+				597753931C21592700826B1E /* Foundation.framework in Frameworks */,
+				5977536F1C212D5200826B1E /* StoreKit.framework in Frameworks */,
+				597753911C21590400826B1E /* Chartboost.framework in Frameworks */,
 				5977538F1C21456700826B1E /* iAd.framework in Frameworks */,
 				5977538D1C21333400826B1E /* libsqlite3.tbd in Frameworks */,
 				5977538B1C21332B00826B1E /* libz.tbd in Frameworks */,
 				597753891C21332000826B1E /* SystemConfiguration.framework in Frameworks */,
-				5977536F1C212D5200826B1E /* StoreKit.framework in Frameworks */,
 				597753871C21331000826B1E /* Security.framework in Frameworks */,
 				597753851C21330800826B1E /* QuartzCore.framework in Frameworks */,
 				597753831C21330100826B1E /* CoreLocation.framework in Frameworks */,
-				597753811C2132FA00826B1E /* CoreGraphics.framework in Frameworks */,
 				5977537F1C2132F200826B1E /* CFNetwork.framework in Frameworks */,
 				5977537D1C2132EB00826B1E /* AudioToolbox.framework in Frameworks */,
 				597753781C2132B400826B1E /* ParseFacebookUtils.framework in Frameworks */,
@@ -152,6 +164,9 @@
 		4D6F174C30065A250CA305C9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				597753941C21593800826B1E /* UIKit.framework */,
+				597753921C21592700826B1E /* Foundation.framework */,
+				597753901C21590400826B1E /* Chartboost.framework */,
 				5977538E1C21456700826B1E /* iAd.framework */,
 				5977538C1C21333400826B1E /* libsqlite3.tbd */,
 				5977538A1C21332B00826B1E /* libz.tbd */,
@@ -229,6 +244,8 @@
 				59C538651C1A87CA00CCE7D0 /* backplain.png */,
 				59C538671C1A8A2E00CCE7D0 /* gold.png */,
 				5900D0B21C1BD07F00831218 /* storeMenu.png */,
+				597753991C216B5800826B1E /* Chartboost.h */,
+				5977539A1C21726900826B1E /* purchasemenu.png */,
 			);
 			path = "Trivia Hearthstone";
 			sourceTree = "<group>";
@@ -324,6 +341,7 @@
 				59DA93A01C114BC60024A025 /* Assets.xcassets in Resources */,
 				59DA939E1C114BC60024A025 /* Main.storyboard in Resources */,
 				59DA93B91C1177260024A025 /* Trivia Hearthstone UI.png in Resources */,
+				5977539B1C21726900826B1E /* purchasemenu.png in Resources */,
 				595E3E7D1C13B07C009B5967 /* correct.mp3 in Resources */,
 				59F43D511C14093A00761AC2 /* GameOver.png in Resources */,
 				59DA93B51C116DE30024A025 /* secretsymbol.png in Resources */,
@@ -524,6 +542,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.stevanusiskandar.triviaandquizhearthstone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Trivia Hearthstone/Chartboost.h";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -546,6 +565,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.stevanusiskandar.triviaandquizhearthstone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Trivia Hearthstone/Chartboost.h";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

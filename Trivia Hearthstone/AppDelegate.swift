@@ -11,6 +11,7 @@ import Parse
 import Bolts
 import CoreData
 
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -18,6 +19,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+        
+        // Initialize the Chartboost library
+        Chartboost.startWithAppId("566f45fc88380903347e9ab6", appSignature: "dd49a0233d79acc2c68510f7d2913d41a1a3d241", delegate: nil)
+        
+        
+        
         // Override point for customization after application launch.
         // [Optional] Power your app with Local Datastore. For more info, go to
         // https://parse.com/docs/ios/guide#local-datastore

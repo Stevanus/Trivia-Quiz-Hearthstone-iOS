@@ -409,6 +409,8 @@ class TriviaViewController: UIViewController {
         
         else {
             
+            Chartboost.showInterstitial(CBLocationDefault)
+            
             gameover()
         }
     }
