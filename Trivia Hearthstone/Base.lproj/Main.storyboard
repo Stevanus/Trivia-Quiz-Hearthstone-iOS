@@ -966,9 +966,13 @@
                                     <segue destination="WnB-cT-yze" kind="show" animates="NO" id="GBQ-jw-TUn"/>
                                 </connections>
                             </button>
-                            <containerView hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6ma-LM-A2r">
+                            <containerView hidden="YES" opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6ma-LM-A2r">
                                 <rect key="frame" x="50" y="130" width="220" height="220"/>
                                 <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="220" id="egU-IC-tCA"/>
+                                    <constraint firstAttribute="width" constant="220" id="jOv-Cb-dUx"/>
+                                </constraints>
                                 <connections>
                                     <segue destination="XPm-CW-GbZ" kind="embed" identifier="gameover" id="cEw-sZ-EmB"/>
                                 </connections>
@@ -1001,8 +1005,10 @@
                             <constraint firstItem="g1N-BT-Mfa" firstAttribute="top" secondItem="Jg0-t5-Bnb" secondAttribute="bottom" constant="0.5" id="oCq-SI-oF2"/>
                             <constraint firstItem="gHC-Lv-Jzp" firstAttribute="top" secondItem="Wue-3Z-gay" secondAttribute="topMargin" id="t9R-LC-Icl"/>
                             <constraint firstItem="JWz-Tb-wEx" firstAttribute="centerX" secondItem="Wue-3Z-gay" secondAttribute="centerX" id="tKI-dz-Ihc"/>
+                            <constraint firstItem="6ma-LM-A2r" firstAttribute="centerY" secondItem="Wue-3Z-gay" secondAttribute="centerY" id="uKW-QE-vYa"/>
                             <constraint firstItem="DQn-0B-GZu" firstAttribute="top" secondItem="gHC-Lv-Jzp" secondAttribute="bottom" id="ufC-sX-lio"/>
                             <constraint firstItem="g1N-BT-Mfa" firstAttribute="top" secondItem="3ON-au-Cyl" secondAttribute="bottom" constant="1" id="wJb-YU-MQq"/>
+                            <constraint firstItem="6ma-LM-A2r" firstAttribute="centerX" secondItem="Wue-3Z-gay" secondAttribute="centerX" id="yvr-IO-goe"/>
                         </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
@@ -1175,8 +1181,8 @@
         <image name="storeMenu.png" width="813" height="660"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="GBQ-jw-TUn"/>
         <segue reference="DGV-Dx-uZ0"/>
-        <segue reference="34V-r0-l31"/>
         <segue reference="nER-6Q-Ypb"/>
     </inferredMetricsTieBreakers>
 </document>

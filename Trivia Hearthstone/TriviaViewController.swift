@@ -10,11 +10,39 @@ import UIKit
 import AVFoundation
 import SwiftyJSON
 
+/*
 struct Question {
     var question : String!
     var answers : [String]!
     var answer : Int!
 }
+*/
+
+extension CollectionType {
+    /// Return a copy of `self` with its elements shuffled
+    func shuffle() -> [Generator.Element] {
+        var list = Array(self)
+        list.shuffleInPlace()
+        return list
+    }
+}
+
+extension MutableCollectionType where Index == Int {
+    /// Shuffle the elements of `self` in-place.
+    mutating func shuffleInPlace() {
+        // empty and single-element collections don't shuffle
+        if count < 2 { return }
+        
+        for i in 0..<count - 1 {
+            let j = Int(arc4random_uniform(UInt32(count - i))) + i
+            guard i != j else { continue }
+            swap(&self[i], &self[j])
+        }
+    }
+}
+
+
+
 
 class TriviaViewController: UIViewController {
     
@@ -33,12 +61,14 @@ class TriviaViewController: UIViewController {
     
     
     var questionchosen = Int()
-    
+/*
     var questionsarray = [[Question]]()
     var questions = [Question]()
+*/
     
-    var qNumber = Int() // Question Number
-    var aNumber = Int() // Answer Number
+    var Level = String() // Level Number
+    var qNumber = String() // Question Number
+    var correct = Int() // Correct Answer
     
     
     @IBOutlet var displayScore: UILabel!
@@ -46,11 +76,14 @@ class TriviaViewController: UIViewController {
     
     var score = 0
     var timeleft = 7
+    var order = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20].shuffle()
     
     var clock = NSTimer()
     
     
     @IBOutlet var gameoverscreen: UIView!
+    
+    
     
 
     override func viewDidLoad() {
@@ -84,7 +117,7 @@ class TriviaViewController: UIViewController {
         bgm.numberOfLoops = -1
         bgm.play()
         
-        
+/*
         //Level 1
         questionsarray.append(
         
@@ -307,9 +340,13 @@ class TriviaViewController: UIViewController {
                 Question(question: "What is the most amount of gold you can in the arena?", answers: ["155 gold", "170 gold", "185 gold", "200 gold"], answer: 4)]
             
         )
-        
+
         
         questions = questionsarray[questionchosen-1]
+*/
+
+        
+        
         PickQuestion()
         
     }
@@ -327,7 +364,31 @@ class TriviaViewController: UIViewController {
     
     func PickQuestion(){
         
-        if questions.count > 0 {
+        let path : String = NSBundle.mainBundle().pathForResource("QuestionsData", ofType: "json") as String!
+        let jsonData = NSData(contentsOfFile: path) as NSData!
+        let readableJSON = JSON(data: jsonData, options: NSJSONReadingOptions.MutableContainers, error: nil)
+        
+        if order.count > 0 {
+            
+            Level = "Level" + "\(questionchosen)"
+            
+            qNumber = "Question" + String(order[0])
+            
+            correct = Int(readableJSON[Level][qNumber]["Correct"].string as String!)!
+            
+            qLabel.text =  readableJSON[Level][qNumber]["Question"].string as String!
+            
+            for i in 0..<aButtons.count{
+                
+                let AnswerNumber = "Answer" + String(i+1)
+                let theanswer = readableJSON[Level][qNumber][AnswerNumber].string! as String
+                aButtons[i].setTitle(theanswer, forState: UIControlState.Normal)
+            }
+            
+            order.removeAtIndex(0)
+            
+            
+            /*
             qNumber = 0
             qLabel.text = questions[qNumber].question
             
@@ -338,6 +399,8 @@ class TriviaViewController: UIViewController {
             }
             
             questions.removeAtIndex(qNumber)
+            */
+            
             
         }
         
@@ -389,7 +452,7 @@ class TriviaViewController: UIViewController {
             aButtons[2].setTitleColor(UIColor.redColor() , forState: UIControlState.Normal)
             aButtons[3].setTitleColor(UIColor.redColor() , forState: UIControlState.Normal)
             
-            aButtons[aNumber-1].setTitleColor(UIColor.yellowColor() , forState: UIControlState.Normal)
+            aButtons[correct-1].setTitleColor(UIColor.yellowColor() , forState: UIControlState.Normal)
             
             let myTimer : NSTimer = NSTimer.scheduledTimerWithTimeInterval(1.25, target: self, selector: Selector("nextQuestion:"), userInfo: nil, repeats: false)
         }
@@ -432,10 +495,12 @@ class TriviaViewController: UIViewController {
         aButtons[1].setTitleColor(UIColor.redColor() , forState: UIControlState.Normal)
         aButtons[2].setTitleColor(UIColor.redColor() , forState: UIControlState.Normal)
         aButtons[3].setTitleColor(UIColor.redColor() , forState: UIControlState.Normal)
-    
-        aButtons[aNumber-1].setTitleColor(UIColor.yellowColor() , forState: UIControlState.Normal)
         
-        if aNumber == number{
+        
+    
+        aButtons[correct-1].setTitleColor(UIColor.yellowColor() , forState: UIControlState.Normal)
+        
+        if correct == number{
             correctSound.play()
             score = score + 1
             print("Correct")

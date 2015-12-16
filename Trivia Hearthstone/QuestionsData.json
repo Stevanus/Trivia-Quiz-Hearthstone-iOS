@@ -1,19 +1,326 @@
 {
     "Level1" : {
         "Question1" : {
-            "Question" : "What is the most amount of gold you can win in the Arena?"
-            "Answer1" : "155 gold"
-            "Answer2" : "170 gold"
-            "Answer3" : "185 gold"
-            "Answer4" : "200 gold"
+            "Question" : "What is the most amount of gold you can win in the Arena?",
+            "Answer1" : "155 gold",
+            "Answer2" : "170 gold",
+            "Answer3" : "185 gold",
+            "Answer4" : "200 gold",
             "Correct" : "3"
         },
+        "Question2" : {
+            "Question" : "Who is the Lead Designer for Hearthstone?",
+            "Answer1" : "Reno Jackson",
+            "Answer2" : "Ben Brode",
+            "Answer3" : "Trump",
+            "Answer4" : "Michael Morhaime",
+            "Correct" : "2"
+        },
+        "Question3" : {
+            "Question" : "In what year was Hearthstone released?",
+            "Answer1" : "2012",
+            "Answer2" : "2013",
+            "Answer3" : "2014",
+            "Answer4" : "2015",
+            "Correct" : "3"
+        },
+        "Question4" : {
+            "Question" : "What is the name of the standard hero for mages?",
+            "Answer1" : "Alleria Windrunner",
+            "Answer2" : "Valeera Sanguinar",
+            "Answer3" : "Jane Elizabeth",
+            "Answer4" : "Jaina Proudmoore",
+            "Correct" : "4"
+        },
+        "Question5" : {
+            "Question" : "How many secrets does the Hunter class have?",
+            "Answer1" : "5",
+            "Answer2" : "6",
+            "Answer3" : "7",
+            "Answer4" : "8",
+            "Correct" : "3"
+        },
+        "Question6" : {
+            "Question" : "What is the maximum number of cards you can hold in your hand?",
+            "Answer1" : "9",
+            "Answer2" : "10",
+            "Answer3" : "11",
+            "Answer4" : "12",
+            "Correct" : "2"
+        },
+        "Question7" : {
+            "Question" : "How much mana is overloaded after playing Earth Elemental?",
+            "Answer1" : "1",
+            "Answer2" : "2",
+            "Answer3" : "3",
+            "Answer4" : "4",
+            "Correct" : "3"
+        },
+        "Question8" : {
+            "Question" : "How many classes are there in Hearthstone?",
+            "Answer1" : "9",
+            "Answer2" : "10",
+            "Answer3" : "11",
+            "Answer4" : "12",
+            "Correct" : "1"
+        },
+        "Question9" : {
+            "Question" : "How much arcane dust do you get from disenchanting a non-golden common card?",
+            "Answer1" : "5",
+            "Answer2" : "10",
+            "Answer3" : "20",
+            "Answer4" : "40",
+            "Correct" : "1"
+        },
+        "Question10" : {
+            "Question" : "How long does each turn last?",
+            "Answer1" : "60 seconds",
+            "Answer2" : "65 seconds",
+            "Answer3" : "70 seconds",
+            "Answer4" : "75 seconds",
+            "Correct" : "4"
+        },
+        "Question11" : {
+            "Question" : "How many decks can you have saved at one time?",
+            "Answer1" : "7",
+            "Answer2" : "8",
+            "Answer3" : "9",
+            "Answer4" : "10",
+            "Correct" : "3"
+        },
+        "Question12" : {
+            "Question" : "Which company developed Hearthstone?",
+            "Answer1" : "Valve Corporation",
+            "Answer2" : "Blizzard Entertainment",
+            "Answer3" : "Riot Games",
+            "Answer4" : "Mojang",
+            "Correct" : "2"
+        },
+        "Question13" : {
+            "Question" : "Starving Buzzard was nerfed to 5 mana. How much does it cost before the nerf?",
+            "Answer1" : "1 mana",
+            "Answer2" : "2 mana",
+            "Answer3" : "3 mana",
+            "Answer4" : "4 mana",
+            "Correct" : "2"
+        },
+        "Question14" : {
+            "Question" : "What is Rogue's hero power called?",
+            "Answer1" : "Equip Dagger",
+            "Answer2" : "Dagger Mastery",
+            "Answer3" : "Shadow Blade",
+            "Answer4" : "Poison Dagger",
+            "Correct" : "2"
+        },
+        "Question15" : {
+            "Question" : "How many secrets can one player play at a time?",
+            "Answer1" : "3",
+            "Answer2" : "4",
+            "Answer3" : "5",
+            "Answer4" : "6",
+            "Correct" : "3"
+        },
+        "Question16" : {
+            "Question" : "What level of rarity of is the Big Game Hunter's card?",
+            "Answer1" : "Common",
+            "Answer2" : "Rare",
+            "Answer3" : "Epic",
+            "Answer4" : "Legendary",
+            "Correct" : "3"
+        },
+        "Question17" : {
+            "Question" : "How much mana does Molten Giant cost when you have 30 health?",
+            "Answer1" : "10",
+            "Answer2" : "15",
+            "Answer3" : "20",
+            "Answer4" : "25",
+            "Correct" : "3"
+        },
+        "Question18" : {
+            "Question" : "How much damage does Fireball deal?",
+            "Answer1" : "1",
+            "Answer2" : "3",
+            "Answer3" : "6",
+            "Answer4" : "10",
+            "Correct" : "3"
+        },
+        "Question19" : {
+            "Question" : "The Shaman card Hex transforms a minion into what critter?",
+            "Answer1" : "Sheep",
+            "Answer2" : "Frog",
+            "Answer3" : "Pig",
+            "Answer4" : "Chicken",
+            "Correct" : "2"
+        },
+        "Question20" : {
+            "Question" : "What is Bloodfen Raptor's subtype?",
+            "Answer1" : "Beast",
+            "Answer2" : "Dragon",
+            "Answer3" : "Demon",
+            "Answer4" : "Murloc",
+            "Correct" : "1"
+        }
     },
     "Level2" : {
         "Question1" : {
-            
+            "Question" : "",
+            "Answer1" : "",
+            "Answer2" : "",
+            "Answer3" : "",
+            "Answer4" : "",
+            "Correct" : ""
+        },
+        "Question2" : {
+            "Question" : "",
+            "Answer1" : "",
+            "Answer2" : "",
+            "Answer3" : "",
+            "Answer4" : "",
+            "Correct" : ""
+        },
+        "Question3" : {
+            "Question" : "",
+            "Answer1" : "",
+            "Answer2" : "",
+            "Answer3" : "",
+            "Answer4" : "",
+            "Correct" : ""
+        },
+        "Question4" : {
+            "Question" : "",
+            "Answer1" : "",
+            "Answer2" : "",
+            "Answer3" : "",
+            "Answer4" : "",
+            "Correct" : ""
+        },
+        "Question5" : {
+            "Question" : "",
+            "Answer1" : "",
+            "Answer2" : "",
+            "Answer3" : "",
+            "Answer4" : "",
+            "Correct" : ""
+        },
+        "Question6" : {
+            "Question" : "",
+            "Answer1" : "",
+            "Answer2" : "",
+            "Answer3" : "",
+            "Answer4" : "",
+            "Correct" : ""
+        },
+        "Question7" : {
+            "Question" : "",
+            "Answer1" : "",
+            "Answer2" : "",
+            "Answer3" : "",
+            "Answer4" : "",
+            "Correct" : ""
+        },
+        "Question8" : {
+            "Question" : "",
+            "Answer1" : "",
+            "Answer2" : "",
+            "Answer3" : "",
+            "Answer4" : "",
+            "Correct" : ""
+        },
+        "Question9" : {
+            "Question" : "",
+            "Answer1" : "",
+            "Answer2" : "",
+            "Answer3" : "",
+            "Answer4" : "",
+            "Correct" : ""
+        },
+        "Question10" : {
+            "Question" : "",
+            "Answer1" : "",
+            "Answer2" : "",
+            "Answer3" : "",
+            "Answer4" : "",
+            "Correct" : ""
+        },
+        "Question11" : {
+            "Question" : "",
+            "Answer1" : "",
+            "Answer2" : "",
+            "Answer3" : "",
+            "Answer4" : "",
+            "Correct" : ""
+        },
+        "Question12" : {
+            "Question" : "",
+            "Answer1" : "",
+            "Answer2" : "",
+            "Answer3" : "",
+            "Answer4" : "",
+            "Correct" : ""
+        },
+        "Question13" : {
+            "Question" : "",
+            "Answer1" : "",
+            "Answer2" : "",
+            "Answer3" : "",
+            "Answer4" : "",
+            "Correct" : ""
+        },
+        "Question14" : {
+            "Question" : "",
+            "Answer1" : "",
+            "Answer2" : "",
+            "Answer3" : "",
+            "Answer4" : "",
+            "Correct" : ""
+        },
+        "Question15" : {
+            "Question" : "",
+            "Answer1" : "",
+            "Answer2" : "",
+            "Answer3" : "",
+            "Answer4" : "",
+            "Correct" : ""
+        },
+        "Question16" : {
+            "Question" : "",
+            "Answer1" : "",
+            "Answer2" : "",
+            "Answer3" : "",
+            "Answer4" : "",
+            "Correct" : ""
+        },
+        "Question17" : {
+            "Question" : "",
+            "Answer1" : "",
+            "Answer2" : "",
+            "Answer3" : "",
+            "Answer4" : "",
+            "Correct" : ""
+        },
+        "Question18" : {
+            "Question" : "",
+            "Answer1" : "",
+            "Answer2" : "",
+            "Answer3" : "",
+            "Answer4" : "",
+            "Correct" : ""
+        },
+        "Question19" : {
+            "Question" : "",
+            "Answer1" : "",
+            "Answer2" : "",
+            "Answer3" : "",
+            "Answer4" : "",
+            "Correct" : ""
+        },
+        "Question20" : {
+            "Question" : "",
+            "Answer1" : "",
+            "Answer2" : "",
+            "Answer3" : "",
+            "Answer4" : "",
+            "Correct" : ""
         }
     }
-    
-        
 }

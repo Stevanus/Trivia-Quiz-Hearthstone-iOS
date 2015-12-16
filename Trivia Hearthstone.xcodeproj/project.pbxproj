@@ -14,6 +14,7 @@
 		595E3E811C13B1AF009B5967 /* wrong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 595E3E801C13B1AF009B5967 /* wrong.mp3 */; };
 		595E3E831C13CD49009B5967 /* Hearthstonepiano.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 595E3E821C13CD49009B5967 /* Hearthstonepiano.mp3 */; };
 		5965D3411C1D635300127258 /* mainmenu.png in Resources */ = {isa = PBXBuildFile; fileRef = 5965D3401C1D635300127258 /* mainmenu.png */; };
+		5977536F1C212D5200826B1E /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5977536E1C212D5200826B1E /* StoreKit.framework */; };
 		5986D3581C1ED640000F7A4D /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5986D3571C1ED640000F7A4D /* SwiftyJSON.framework */; };
 		5986D35A1C1ED6DC000F7A4D /* QuestionsData.json in Resources */ = {isa = PBXBuildFile; fileRef = 5986D3591C1ED6DC000F7A4D /* QuestionsData.json */; };
 		59B147371C12A7EB00F8F6D8 /* Questionnare.png in Resources */ = {isa = PBXBuildFile; fileRef = 59B147361C12A7EB00F8F6D8 /* Questionnare.png */; };
@@ -53,6 +54,7 @@
 		595E3E801C13B1AF009B5967 /* wrong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wrong.mp3; sourceTree = "<group>"; };
 		595E3E821C13CD49009B5967 /* Hearthstonepiano.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Hearthstonepiano.mp3; sourceTree = "<group>"; };
 		5965D3401C1D635300127258 /* mainmenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mainmenu.png; sourceTree = "<group>"; };
+		5977536E1C212D5200826B1E /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		5986D3571C1ED640000F7A4D /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "Pods/../build/Debug-iphoneos/SwiftyJSON.framework"; sourceTree = "<group>"; };
 		5986D3591C1ED6DC000F7A4D /* QuestionsData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = QuestionsData.json; sourceTree = "<group>"; };
 		59B147361C12A7EB00F8F6D8 /* Questionnare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Questionnare.png; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 				5986D3581C1ED640000F7A4D /* SwiftyJSON.framework in Frameworks */,
 				59F43D531C14392600761AC2 /* Social.framework in Frameworks */,
 				9FEFBD442A8F08BCF9428A17 /* Pods_Trivia_Hearthstone.framework in Frameworks */,
+				5977536F1C212D5200826B1E /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,6 +104,7 @@
 		4D6F174C30065A250CA305C9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5977536E1C212D5200826B1E /* StoreKit.framework */,
 				5986D3571C1ED640000F7A4D /* SwiftyJSON.framework */,
 				E179E309BB63EE596DFCAE9B /* Pods_Trivia_Hearthstone.framework */,
 			);
@@ -209,7 +213,12 @@
 				TargetAttributes = {
 					59DA93941C114BC60024A025 = {
 						CreatedOnToolsVersion = 7.1.1;
-						DevelopmentTeam = MF5DHQZKHE;
+						DevelopmentTeam = YQ2JC54GNW;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -439,6 +448,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/build/Debug-iphoneos",
@@ -446,8 +456,9 @@
 				INFOPLIST_FILE = "Trivia Hearthstone/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kokatooentertainment.triviahearthstone.Trivia-Hearthstone";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stevanusiskandar.triviaandquizhearthstone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -458,6 +469,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/build/Debug-iphoneos",
@@ -465,8 +477,9 @@
 				INFOPLIST_FILE = "Trivia Hearthstone/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kokatooentertainment.triviahearthstone.Trivia-Hearthstone";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stevanusiskandar.triviaandquizhearthstone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

@@ -25,7 +25,6 @@ class PurchaseViewController: UIViewController {
         
     }
     
-    
     @IBAction func oneDollar(sender: AnyObject) {
     }
     
