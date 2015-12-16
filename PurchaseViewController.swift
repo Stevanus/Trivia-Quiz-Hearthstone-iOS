@@ -26,7 +26,90 @@ class PurchaseViewController: UIViewController {
     
     @IBAction func rateButton(sender: AnyObject) {
         
+        UIApplication.sharedApplication().openURL(NSURL(string : "itms-apps://itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?id=\(1068367208)&onlyLatestVersion=true&pageNumber=0&sortOrdering=1)")!);
+        
+        
+        let userFetch = NSFetchRequest(entityName: "User")
+        
+        do{
+            let fetchedUser = try moc.executeFetchRequest(userFetch) as! [User]
+            
+            let currentgold = Int(fetchedUser.first!.gold!)
+            fetchedUser.first!.setValue(currentgold + 100, forKey: "gold")
+            fetchedUser.first!.setValue(true, forKey: "removeads")
+            
+            
+            do {
+                try moc.save()
+            } catch {
+                fatalError("Save failed to core data")
+            }
+            
+            
+            
+        } catch {
+            fatalError("Core Data Error")
+        }
+        
+        
+        let parentVC = self.parentViewController as! LevelViewController
+        
+        
+        do{
+            let fetchedUser = try moc.executeFetchRequest(userFetch) as! [User]
+            
+            parentVC.goldLabel.text = String(fetchedUser.first!.gold!)
+            
+            
+        } catch {
+            fatalError("Core Data Error")
+        }
+        
     }
+    
+    
+    @IBAction func watchAds(sender: AnyObject) {
+        // Show rewarded video pre-roll message and video ad at location MainMenu. See Chartboost.h for available location options.
+        Chartboost.showRewardedVideo(CBLocationMainMenu)
+        
+        let userFetch = NSFetchRequest(entityName: "User")
+        
+        do{
+            let fetchedUser = try moc.executeFetchRequest(userFetch) as! [User]
+            
+            let currentgold = Int(fetchedUser.first!.gold!)
+            fetchedUser.first!.setValue(currentgold + 25, forKey: "gold")
+            fetchedUser.first!.setValue(true, forKey: "removeads")
+            
+            
+            do {
+                try moc.save()
+            } catch {
+                fatalError("Save failed to core data")
+            }
+            
+            
+            
+        } catch {
+            fatalError("Core Data Error")
+        }
+
+        
+        let parentVC = self.parentViewController as! LevelViewController
+        
+        
+        do{
+            let fetchedUser = try moc.executeFetchRequest(userFetch) as! [User]
+            
+            parentVC.goldLabel.text = String(fetchedUser.first!.gold!)
+            
+            
+        } catch {
+            fatalError("Core Data Error")
+        }
+        
+    }
+    
     
     @IBAction func oneDollar(sender: AnyObject) {
         
