@@ -575,76 +575,76 @@
             "Correct" : "1"
         },
         "Question12" : {
-            "Question" : "",
-            "Answer1" : "",
-            "Answer2" : "",
-            "Answer3" : "",
-            "Answer4" : "",
-            "Correct" : ""
+            "Question" : "What is the maximum number of minions in each side of the battlefield?",
+            "Answer1" : "6",
+            "Answer2" : "7",
+            "Answer3" : "8",
+            "Answer4" : "9",
+            "Correct" : "2"
         },
         "Question13" : {
-            "Question" : "",
-            "Answer1" : "",
-            "Answer2" : "",
-            "Answer3" : "",
-            "Answer4" : "",
-            "Correct" : ""
+            "Question" : "What class does Vol'jin belong to?",
+            "Answer1" : "Mage",
+            "Answer2" : "Shaman",
+            "Answer3" : "Priest",
+            "Answer4" : "Warlock",
+            "Correct" : "3"
         },
         "Question14" : {
-            "Question" : "",
-            "Answer1" : "",
-            "Answer2" : "",
-            "Answer3" : "",
-            "Answer4" : "",
-            "Correct" : ""
+            "Question" : "How much armor does Ice Barrier give you when trigerred?",
+            "Answer1" : "4",
+            "Answer2" : "6",
+            "Answer3" : "8",
+            "Answer4" : "10",
+            "Correct" : "3"
         },
         "Question15" : {
-            "Question" : "",
-            "Answer1" : "",
-            "Answer2" : "",
-            "Answer3" : "",
-            "Answer4" : "",
-            "Correct" : ""
+            "Question" : "Drawing Flame Leviathan deals how much damage to all characters?",
+            "Answer1" : "1",
+            "Answer2" : "2",
+            "Answer3" : "3",
+            "Answer4" : "4",
+            "Correct" : "2"
         },
         "Question16" : {
-            "Question" : "",
-            "Answer1" : "",
-            "Answer2" : "",
-            "Answer3" : "",
-            "Answer4" : "",
-            "Correct" : ""
+            "Question" : "Rhonin's Deathrattle adds 3 copies of what card to your hand?",
+            "Answer1" : "Arcane Explosion",
+            "Answer2" : "Arcane Missiles",
+            "Answer3" : "Arcane Blast",
+            "Answer4" : "Frostbolt",
+            "Correct" : "2"
         },
         "Question17" : {
-            "Question" : "",
-            "Answer1" : "",
-            "Answer2" : "",
-            "Answer3" : "",
-            "Answer4" : "",
-            "Correct" : ""
+            "Question" : "What is the Totem with Taunt called?",
+            "Answer1" : "Totem Golem",
+            "Answer2" : "Searing Totem",
+            "Answer3" : "Vitality Totem",
+            "Answer4" : "Stoneclaw Totem",
+            "Correct" : "4"
         },
         "Question18" : {
-            "Question" : "",
-            "Answer1" : "",
-            "Answer2" : "",
-            "Answer3" : "",
-            "Answer4" : "",
-            "Correct" : ""
+            "Question" : "The Black Knight's Battlecry destroys an enemy minion with what ability?",
+            "Answer1" : "Charge",
+            "Answer2" : "Taunt",
+            "Answer3" : "Divine Shield",
+            "Answer4" : "Deathrattle",
+            "Correct" : "2"
         },
         "Question19" : {
-            "Question" : "",
-            "Answer1" : "",
-            "Answer2" : "",
-            "Answer3" : "",
-            "Answer4" : "",
-            "Correct" : ""
+            "Question" : "At the end of your turn, Vitality Totem restores how much health to your hero?",
+            "Answer1" : "3 health",
+            "Answer2" : "4 health",
+            "Answer3" : "5 health",
+            "Answer4" : "6 health",
+            "Correct" : "2"
         },
         "Question20" : {
-            "Question" : "",
-            "Answer1" : "",
-            "Answer2" : "",
-            "Answer3" : "",
-            "Answer4" : "",
-            "Correct" : ""
+            "Question" : "What quote line does Prophet Velen say when attacking?",
+            "Answer1" : "Face the light!",
+            "Answer2" : "Does this hurt?",
+            "Answer3" : "Disqualified.",
+            "Answer4" : "I foresaw this.",
+            "Correct" : "4"
         }
     },
     "Level5" : {
