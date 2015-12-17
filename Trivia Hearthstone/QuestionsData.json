@@ -649,12 +649,12 @@
     },
     "Level5" : {
         "Question1" : {
-            "Question" : "",
-            "Answer1" : "",
-            "Answer2" : "",
-            "Answer3" : "",
-            "Answer4" : "",
-            "Correct" : ""
+            "Question" : "Magni Bronzebeard is an alternate hero that belongs to what class?",
+            "Answer1" : "Druid",
+            "Answer2" : "Rogue",
+            "Answer3" : "Shaman",
+            "Answer4" : "Warrior",
+            "Correct" : "4"
         },
         "Question2" : {
             "Question" : "",

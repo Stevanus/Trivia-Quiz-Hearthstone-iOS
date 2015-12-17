@@ -71,15 +71,15 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Background.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="pwz-uG-LQS">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="600"/>
+                                <rect key="frame" x="-4" y="0.0" width="320" height="480"/>
                                 <animations/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TRIVIA &amp; QUIZ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zih-e5-99y">
-                                <rect key="frame" x="203" y="158" width="195" height="25"/>
+                                <rect key="frame" x="63" y="98" width="195" height="25"/>
                                 <animations/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="195" id="Hh4-1I-D6f"/>
@@ -90,7 +90,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mainmenu.png" translatesAutoresizingMaskIntoConstraints="NO" id="ks8-AK-kKA">
-                                <rect key="frame" x="171" y="227" width="259" height="145"/>
+                                <rect key="frame" x="31" y="167" width="259" height="145"/>
                                 <animations/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="145" id="Hhh-MZ-s5N"/>
@@ -98,7 +98,7 @@
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bPL-UL-RKj">
-                                <rect key="frame" x="219" y="308" width="162" height="33"/>
+                                <rect key="frame" x="79" y="248" width="162" height="33"/>
                                 <animations/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="33" id="26b-9d-STi"/>
@@ -113,7 +113,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Utv-0s-OEb">
-                                <rect key="frame" x="219" y="259" width="162" height="32"/>
+                                <rect key="frame" x="79" y="199" width="162" height="32"/>
                                 <animations/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="162" id="Rwh-qF-jW6"/>
@@ -128,7 +128,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HEARTHSTONE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1gs-4f-q0Q">
-                                <rect key="frame" x="200" y="191" width="200" height="33"/>
+                                <rect key="frame" x="60" y="131" width="200" height="33"/>
                                 <animations/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="33" id="4Wv-rE-BQT"/>
@@ -139,7 +139,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="secretsymbol.png" translatesAutoresizingMaskIntoConstraints="NO" id="gGj-1b-uzZ">
-                                <rect key="frame" x="261" y="88" width="79" height="62"/>
+                                <rect key="frame" x="121" y="28" width="79" height="62"/>
                                 <animations/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="79" id="0xF-In-bir"/>
@@ -147,7 +147,7 @@
                                 </constraints>
                             </imageView>
                             <adBannerView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DVI-qN-3Ja">
-                                <rect key="frame" x="0.0" y="534" width="320" height="66"/>
+                                <rect key="frame" x="-4" y="414" width="320" height="66"/>
                                 <animations/>
                             </adBannerView>
                         </subviews>
@@ -1197,8 +1197,8 @@
         <image name="secretsymbol.png" width="300" height="300"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="GBQ-jw-TUn"/>
-        <segue reference="DGV-Dx-uZ0"/>
+        <segue reference="34V-r0-l31"/>
         <segue reference="nER-6Q-Ypb"/>
+        <segue reference="DGV-Dx-uZ0"/>
     </inferredMetricsTieBreakers>
 </document>

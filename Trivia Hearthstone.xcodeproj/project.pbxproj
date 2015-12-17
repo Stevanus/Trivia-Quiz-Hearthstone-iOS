@@ -10,6 +10,7 @@
 		5900D0A91C1B660A00831218 /* LevelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5900D0A81C1B660A00831218 /* LevelViewController.swift */; };
 		5900D0B11C1BC13100831218 /* PurchaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5900D0B01C1BC13100831218 /* PurchaseViewController.swift */; };
 		5900D0B31C1BD07F00831218 /* storeMenu.png in Resources */ = {isa = PBXBuildFile; fileRef = 5900D0B21C1BD07F00831218 /* storeMenu.png */; };
+		592A4C161C22C475004761CE /* purchasemenu.png in Resources */ = {isa = PBXBuildFile; fileRef = 592A4C151C22C475004761CE /* purchasemenu.png */; };
 		595E3E7D1C13B07C009B5967 /* correct.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 595E3E7C1C13B07C009B5967 /* correct.mp3 */; };
 		595E3E811C13B1AF009B5967 /* wrong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 595E3E801C13B1AF009B5967 /* wrong.mp3 */; };
 		595E3E831C13CD49009B5967 /* Hearthstonepiano.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 595E3E821C13CD49009B5967 /* Hearthstonepiano.mp3 */; };
@@ -34,7 +35,6 @@
 		597753911C21590400826B1E /* Chartboost.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 597753901C21590400826B1E /* Chartboost.framework */; };
 		597753931C21592700826B1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 597753921C21592700826B1E /* Foundation.framework */; };
 		597753951C21593800826B1E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 597753941C21593800826B1E /* UIKit.framework */; };
-		5977539B1C21726900826B1E /* purchasemenu.png in Resources */ = {isa = PBXBuildFile; fileRef = 5977539A1C21726900826B1E /* purchasemenu.png */; };
 		5986D3581C1ED640000F7A4D /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5986D3571C1ED640000F7A4D /* SwiftyJSON.framework */; };
 		5986D35A1C1ED6DC000F7A4D /* QuestionsData.json in Resources */ = {isa = PBXBuildFile; fileRef = 5986D3591C1ED6DC000F7A4D /* QuestionsData.json */; };
 		59B147371C12A7EB00F8F6D8 /* Questionnare.png in Resources */ = {isa = PBXBuildFile; fileRef = 59B147361C12A7EB00F8F6D8 /* Questionnare.png */; };
@@ -70,6 +70,7 @@
 		5900D0A81C1B660A00831218 /* LevelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelViewController.swift; sourceTree = "<group>"; };
 		5900D0B01C1BC13100831218 /* PurchaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PurchaseViewController.swift; path = ../PurchaseViewController.swift; sourceTree = "<group>"; };
 		5900D0B21C1BD07F00831218 /* storeMenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = storeMenu.png; sourceTree = "<group>"; };
+		592A4C151C22C475004761CE /* purchasemenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = purchasemenu.png; sourceTree = "<group>"; };
 		595E3E7C1C13B07C009B5967 /* correct.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = correct.mp3; sourceTree = "<group>"; };
 		595E3E801C13B1AF009B5967 /* wrong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wrong.mp3; sourceTree = "<group>"; };
 		595E3E821C13CD49009B5967 /* Hearthstonepiano.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Hearthstonepiano.mp3; sourceTree = "<group>"; };
@@ -95,7 +96,6 @@
 		597753921C21592700826B1E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		597753941C21593800826B1E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		597753991C216B5800826B1E /* Chartboost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chartboost.h; sourceTree = "<group>"; };
-		5977539A1C21726900826B1E /* purchasemenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = purchasemenu.png; sourceTree = "<group>"; };
 		5986D3571C1ED640000F7A4D /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "Pods/../build/Debug-iphoneos/SwiftyJSON.framework"; sourceTree = "<group>"; };
 		5986D3591C1ED6DC000F7A4D /* QuestionsData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = QuestionsData.json; sourceTree = "<group>"; };
 		59B147361C12A7EB00F8F6D8 /* Questionnare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Questionnare.png; sourceTree = "<group>"; };
@@ -244,8 +244,8 @@
 				59C538651C1A87CA00CCE7D0 /* backplain.png */,
 				59C538671C1A8A2E00CCE7D0 /* gold.png */,
 				5900D0B21C1BD07F00831218 /* storeMenu.png */,
+				592A4C151C22C475004761CE /* purchasemenu.png */,
 				597753991C216B5800826B1E /* Chartboost.h */,
-				5977539A1C21726900826B1E /* purchasemenu.png */,
 			);
 			path = "Trivia Hearthstone";
 			sourceTree = "<group>";
@@ -341,7 +341,7 @@
 				59DA93A01C114BC60024A025 /* Assets.xcassets in Resources */,
 				59DA939E1C114BC60024A025 /* Main.storyboard in Resources */,
 				59DA93B91C1177260024A025 /* Trivia Hearthstone UI.png in Resources */,
-				5977539B1C21726900826B1E /* purchasemenu.png in Resources */,
+				592A4C161C22C475004761CE /* purchasemenu.png in Resources */,
 				595E3E7D1C13B07C009B5967 /* correct.mp3 in Resources */,
 				59F43D511C14093A00761AC2 /* GameOver.png in Resources */,
 				59DA93B51C116DE30024A025 /* secretsymbol.png in Resources */,

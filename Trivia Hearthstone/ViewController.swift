@@ -29,7 +29,7 @@ class ViewController: UIViewController, MFMailComposeViewControllerDelegate {
         if (MFMailComposeViewController.canSendMail()) {
             
             let emailTitle = "Trivia & Quiz Hearthstone Feedback"
-            let toRecipients = ["kokatooentertainment@gmail.com"]
+            let toRecipients = ["feedbackstevanus@gmail.com"]
             
             let mc : MFMailComposeViewController = MFMailComposeViewController()
             

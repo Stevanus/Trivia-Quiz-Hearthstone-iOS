@@ -78,7 +78,7 @@ class PurchaseViewController: UIViewController {
             let fetchedUser = try moc.executeFetchRequest(userFetch) as! [User]
             
             let currentgold = Int(fetchedUser.first!.gold!)
-            fetchedUser.first!.setValue(currentgold + 25, forKey: "gold")
+            fetchedUser.first!.setValue(currentgold + 50, forKey: "gold")
             fetchedUser.first!.setValue(true, forKey: "removeads")
             
             
