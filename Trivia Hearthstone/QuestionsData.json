@@ -811,84 +811,84 @@
     },
     "Level6" : {
         "Question1" : {
-            "Question" : "",
-            "Answer1" : "",
-            "Answer2" : "",
-            "Answer3" : "",
-            "Answer4" : "",
-            "Correct" : ""
+            "Question" : "Which minion is NOT a Pirate subtype?",
+            "Answer1" : "Buccaneer",
+            "Answer2" : "Bloodsail Corsair",
+            "Answer3" : "Southsea Deckhand",
+            "Answer4" : "Shady Dealer",
+            "Correct" : "4"
         },
         "Question2" : {
-            "Question" : "",
-            "Answer1" : "",
-            "Answer2" : "",
-            "Answer3" : "",
-            "Answer4" : "",
-            "Correct" : ""
+            "Question" : "Sludge Belcher's Deatrattle summons what minion?",
+            "Answer1" : "Gnoll",
+            "Answer2" : "Ooze",
+            "Answer3" : "Scarab",
+            "Answer4" : "Slime",
+            "Correct" : "4"
         },
         "Question3" : {
-            "Question" : "",
-            "Answer1" : "",
-            "Answer2" : "",
-            "Answer3" : "",
-            "Answer4" : "",
-            "Correct" : ""
+            "Question" : "Cairne Bloodhoof's Deathrattle summons what minion?",
+            "Answer1" : "Baine Bloodhoof",
+            "Answer2" : "Perith Stormhoof",
+            "Answer3" : "Tauren Warrior",
+            "Answer4" : "Elite Tauren Chieftain",
+            "Correct" : "1"
         },
         "Question4" : {
-            "Question" : "",
-            "Answer1" : "",
-            "Answer2" : "",
-            "Answer3" : "",
-            "Answer4" : "",
-            "Correct" : ""
+            "Question" : "How many different 'Power Chord' cards are there from Elite Tauren Chieftain?",
+            "Answer1" : "2",
+            "Answer2" : "3",
+            "Answer3" : "4",
+            "Answer4" : "5",
+            "Correct" : "2"
         },
         "Question5" : {
-            "Question" : "",
-            "Answer1" : "",
-            "Answer2" : "",
-            "Answer3" : "",
-            "Answer4" : "",
-            "Correct" : ""
+            "Question" : "How much dust does it cost to craft a Golden Legendary?",
+            "Answer1" : "800",
+            "Answer2" : "1600",
+            "Answer3" : "3200",
+            "Answer4" : "6400",
+            "Correct" : "3"
         },
         "Question6" : {
-            "Question" : "",
-            "Answer1" : "",
-            "Answer2" : "",
-            "Answer3" : "",
-            "Answer4" : "",
-            "Correct" : ""
+            "Question" : "How many collectible cards are there from the League of Explorers set?",
+            "Answer1" : "40",
+            "Answer2" : "45",
+            "Answer3" : "50",
+            "Answer4" : "55",
+            "Correct" : "2"
         },
         "Question7" : {
-            "Question" : "",
-            "Answer1" : "",
-            "Answer2" : "",
-            "Answer3" : "",
-            "Answer4" : "",
-            "Correct" : ""
+            "Question" : "In what card set was the 'Discover' triggered effect introduced?",
+            "Answer1" : "Goblins vs Gnomes",
+            "Answer2" : "Blackrock Mountain",
+            "Answer3" : "Grand Tournament",
+            "Answer4" : "League of Explorers",
+            "Correct" : "4"
         },
         "Question8" : {
-            "Question" : "",
-            "Answer1" : "",
-            "Answer2" : "",
-            "Answer3" : "",
-            "Answer4" : "",
-            "Correct" : ""
+            "Question" : "What level of rarity of is Azure Drake?",
+            "Answer1" : "Common",
+            "Answer2" : "Rare",
+            "Answer3" : "Epic",
+            "Answer4" : "Legendary",
+            "Correct" : "2"
         },
         "Question9" : {
-            "Question" : "",
-            "Answer1" : "",
-            "Answer2" : "",
-            "Answer3" : "",
-            "Answer4" : "",
-            "Correct" : ""
+            "Question" : "What card subtype is most presented in Blackrock Mountain Adventure?",
+            "Answer1" : "Beast",
+            "Answer2" : "Demon",
+            "Answer3" : "Dragon",
+            "Answer4" : "Murloc",
+            "Correct" : "3"
         },
         "Question10" : {
-            "Question" : "",
-            "Answer1" : "",
-            "Answer2" : "",
-            "Answer3" : "",
-            "Answer4" : "",
-            "Correct" : ""
+            "Question" : "Nightblade's Battlecry deals how much damage to enemy hero?",
+            "Answer1" : "2 damage",
+            "Answer2" : "3 damage",
+            "Answer3" : "4 damage",
+            "Answer4" : "5 damage",
+            "Correct" : "2"
         },
         "Question11" : {
             "Question" : "",
