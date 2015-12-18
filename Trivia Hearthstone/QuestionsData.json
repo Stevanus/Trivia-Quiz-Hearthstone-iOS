@@ -153,7 +153,7 @@
             "Correct" : "2"
         },
         "Question20" : {
-            "Question" : "What is Bloodfen Raptor's subtype?",
+            "Question" : "What is Bloodfen Raptor's race?",
             "Answer1" : "Beast",
             "Answer2" : "Dragon",
             "Answer3" : "Demon",
@@ -259,7 +259,7 @@
             "Correct" : "2"
         },
         "Question13" : {
-            "Question" : "How much is Emperor Thaurissan's summoning cost?",
+            "Question" : "How much mana is Emperor Thaurissan's summoning cost?",
             "Answer1" : "5",
             "Answer2" : "6",
             "Answer3" : "7",
@@ -421,7 +421,7 @@
             "Correct" : "2"
         },
         "Question13" : {
-            "Question" : "How much is Wisp's summoning cost?",
+            "Question" : "How much mana is Wisp's summoning cost?",
             "Answer1" : "0 mana",
             "Answer2" : "1 mana",
             "Answer3" : "2 mana",
@@ -519,7 +519,7 @@
             "Correct" : "3"
         },
         "Question5" : {
-            "Question" : "How much is Dreadsteed's summoning cost?",
+            "Question" : "How much mana is Dreadsteed's summoning cost?",
             "Answer1" : "3",
             "Answer2" : "4",
             "Answer3" : "5",
@@ -551,7 +551,7 @@
             "Correct" : "2"
         },
         "Question9" : {
-            "Question" : "What is Blood Imp's subtype?",
+            "Question" : "What is Blood Imp's race?",
             "Answer1" : "Beast",
             "Answer2" : "Demon",
             "Answer3" : "General",
@@ -785,7 +785,7 @@
             "Correct" : "2"
         },
         "Question18" : {
-            "Question" : "Which of the following card is a Demon subtype?",
+            "Question" : "Which of the following card is a Demon race?",
             "Answer1" : "Ogre Magi",
             "Answer2" : "Dark Peddler",
             "Answer3" : "Auchenai Soulpriest",
@@ -811,7 +811,7 @@
     },
     "Level6" : {
         "Question1" : {
-            "Question" : "Which minion is NOT a Pirate subtype?",
+            "Question" : "Which minion is NOT a Pirate race?",
             "Answer1" : "Buccaneer",
             "Answer2" : "Bloodsail Corsair",
             "Answer3" : "Southsea Deckhand",
@@ -867,7 +867,7 @@
             "Correct" : "4"
         },
         "Question8" : {
-            "Question" : "What level of rarity of is Azure Drake?",
+            "Question" : "What level of rarity is Azure Drake?",
             "Answer1" : "Common",
             "Answer2" : "Rare",
             "Answer3" : "Epic",
@@ -875,7 +875,7 @@
             "Correct" : "2"
         },
         "Question9" : {
-            "Question" : "What card subtype is most presented in Blackrock Mountain Adventure?",
+            "Question" : "What race is most presented in Blackrock Mountain Adventure?",
             "Answer1" : "Beast",
             "Answer2" : "Demon",
             "Answer3" : "Dragon",
@@ -891,256 +891,256 @@
             "Correct" : "2"
         },
         "Question11" : {
-            "Question" : "",
-            "Answer1" : "",
-            "Answer2" : "",
-            "Answer3" : "",
-            "Answer4" : "",
-            "Correct" : ""
+            "Question" : "What is the final boss for the Blackrock Mountain Adventure?",
+            "Answer1" : "Chromaggus",
+            "Answer2" : "Majordomo Executus",
+            "Answer3" : "Nefarian",
+            "Answer4" : "Ragnaros",
+            "Correct" : "3"
         },
         "Question12" : {
-            "Question" : "",
-            "Answer1" : "",
-            "Answer2" : "",
-            "Answer3" : "",
-            "Answer4" : "",
-            "Correct" : ""
+            "Question" : "How much mana does Gang Up cost to play?",
+            "Answer1" : "1",
+            "Answer2" : "2",
+            "Answer3" : "3",
+            "Answer4" : "4",
+            "Correct" : "2"
         },
         "Question13" : {
-            "Question" : "",
-            "Answer1" : "",
-            "Answer2" : "",
-            "Answer3" : "",
-            "Answer4" : "",
-            "Correct" : ""
+            "Question" : "Flamewalker belongs to what class?",
+            "Answer1" : "Druid",
+            "Answer2" : "Mage",
+            "Answer3" : "Shaman",
+            "Answer4" : "Warlock",
+            "Correct" : "2"
         },
         "Question14" : {
-            "Question" : "",
-            "Answer1" : "",
-            "Answer2" : "",
-            "Answer3" : "",
-            "Answer4" : "",
-            "Correct" : ""
+            "Question" : "Archaedas is a boss in League of Explorers on which wing?",
+            "Answer1" : "Temple of Orsis",
+            "Answer2" : "Uldaman",
+            "Answer3" : "The Ruined City",
+            "Answer4" : "Hall of Explorers",
+            "Correct" : "2"
         },
         "Question15" : {
-            "Question" : "",
-            "Answer1" : "",
-            "Answer2" : "",
-            "Answer3" : "",
-            "Answer4" : "",
-            "Correct" : ""
+            "Question" : "Brann Bronzebeard causes what abilities to trigger twice?",
+            "Answer1" : "Battlecry",
+            "Answer2" : "Deathrattle",
+            "Answer3" : "Discover",
+            "Answer4" : "Inspire",
+            "Correct" : "1"
         },
         "Question16" : {
-            "Question" : "",
-            "Answer1" : "",
-            "Answer2" : "",
-            "Answer3" : "",
-            "Answer4" : "",
-            "Correct" : ""
+            "Question" : "Which minion has the Mega-Windfury ability?",
+            "Answer1" : "Al'Akir the Windlord",
+            "Answer2" : "Thaddius",
+            "Answer3" : "Mimiron's Head",
+            "Answer4" : "V-07-TR-0N",
+            "Correct" : "4"
         },
         "Question17" : {
-            "Question" : "",
-            "Answer1" : "",
-            "Answer2" : "",
-            "Answer3" : "",
-            "Answer4" : "",
-            "Correct" : ""
+            "Question" : "How much gold does it cost to buy a single card pack?",
+            "Answer1" : "80",
+            "Answer2" : "100",
+            "Answer3" : "120",
+            "Answer4" : "150",
+            "Correct" : "2"
         },
         "Question18" : {
-            "Question" : "",
-            "Answer1" : "",
-            "Answer2" : "",
-            "Answer3" : "",
-            "Answer4" : "",
-            "Correct" : ""
+            "Question" : "Opening a pack, an orange glow means the card is of what quality?",
+            "Answer1" : "Common",
+            "Answer2" : "Rare",
+            "Answer3" : "Epic",
+            "Answer4" : "Legendary",
+            "Correct" : "4"
         },
         "Question19" : {
-            "Question" : "",
-            "Answer1" : "",
-            "Answer2" : "",
-            "Answer3" : "",
-            "Answer4" : "",
-            "Correct" : ""
+            "Question" : "How many regions/servers is Hearthstone divided into?",
+            "Answer1" : "2",
+            "Answer2" : "3",
+            "Answer3" : "4",
+            "Answer4" : "5",
+            "Correct" : "3"
         },
         "Question20" : {
-            "Question" : "",
-            "Answer1" : "",
-            "Answer2" : "",
-            "Answer3" : "",
-            "Answer4" : "",
-            "Correct" : ""
+            "Question" : "In what city does the Hearthstone World Championship finals take place?",
+            "Answer1" : "Anaheim",
+            "Answer2" : "Los Angeles",
+            "Answer3" : "New York City",
+            "Answer4" : "Seoul",
+            "Correct" : "1"
         }
     },
     "Level7" : {
         "Question1" : {
-            "Question" : "",
-            "Answer1" : "",
-            "Answer2" : "",
-            "Answer3" : "",
-            "Answer4" : "",
-            "Correct" : ""
+            "Question" : "Playing Unstable Portal is most likely going to get you what?",
+            "Answer1" : "1 mana minion",
+            "Answer2" : "3 mana minion",
+            "Answer3" : "6 mana minion",
+            "Answer4" : "A spell",
+            "Correct" : "2"
         },
         "Question2" : {
-            "Question" : "",
-            "Answer1" : "",
-            "Answer2" : "",
-            "Answer3" : "",
-            "Answer4" : "",
-            "Correct" : ""
+            "Question" : "Officially RNG stands for Random _______?",
+            "Answer1" : "Number Gimmick",
+            "Answer2" : "Number Game",
+            "Answer3" : "Number Generator",
+            "Answer4" : "Number God",
+            "Correct" : "3"
         },
         "Question3" : {
-            "Question" : "",
-            "Answer1" : "",
-            "Answer2" : "",
-            "Answer3" : "",
-            "Answer4" : "",
-            "Correct" : ""
+            "Question" : "In Hearthstone, what does the term 'Ping' mean?",
+            "Answer1" : "Deal 1 damage",
+            "Answer2" : "Draw 1 card",
+            "Answer3" : "Kill opponent hero",
+            "Answer4" : "Use the coin",
+            "Correct" : "1"
         },
         "Question4" : {
-            "Question" : "",
-            "Answer1" : "",
-            "Answer2" : "",
-            "Answer3" : "",
-            "Answer4" : "",
-            "Correct" : ""
+            "Question" : "What nationality is the Hearthstone streamer 'Kripparrian'?",
+            "Answer1" : "American",
+            "Answer2" : "Brazilian",
+            "Answer3" : "Canadian",
+            "Answer4" : "German",
+            "Correct" : "3"
         },
         "Question5" : {
-            "Question" : "",
-            "Answer1" : "",
-            "Answer2" : "",
-            "Answer3" : "",
-            "Answer4" : "",
-            "Correct" : ""
+            "Question" : "Real-world gatherings of Hearthstone are usually called what?",
+            "Answer1" : "Arena Gathering",
+            "Answer2" : "Fireside Gathering",
+            "Answer3" : "The Gathering",
+            "Answer4" : "Warcraft Party",
+            "Correct" : "2"
         },
         "Question6" : {
-            "Question" : "",
-            "Answer1" : "",
-            "Answer2" : "",
-            "Answer3" : "",
-            "Answer4" : "",
-            "Correct" : ""
+            "Question" : "In what event was Hearthstone first publicly announced?",
+            "Answer1" : "BlizzCon 2013",
+            "Answer2" : "Comic-Con 2013",
+            "Answer3" : "E3 2013",
+            "Answer4" : "PAX 2013",
+            "Correct" : "4"
         },
         "Question7" : {
-            "Question" : "",
-            "Answer1" : "",
-            "Answer2" : "",
-            "Answer3" : "",
-            "Answer4" : "",
-            "Correct" : ""
+            "Question" : "How much mana is Grim Patron's summoning cost?",
+            "Answer1" : "3 mana",
+            "Answer2" : "4 mana",
+            "Answer3" : "5 mana",
+            "Answer4" : "6 mana",
+            "Correct" : "3"
         },
         "Question8" : {
-            "Question" : "",
-            "Answer1" : "",
-            "Answer2" : "",
-            "Answer3" : "",
-            "Answer4" : "",
-            "Correct" : ""
+            "Question" : "Which of the following Hero Class has NO Weapon cards?",
+            "Answer1" : "Mage",
+            "Answer2" : "Rogue",
+            "Answer3" : "Paladin",
+            "Answer4" : "Hunter",
+            "Correct" : "1"
         },
         "Question9" : {
-            "Question" : "",
-            "Answer1" : "",
-            "Answer2" : "",
-            "Answer3" : "",
-            "Answer4" : "",
-            "Correct" : ""
+            "Question" : "What is Ysera's race?",
+            "Answer1" : "Beast",
+            "Answer2" : "Demon",
+            "Answer3" : "Dragon",
+            "Answer4" : "Murloc",
+            "Correct" : "3"
         },
         "Question10" : {
-            "Question" : "",
-            "Answer1" : "",
-            "Answer2" : "",
-            "Answer3" : "",
-            "Answer4" : "",
-            "Correct" : ""
+            "Question" : "How much attack does Worgen Infiltrator have?",
+            "Answer1" : "1 attack",
+            "Answer2" : "2 attack",
+            "Answer3" : "3 attack",
+            "Answer4" : "4 attack",
+            "Correct" : "2"
         },
         "Question11" : {
-            "Question" : "",
-            "Answer1" : "",
-            "Answer2" : "",
-            "Answer3" : "",
-            "Answer4" : "",
-            "Correct" : ""
+            "Question" : "What is the level cap of each Hero?",
+            "Answer1" : "Level 40",
+            "Answer2" : "Level 50",
+            "Answer3" : "Level 60",
+            "Answer4" : "Level 70",
+            "Correct" : "3"
         },
         "Question12" : {
-            "Question" : "",
-            "Answer1" : "",
-            "Answer2" : "",
-            "Answer3" : "",
-            "Answer4" : "",
-            "Correct" : ""
+            "Question" : "What is the approximate % of players that reach Legend at end of season?",
+            "Answer1" : "0.1%",
+            "Answer2" : "0.5%",
+            "Answer3" : "1%",
+            "Answer4" : "2%",
+            "Correct" : "2"
         },
         "Question13" : {
-            "Question" : "",
-            "Answer1" : "",
-            "Answer2" : "",
-            "Answer3" : "",
-            "Answer4" : "",
-            "Correct" : ""
+            "Question" : "How many people were in the original Hearthstone development team?",
+            "Answer1" : "5",
+            "Answer2" : "10",
+            "Answer3" : "15",
+            "Answer4" : "20",
+            "Correct" : "3"
         },
         "Question14" : {
-            "Question" : "",
-            "Answer1" : "",
-            "Answer2" : "",
-            "Answer3" : "",
-            "Answer4" : "",
-            "Correct" : ""
+            "Question" : "What is the name of the development team responsible for Hearthstone?",
+            "Answer1" : "Warcraft Rumble",
+            "Answer2" : "Blizz Card",
+            "Answer3" : "Team Hearth",
+            "Answer4" : "Team 5",
+            "Correct" : "4"
         },
         "Question15" : {
-            "Question" : "",
-            "Answer1" : "",
-            "Answer2" : "",
-            "Answer3" : "",
-            "Answer4" : "",
-            "Correct" : ""
+            "Question" : "What was the main theme for Ranked Season 1?",
+            "Answer1" : "Pandamonium",
+            "Answer2" : "Plundering Pirates!",
+            "Answer3" : "Nature Rises!",
+            "Answer4" : "Go Ninja, Go!",
+            "Correct" : "1"
         },
         "Question16" : {
-            "Question" : "",
-            "Answer1" : "",
-            "Answer2" : "",
-            "Answer3" : "",
-            "Answer4" : "",
-            "Correct" : ""
+            "Question" : "The card Sprint draws you how many cards?",
+            "Answer1" : "2 cards",
+            "Answer2" : "3 cards",
+            "Answer3" : "4 cards",
+            "Answer4" : "5 cards",
+            "Correct" : "3"
         },
         "Question17" : {
-            "Question" : "",
-            "Answer1" : "",
-            "Answer2" : "",
-            "Answer3" : "",
-            "Answer4" : "",
-            "Correct" : ""
+            "Question" : "How much mana does Vanish cost to play?",
+            "Answer1" : "5 mana",
+            "Answer2" : "6 mana",
+            "Answer3" : "7 mana",
+            "Answer4" : "8 mana",
+            "Correct" : "2"
         },
         "Question18" : {
-            "Question" : "",
-            "Answer1" : "",
-            "Answer2" : "",
-            "Answer3" : "",
-            "Answer4" : "",
-            "Correct" : ""
+            "Question" : "What level of rarity is Nerubian Egg?",
+            "Answer1" : "Common",
+            "Answer2" : "Rare",
+            "Answer3" : "Epic",
+            "Answer4" : "Legendary",
+            "Correct" : "2"
         },
         "Question19" : {
-            "Question" : "",
-            "Answer1" : "",
-            "Answer2" : "",
-            "Answer3" : "",
-            "Answer4" : "",
-            "Correct" : ""
+            "Question" : "What minion gives your opponent Bananas?",
+            "Answer1" : "Fierce Monkey",
+            "Answer2" : "Ironbark Protector",
+            "Answer3" : "Golden Monkey",
+            "Answer4" : "King Mukla",
+            "Correct" : "4"
         },
         "Question20" : {
-            "Question" : "",
-            "Answer1" : "",
-            "Answer2" : "",
-            "Answer3" : "",
-            "Answer4" : "",
-            "Correct" : ""
+            "Question" : "What is Defias Ringleader's quote line after being summoned?",
+            "Answer1" : "Pst. Want a deal?",
+            "Answer2" : "Ha, this guy's toast.",
+            "Answer3" : "This is our town, scrub.",
+            "Answer4" : "Yeah, beat it!",
+            "Correct" : "3"
         }
     },
     "Level8" : {
         "Question1" : {
-            "Question" : "",
-            "Answer1" : "",
-            "Answer2" : "",
-            "Answer3" : "",
-            "Answer4" : "",
-            "Correct" : ""
+            "Question" : "In Hearthstone, what does the term 'OTK' stand for?",
+            "Answer1" : "On The Kill",
+            "Answer2" : "On The Kick",
+            "Answer3" : "One Turn Kill",
+            "Answer4" : "Overload The Kill",
+            "Correct" : "3"
         },
         "Question2" : {
             "Question" : "",
@@ -1297,12 +1297,12 @@
     },
     "Level9" : {
         "Question1" : {
-            "Question" : "",
-            "Answer1" : "",
-            "Answer2" : "",
-            "Answer3" : "",
-            "Answer4" : "",
-            "Correct" : ""
+            "Question" : "In Hearthstone, what does the term 'AoE' stand for?",
+            "Answer1" : "Area of Effect",
+            "Answer2" : "Area of Explosion",
+            "Answer3" : "Area of Evil",
+            "Answer4" : "Apple of Eden",
+            "Correct" : "1"
         },
         "Question2" : {
             "Question" : "",
