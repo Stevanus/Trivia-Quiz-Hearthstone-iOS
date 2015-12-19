@@ -43,7 +43,7 @@ class ViewController: UIViewController, MFMailComposeViewControllerDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        checkads()
+        
         
         
         let userFetch = NSFetchRequest(entityName: "User")
@@ -60,7 +60,7 @@ class ViewController: UIViewController, MFMailComposeViewControllerDelegate {
             fatalError("Core Data Error")
         }
         
-        
+        checkads()
     }
     
     func initializeUser() {
