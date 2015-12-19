@@ -413,7 +413,7 @@
             "Correct" : "3"
         },
         "Question12" : {
-            "Question" : "What quest is completed when you defeat every Expert AI Hero?",
+            "Question" : "What achievement do you get when you defeat every Expert AI Hero?",
             "Answer1" : "Big Winner!",
             "Answer2" : "Crushed Them All!",
             "Answer3" : "Easy Rider!",
@@ -769,7 +769,7 @@
             "Correct" : "1"
         },
         "Question16" : {
-            "Question" : "What class does Frothing Berserker belong to?",
+            "Question" : "Which class does Frothing Berserker belong to?",
             "Answer1" : "Mage",
             "Answer2" : "Priest",
             "Answer3" : "Rogue",
@@ -793,7 +793,7 @@
             "Correct" : "4"
         },
         "Question19" : {
-            "Question" : "What class does Power Overwhelming belong to?",
+            "Question" : "Which class does Power Overwhelming belong to?",
             "Answer1" : "Mage",
             "Answer2" : "Priest",
             "Answer3" : "Rogue",
@@ -801,7 +801,7 @@
             "Correct" : "4"
         },
         "Question20" : {
-            "Question" : "What class does Mind Control belong to?",
+            "Question" : "Which class does Mind Control belong to?",
             "Answer1" : "Mage",
             "Answer2" : "Priest",
             "Answer3" : "Rogue",
@@ -1143,68 +1143,68 @@
             "Correct" : "3"
         },
         "Question2" : {
-            "Question" : "",
-            "Answer1" : "",
-            "Answer2" : "",
-            "Answer3" : "",
-            "Answer4" : "",
-            "Correct" : ""
+            "Question" : "How much mana is Chillmaw's summoning cost?",
+            "Answer1" : "5",
+            "Answer2" : "6",
+            "Answer3" : "7",
+            "Answer4" : "8",
+            "Correct" : "3"
         },
         "Question3" : {
-            "Question" : "",
-            "Answer1" : "",
-            "Answer2" : "",
-            "Answer3" : "",
-            "Answer4" : "",
-            "Correct" : ""
+            "Question" : "What achievement do you get when you win 1000 games?",
+            "Answer1" : "Big Winner!",
+            "Answer2" : "Crushed Them All!",
+            "Answer3" : "Chicken Dinner!",
+            "Answer4" : "Ready to Rock!",
+            "Correct" : "1"
         },
         "Question4" : {
-            "Question" : "",
-            "Answer1" : "",
-            "Answer2" : "",
-            "Answer3" : "",
-            "Answer4" : "",
-            "Correct" : ""
+            "Question" : "Which card set is Dr.Boom obtained from?",
+            "Answer1" : "Curse of Naxxramas",
+            "Answer2" : "Goblins vs Gnomes",
+            "Answer3" : "Blackrock Mountain",
+            "Answer4" : "Grand Tournament",
+            "Correct" : "2"
         },
         "Question5" : {
-            "Question" : "",
-            "Answer1" : "",
-            "Answer2" : "",
-            "Answer3" : "",
-            "Answer4" : "",
-            "Correct" : ""
+            "Question" : "How much does Holy Light heal for?",
+            "Answer1" : "4",
+            "Answer2" : "5",
+            "Answer3" : "6",
+            "Answer4" : "7",
+            "Correct" : "3"
         },
         "Question6" : {
-            "Question" : "",
-            "Answer1" : "",
-            "Answer2" : "",
-            "Answer3" : "",
-            "Answer4" : "",
-            "Correct" : ""
+            "Question" : "Tirion Fordring belongs to what class?",
+            "Answer1" : "Druid",
+            "Answer2" : "Paladin",
+            "Answer3" : "Priest",
+            "Answer4" : "Warlock",
+            "Correct" : "2"
         },
         "Question7" : {
-            "Question" : "",
-            "Answer1" : "",
-            "Answer2" : "",
-            "Answer3" : "",
-            "Answer4" : "",
-            "Correct" : ""
+            "Question" : "Omnotron Defense System is a boss in Blackrock Mountain on which wing?",
+            "Answer1" : "Molten Core",
+            "Answer2" : "Blackrock Spire",
+            "Answer3" : "Blackwing Lair",
+            "Answer4" : "Hidden Laboratory",
+            "Correct" : "4"
         },
         "Question8" : {
-            "Question" : "",
-            "Answer1" : "",
-            "Answer2" : "",
-            "Answer3" : "",
-            "Answer4" : "",
-            "Correct" : ""
+            "Question" : "Volcanic Lumberer belongs to what class?",
+            "Answer1" : "Druid",
+            "Answer2" : "Paladin",
+            "Answer3" : "Priest",
+            "Answer4" : "Warlock",
+            "Correct" : "1"
         },
         "Question9" : {
-            "Question" : "",
-            "Answer1" : "",
-            "Answer2" : "",
-            "Answer3" : "",
-            "Answer4" : "",
-            "Correct" : ""
+            "Question" : "Medivh is an alternate hero that belongs to what class?",
+            "Answer1" : "Druid",
+            "Answer2" : "Hunter",
+            "Answer3" : "Mage",
+            "Answer4" : "Warrior",
+            "Correct" : "3"
         },
         "Question10" : {
             "Question" : "",
