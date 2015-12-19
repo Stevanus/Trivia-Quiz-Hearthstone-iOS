@@ -34,42 +34,42 @@
         },
         "Question5" : {
             "Question" : "How many secrets does the Hunter class have?",
-            "Answer1" : "5",
-            "Answer2" : "6",
-            "Answer3" : "7",
-            "Answer4" : "8",
+            "Answer1" : "5 secrets",
+            "Answer2" : "6 secrets",
+            "Answer3" : "7 secrets",
+            "Answer4" : "8 secrets",
             "Correct" : "3"
         },
         "Question6" : {
             "Question" : "What is the maximum number of cards you can hold in your hand?",
-            "Answer1" : "9",
-            "Answer2" : "10",
-            "Answer3" : "11",
-            "Answer4" : "12",
+            "Answer1" : "9 cards",
+            "Answer2" : "10 cards",
+            "Answer3" : "11 cards",
+            "Answer4" : "12 cards",
             "Correct" : "2"
         },
         "Question7" : {
             "Question" : "How much mana is overloaded after playing Earth Elemental?",
-            "Answer1" : "1",
-            "Answer2" : "2",
-            "Answer3" : "3",
-            "Answer4" : "4",
+            "Answer1" : "1 mana",
+            "Answer2" : "2 mana",
+            "Answer3" : "3 mana",
+            "Answer4" : "4 mana",
             "Correct" : "3"
         },
         "Question8" : {
             "Question" : "How many classes are there in Hearthstone?",
-            "Answer1" : "9",
-            "Answer2" : "10",
-            "Answer3" : "11",
-            "Answer4" : "12",
+            "Answer1" : "9 classes",
+            "Answer2" : "10 classes",
+            "Answer3" : "11 classes",
+            "Answer4" : "12 classes",
             "Correct" : "1"
         },
         "Question9" : {
             "Question" : "How much arcane dust do you get from disenchanting a non-golden common card?",
-            "Answer1" : "5",
-            "Answer2" : "10",
-            "Answer3" : "20",
-            "Answer4" : "40",
+            "Answer1" : "5 dust",
+            "Answer2" : "10 dust",
+            "Answer3" : "20 dust",
+            "Answer4" : "40 dust",
             "Correct" : "1"
         },
         "Question10" : {
@@ -82,10 +82,10 @@
         },
         "Question11" : {
             "Question" : "How many decks can you have saved at one time?",
-            "Answer1" : "7",
-            "Answer2" : "8",
-            "Answer3" : "9",
-            "Answer4" : "10",
+            "Answer1" : "7 decks",
+            "Answer2" : "8 decks",
+            "Answer3" : "9 decks",
+            "Answer4" : "10 decks",
             "Correct" : "3"
         },
         "Question12" : {
@@ -114,10 +114,10 @@
         },
         "Question15" : {
             "Question" : "How many secrets can one player play at a time?",
-            "Answer1" : "3",
-            "Answer2" : "4",
-            "Answer3" : "5",
-            "Answer4" : "6",
+            "Answer1" : "3 secrets",
+            "Answer2" : "4 secrets",
+            "Answer3" : "5 secrets",
+            "Answer4" : "6 secrets",
             "Correct" : "3"
         },
         "Question16" : {
@@ -130,18 +130,18 @@
         },
         "Question17" : {
             "Question" : "How much mana does Molten Giant cost when you have 30 health?",
-            "Answer1" : "10",
-            "Answer2" : "15",
-            "Answer3" : "20",
-            "Answer4" : "25",
+            "Answer1" : "10 mana",
+            "Answer2" : "15 mana",
+            "Answer3" : "20 mana",
+            "Answer4" : "25 mana",
             "Correct" : "3"
         },
         "Question18" : {
             "Question" : "How much damage does Fireball deal?",
-            "Answer1" : "1",
-            "Answer2" : "3",
-            "Answer3" : "6",
-            "Answer4" : "10",
+            "Answer1" : "1 damage",
+            "Answer2" : "3 damage",
+            "Answer3" : "6 damage",
+            "Answer4" : "10 damage",
             "Correct" : "3"
         },
         "Question19" : {
@@ -196,34 +196,34 @@
         },
         "Question5" : {
             "Question" : "How much gold do you get when you win 3 matches in Play mode?",
-            "Answer1" : "10",
-            "Answer2" : "20",
-            "Answer3" : "30",
-            "Answer4" : "40",
+            "Answer1" : "10 gold",
+            "Answer2" : "20 gold",
+            "Answer3" : "30 gold",
+            "Answer4" : "40 gold",
             "Correct" : "1"
         },
         "Question6" : {
             "Question" : "How many wins do you need to obtain a golden hero potrait?",
-            "Answer1" : "250",
-            "Answer2" : "500",
-            "Answer3" : "750",
-            "Answer4" : "1000",
+            "Answer1" : "250 wins",
+            "Answer2" : "500 wins",
+            "Answer3" : "750 wins",
+            "Answer4" : "1000 wins",
             "Correct" : "2"
         },
         "Question7" : {
             "Question" : "How many voluntary emotes are there that you can use?",
-            "Answer1" : "4",
-            "Answer2" : "5",
-            "Answer3" : "6",
-            "Answer4" : "7",
+            "Answer1" : "4 emotes",
+            "Answer2" : "5 emotes",
+            "Answer3" : "6 emotes",
+            "Answer4" : "7 emotes",
             "Correct" : "3"
         },
         "Question8" : {
             "Question" : "How many cards are there in a deck?",
-            "Answer1" : "25",
-            "Answer2" : "30",
-            "Answer3" : "35",
-            "Answer4" : "40",
+            "Answer1" : "25 cards",
+            "Answer2" : "30 cards",
+            "Answer3" : "35 cards",
+            "Answer4" : "40 cards",
             "Correct" : "2"
         },
         "Question9" : {
@@ -260,18 +260,18 @@
         },
         "Question13" : {
             "Question" : "How much mana is Emperor Thaurissan's summoning cost?",
-            "Answer1" : "5",
-            "Answer2" : "6",
-            "Answer3" : "7",
-            "Answer4" : "8",
+            "Answer1" : "5 mana",
+            "Answer2" : "6 mana",
+            "Answer3" : "7 mana",
+            "Answer4" : "8 mana",
             "Correct" : "2"
         },
         "Question14" : {
             "Question" : "The legendary card Nozdormu reduces each players' turn to how many seconds?",
-            "Answer1" : "5",
-            "Answer2" : "10",
-            "Answer3" : "15",
-            "Answer4" : "20",
+            "Answer1" : "5 seconds",
+            "Answer2" : "10 seconds",
+            "Answer3" : "15 seconds",
+            "Answer4" : "20 seconds",
             "Correct" : "3"
         },
         "Question15" : {
@@ -308,10 +308,10 @@
         },
         "Question19" : {
             "Question" : "How many spare parts are there in Hearthstone?",
-            "Answer1" : "4",
-            "Answer2" : "5",
-            "Answer3" : "6",
-            "Answer4" : "7",
+            "Answer1" : "4 spare parts",
+            "Answer2" : "5 spare parts",
+            "Answer3" : "6 spare parts",
+            "Answer4" : "7 spare parts",
             "Correct" : "4"
         },
         "Question20" : {
@@ -382,34 +382,34 @@
         },
         "Question8" : {
             "Question" : "How many dream cards are there from Ysera?",
-            "Answer1" : "3",
-            "Answer2" : "4",
-            "Answer3" : "5",
-            "Answer4" : "6",
+            "Answer1" : "3 dream cards",
+            "Answer2" : "4 dream cards",
+            "Answer3" : "5 dream cards",
+            "Answer4" : "6 dream cards",
             "Correct" : "3"
         },
         "Question9" : {
             "Question" : "How much attack does Deathwing have?",
-            "Answer1" : "10",
-            "Answer2" : "12",
-            "Answer3" : "14",
-            "Answer4" : "16",
+            "Answer1" : "10 attack",
+            "Answer2" : "12 attack",
+            "Answer3" : "14 attack",
+            "Answer4" : "16 attack",
             "Correct" : "2"
         },
         "Question10" : {
             "Question" : "How many types of totem can be summoned from Shaman's hero power?",
-            "Answer1" : "3",
-            "Answer2" : "4",
-            "Answer3" : "5",
-            "Answer4" : "6",
+            "Answer1" : "3 totems",
+            "Answer2" : "4 totems",
+            "Answer3" : "5 totems",
+            "Answer4" : "6 totems",
             "Correct" : "2"
         },
         "Question11" : {
             "Question" : "How many games do you need to win to complete the Total Dominance Quest?",
-            "Answer1" : "5",
-            "Answer2" : "6",
-            "Answer3" : "7",
-            "Answer4" : "8",
+            "Answer1" : "5 games",
+            "Answer2" : "6 games",
+            "Answer3" : "7 games",
+            "Answer4" : "8 games",
             "Correct" : "3"
         },
         "Question12" : {
@@ -438,26 +438,26 @@
         },
         "Question15" : {
             "Question" : "How many snakes does the Hunter's Snake Trap secret summon?",
-            "Answer1" : "1",
-            "Answer2" : "2",
-            "Answer3" : "3",
-            "Answer4" : "4",
+            "Answer1" : "1 snakes",
+            "Answer2" : "2 snakes",
+            "Answer3" : "3 snakes",
+            "Answer4" : "4 snakes",
             "Correct" : "3"
         },
         "Question16" : {
             "Question" : "How many weapons does the Hunter class have?",
-            "Answer1" : "3",
-            "Answer2" : "4",
-            "Answer3" : "5",
-            "Answer4" : "6",
+            "Answer1" : "3 weapons",
+            "Answer2" : "4 weapons",
+            "Answer3" : "5 weapons",
+            "Answer4" : "6 weapons",
             "Correct" : "1"
         },
         "Question17" : {
             "Question" : "How much attack does Core Hound have?",
-            "Answer1" : "6",
-            "Answer2" : "7",
-            "Answer3" : "8",
-            "Answer4" : "9",
+            "Answer1" : "6 attack",
+            "Answer2" : "7 attack",
+            "Answer3" : "8 attack",
+            "Answer4" : "9 attack",
             "Correct" : "4"
         },
         "Question18" : {
@@ -496,10 +496,10 @@
         },
         "Question2" : {
             "Question" : "How many wings does the League of Explorers Adventure have?",
-            "Answer1" : "3",
-            "Answer2" : "4",
-            "Answer3" : "5",
-            "Answer4" : "6",
+            "Answer1" : "3 wings",
+            "Answer2" : "4 wings",
+            "Answer3" : "5 wings",
+            "Answer4" : "6 wings",
             "Correct" : "2"
         },
         "Question3" : {
@@ -512,18 +512,18 @@
         },
         "Question4" : {
             "Question" : "The spell Flame Lance deals how much damage to a minion?",
-            "Answer1" : "6",
-            "Answer2" : "7",
-            "Answer3" : "8",
-            "Answer4" : "9",
+            "Answer1" : "6 damage",
+            "Answer2" : "7 damage",
+            "Answer3" : "8 damage",
+            "Answer4" : "9 damage",
             "Correct" : "3"
         },
         "Question5" : {
             "Question" : "How much mana is Dreadsteed's summoning cost?",
-            "Answer1" : "3",
-            "Answer2" : "4",
-            "Answer3" : "5",
-            "Answer4" : "6",
+            "Answer1" : "3 mana",
+            "Answer2" : "4 mana",
+            "Answer3" : "5 mana",
+            "Answer4" : "6 mana",
             "Correct" : "2"
         },
         "Question6" : {
@@ -536,10 +536,10 @@
         },
         "Question7" : {
             "Question" : "How many secrets does the Mage class have?",
-            "Answer1" : "5",
-            "Answer2" : "6",
-            "Answer3" : "7",
-            "Answer4" : "8",
+            "Answer1" : "5 secrets",
+            "Answer2" : "6 secrets",
+            "Answer3" : "7 secrets",
+            "Answer4" : "8 secrets",
             "Correct" : "4"
         },
         "Question8" : {
@@ -576,10 +576,10 @@
         },
         "Question12" : {
             "Question" : "What is the maximum number of minions in each side of the battlefield?",
-            "Answer1" : "6",
-            "Answer2" : "7",
-            "Answer3" : "8",
-            "Answer4" : "9",
+            "Answer1" : "6 minions",
+            "Answer2" : "7 minions",
+            "Answer3" : "8 minions",
+            "Answer4" : "9 minions",
             "Correct" : "2"
         },
         "Question13" : {
@@ -592,18 +592,18 @@
         },
         "Question14" : {
             "Question" : "How much armor does Ice Barrier give you when trigerred?",
-            "Answer1" : "4",
-            "Answer2" : "6",
-            "Answer3" : "8",
-            "Answer4" : "10",
+            "Answer1" : "4 armor",
+            "Answer2" : "6 armor",
+            "Answer3" : "8 armor",
+            "Answer4" : "10 armor",
             "Correct" : "3"
         },
         "Question15" : {
             "Question" : "Drawing Flame Leviathan deals how much damage to all characters?",
-            "Answer1" : "1",
-            "Answer2" : "2",
-            "Answer3" : "3",
-            "Answer4" : "4",
+            "Answer1" : "1 damage",
+            "Answer2" : "2 damage",
+            "Answer3" : "3 damage",
+            "Answer4" : "4 damage",
             "Correct" : "2"
         },
         "Question16" : {
@@ -698,10 +698,10 @@
         },
         "Question7" : {
             "Question" : "How many bosses do you need to defeat to complete the Tutorial?",
-            "Answer1" : "4",
-            "Answer2" : "5",
-            "Answer3" : "6",
-            "Answer4" : "7",
+            "Answer1" : "4 bosses",
+            "Answer2" : "5 bosses",
+            "Answer3" : "6 bosses",
+            "Answer4" : "7 bosses",
             "Correct" : "3"
         },
         "Question8" : {
@@ -746,10 +746,10 @@
         },
         "Question13" : {
             "Question" : "How many Legendary cards are there in the Curse of Naxxramas set?",
-            "Answer1" : "4",
-            "Answer2" : "5",
-            "Answer3" : "6",
-            "Answer4" : "7",
+            "Answer1" : "4 cards",
+            "Answer2" : "5 cards",
+            "Answer3" : "6 cards",
+            "Answer4" : "7 cards",
             "Correct" : "3"
         },
         "Question14" : {
@@ -778,10 +778,10 @@
         },
         "Question17" : {
             "Question" : "How much mana does Hunter Secrets cost to play?",
-            "Answer1" : "1",
-            "Answer2" : "2",
-            "Answer3" : "3",
-            "Answer4" : "4",
+            "Answer1" : "1 mana",
+            "Answer2" : "2 mana",
+            "Answer3" : "3 mana",
+            "Answer4" : "4 mana",
             "Correct" : "2"
         },
         "Question18" : {
@@ -836,26 +836,26 @@
         },
         "Question4" : {
             "Question" : "How many different 'Power Chord' cards are there from Elite Tauren Chieftain?",
-            "Answer1" : "2",
-            "Answer2" : "3",
-            "Answer3" : "4",
-            "Answer4" : "5",
+            "Answer1" : "2 Power Chords",
+            "Answer2" : "3 Power Chords",
+            "Answer3" : "4 Power Chords",
+            "Answer4" : "5 Power Chords",
             "Correct" : "2"
         },
         "Question5" : {
             "Question" : "How much dust does it cost to craft a Golden Legendary?",
-            "Answer1" : "800",
-            "Answer2" : "1600",
-            "Answer3" : "3200",
-            "Answer4" : "6400",
+            "Answer1" : "800 dust",
+            "Answer2" : "1600 dust",
+            "Answer3" : "3200 dust",
+            "Answer4" : "6400 dust",
             "Correct" : "3"
         },
         "Question6" : {
             "Question" : "How many collectible cards are there from the League of Explorers set?",
-            "Answer1" : "40",
-            "Answer2" : "45",
-            "Answer3" : "50",
-            "Answer4" : "55",
+            "Answer1" : "40 cards",
+            "Answer2" : "45 cards",
+            "Answer3" : "50 cards",
+            "Answer4" : "55 cards",
             "Correct" : "2"
         },
         "Question7" : {
@@ -900,10 +900,10 @@
         },
         "Question12" : {
             "Question" : "How much mana does Gang Up cost to play?",
-            "Answer1" : "1",
-            "Answer2" : "2",
-            "Answer3" : "3",
-            "Answer4" : "4",
+            "Answer1" : "1 mana",
+            "Answer2" : "2 mana",
+            "Answer3" : "3 mana",
+            "Answer4" : "4 mana",
             "Correct" : "2"
         },
         "Question13" : {
@@ -940,10 +940,10 @@
         },
         "Question17" : {
             "Question" : "How much gold does it cost to buy a single card pack?",
-            "Answer1" : "80",
-            "Answer2" : "100",
-            "Answer3" : "120",
-            "Answer4" : "150",
+            "Answer1" : "80 gold",
+            "Answer2" : "100 gold",
+            "Answer3" : "120 gold",
+            "Answer4" : "150 gold",
             "Correct" : "2"
         },
         "Question18" : {
@@ -956,10 +956,10 @@
         },
         "Question19" : {
             "Question" : "How many regions/servers is Hearthstone divided into?",
-            "Answer1" : "2",
-            "Answer2" : "3",
-            "Answer3" : "4",
-            "Answer4" : "5",
+            "Answer1" : "2 regions",
+            "Answer2" : "3 regions",
+            "Answer3" : "4 regions",
+            "Answer4" : "5 regions",
             "Correct" : "3"
         },
         "Question20" : {
@@ -1144,10 +1144,10 @@
         },
         "Question2" : {
             "Question" : "How much mana is Chillmaw's summoning cost?",
-            "Answer1" : "5",
-            "Answer2" : "6",
-            "Answer3" : "7",
-            "Answer4" : "8",
+            "Answer1" : "5 mana",
+            "Answer2" : "6 mana",
+            "Answer3" : "7 mana",
+            "Answer4" : "8 mana",
             "Correct" : "3"
         },
         "Question3" : {
@@ -1168,10 +1168,10 @@
         },
         "Question5" : {
             "Question" : "How much does Holy Light heal for?",
-            "Answer1" : "4",
-            "Answer2" : "5",
-            "Answer3" : "6",
-            "Answer4" : "7",
+            "Answer1" : "4 health",
+            "Answer2" : "5 health",
+            "Answer3" : "6 health",
+            "Answer4" : "7 health",
             "Correct" : "3"
         },
         "Question6" : {
@@ -1216,10 +1216,10 @@
         },
         "Question11" : {
             "Question" : "How many Pirate cards are there in the game?",
-            "Answer1" : "7",
-            "Answer2" : "8",
-            "Answer3" : "9",
-            "Answer4" : "10",
+            "Answer1" : "7 cards",
+            "Answer2" : "8 cards",
+            "Answer3" : "9 cards",
+            "Answer4" : "10 cards",
             "Correct" : "4"
         },
         "Question12" : {
@@ -1248,18 +1248,18 @@
         },
         "Question15" : {
             "Question" : "How much attack does Earth Elemental have?",
-            "Answer1" : "4",
-            "Answer2" : "5",
-            "Answer3" : "6",
-            "Answer4" : "7",
+            "Answer1" : "4 attack",
+            "Answer2" : "5 attack",
+            "Answer3" : "6 attack",
+            "Answer4" : "7 attack",
             "Correct" : "4"
         },
         "Question16" : {
             "Question" : "How much mana is Flametongue Totem's summoning cost?",
-            "Answer1" : "2",
-            "Answer2" : "3",
-            "Answer3" : "4",
-            "Answer4" : "5",
+            "Answer1" : "2 mana",
+            "Answer2" : "3 mana",
+            "Answer3" : "4 mana",
+            "Answer4" : "5 mana",
             "Correct" : "1"
         },
         "Question17" : {
@@ -1272,18 +1272,18 @@
         },
         "Question18" : {
             "Question" : "How much mana does Assassinate cost to play?",
-            "Answer1" : "3",
-            "Answer2" : "4",
-            "Answer3" : "5",
-            "Answer4" : "6",
+            "Answer1" : "3 mana",
+            "Answer2" : "4 mana",
+            "Answer3" : "5 mana",
+            "Answer4" : "6 mana",
             "Correct" : "3"
         },
         "Question19" : {
             "Question" : "How much weapon durability does Assassin's Blade have?",
-            "Answer1" : "2",
-            "Answer2" : "3",
-            "Answer3" : "4",
-            "Answer4" : "5",
+            "Answer1" : "2 durability",
+            "Answer2" : "3 durability",
+            "Answer3" : "4 durability",
+            "Answer4" : "5 durability",
             "Correct" : "3"
         },
         "Question20" : {
