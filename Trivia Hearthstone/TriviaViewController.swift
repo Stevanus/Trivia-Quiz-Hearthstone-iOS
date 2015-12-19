@@ -10,6 +10,7 @@ import UIKit
 import AVFoundation
 import SwiftyJSON
 import iAd
+import CoreData
 
 /*
 struct Question {
@@ -90,7 +91,7 @@ class TriviaViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        //self.canDisplayBannerAds = true
+        checkads()
         
         clock = NSTimer.scheduledTimerWithTimeInterval(1.0, target: self, selector: Selector("countdown:"), userInfo: nil, repeats: true)
 
@@ -119,236 +120,6 @@ class TriviaViewController: UIViewController {
         
         bgm.numberOfLoops = -1
         bgm.play()
-        
-/*
-        //Level 1
-        questionsarray.append(
-        
-        [Question(question: "What is the most amount of gold you can win in the Arena?", answers: ["155 gold", "170 gold", "185 gold", "200 gold"], answer: 3),
-            Question(question: "Who is the Lead Designer for Hearthstone?", answers: ["Reno Jackson", "Ben Brode", "Trump", "Michael Morhaime"], answer: 2),
-            Question(question: "In what year was Hearthstone released?", answers: ["2012", "2013", "2014", "2015"], answer: 3),
-            Question(question: "What is the name of the standard hero for mages?", answers: ["Alleria Windrunner", "Valeera Sanguinar", "Jane Elizabeth", "Jaina Proudmoore"], answer: 4),
-            Question(question: "Mana cost for Leeroy Jenkins", answers: ["3", "4", "5", "6"], answer: 3),
-            Question(question: "How many secrets does the Hunter class have?", answers: ["5", "6", "7", "8"], answer: 3),
-            Question(question: "What is the maximum number of cards you can hold in your hand?", answers: ["9", "10", "11", "12"], answer: 2),
-            Question(question: "How much mana is overloaded after playing Earth Elemental?", answers: ["1", "2", "3", "4"], answer: 3),
-            Question(question: "How many classes are there in Hearthstone?", answers: ["9", "10", "11", "12"], answer: 1),
-            Question(question: "How much arcane dust do you get from disenchanting a non-golden common card?", answers: ["5", "10", "20", "40"], answer: 1),
-            Question(question: "Mana cost for Leeroy Jenkins", answers: ["3 mana", "4 mana", "5 mana", "6 mana"], answer: 3),
-            Question(question: "Mana cost for Leeroy Jenkins", answers: ["3 mana", "4 mana", "5 mana", "6 mana"], answer: 3),
-            Question(question: "Mana cost for Leeroy Jenkins", answers: ["3 mana", "4 mana", "5 mana", "6 mana"], answer: 3),
-            Question(question: "Mana cost for Leeroy Jenkins", answers: ["3 mana", "4 mana", "5 mana", "6 mana"], answer: 3),
-            Question(question: "Mana cost for Leeroy Jenkins", answers: ["3 mana", "4 mana", "5 mana", "6 mana"], answer: 3),
-            Question(question: "Mana cost for Leeroy Jenkins", answers: ["3 mana", "4 mana", "5 mana", "6 mana"], answer: 3),
-            Question(question: "Mana cost for Leeroy Jenkins", answers: ["3 mana", "4 mana", "5 mana", "6 mana"], answer: 3),
-            Question(question: "Mana cost for Leeroy Jenkins", answers: ["3 mana", "4 mana", "5 mana", "6 mana"], answer: 3),
-            Question(question: "Mana cost for Leeroy Jenkins", answers: ["3 mana", "4 mana", "5 mana", "6 mana"], answer: 3),
-            Question(question: "Mana cost for Leeroy Jenkins", answers: ["3 mana", "4 mana", "5 mana", "6 mana"], answer: 3),
-            Question(question: "Mana cost for Leeroy Jenkins", answers: ["3 mana", "4 mana", "5 mana", "6 mana"], answer: 3),
-            Question(question: "Mana cost for Leeroy Jenkins", answers: ["3 mana", "4 mana", "5 mana", "6 mana"], answer: 3),
-            Question(question: "Mana cost for Leeroy Jenkins", answers: ["3 mana", "4 mana", "5 mana", "6 mana"], answer: 3),
-            Question(question: "Mana cost for Leeroy Jenkins", answers: ["3 mana", "4 mana", "5 mana", "6 mana"], answer: 3)]
-        
-            )
-        
-        
-        //Level 2
-        questionsarray.append(
-            
-            [Question(question: "What is the most amount of gold you can win in the Arena?", answers: ["155 gold", "170 gold", "185 gold", "200 gold"], answer: 3),
-                Question(question: "Who is the Lead Designer for Hearthstone?", answers: ["Reno Jackson", "Ben Brode", "Trump", "Michael Morhaime"], answer: 2),
-                Question(question: "In what year was Hearthstone released?", answers: ["2012", "2013", "2014", "2015"], answer: 3),
-                Question(question: "What card back do you get for achieving Rank 20 in Ranked Season 1?", answers: ["Pandaria", "Pirates!", "Ragnaros", "Naxxramas"], answer: 1),
-                Question(question: "What is the most amount of gold you can in the arena?", answers: ["155 gold", "170 gold", "185 gold", "200 gold"], answer: 4),
-                Question(question: "What is the most amount of gold you can in the arena?", answers: ["155 gold", "170 gold", "185 gold", "200 gold"], answer: 4)]
-            
-        )
-        
-        //Level 3
-        questionsarray.append(
-            
-            [Question(question: "What is the most amount of gold you can win in the Arena?", answers: ["155 gold", "170 gold", "185 gold", "200 gold"], answer: 3),
-                Question(question: "Who is the Lead Designer for Hearthstone?", answers: ["Reno Jackson", "Ben Brode", "Trump", "Michael Morhaime"], answer: 2),
-                Question(question: "In what year was Hearthstone released?", answers: ["2012", "2013", "2014", "2015"], answer: 3),
-                Question(question: "What card back do you get for achieving Rank 20 in Ranked Season 1?", answers: ["Pandaria", "Pirates!", "Ragnaros", "Naxxramas"], answer: 1),
-                Question(question: "What is the most amount of gold you can in the arena?", answers: ["155 gold", "170 gold", "185 gold", "200 gold"], answer: 4),
-                Question(question: "What is the most amount of gold you can in the arena?", answers: ["155 gold", "170 gold", "185 gold", "200 gold"], answer: 4)]
-            
-        )
-        
-        //Level 4
-        questionsarray.append(
-            
-            [Question(question: "What is the most amount of gold you can win in the Arena?", answers: ["155 gold", "170 gold", "185 gold", "200 gold"], answer: 3),
-                Question(question: "Who is the Lead Designer for Hearthstone?", answers: ["Reno Jackson", "Ben Brode", "Trump", "Michael Morhaime"], answer: 2),
-                Question(question: "In what year was Hearthstone released?", answers: ["2012", "2013", "2014", "2015"], answer: 3),
-                Question(question: "What card back do you get for achieving Rank 20 in Ranked Season 1?", answers: ["Pandaria", "Pirates!", "Ragnaros", "Naxxramas"], answer: 1),
-                Question(question: "What is the most amount of gold you can in the arena?", answers: ["155 gold", "170 gold", "185 gold", "200 gold"], answer: 4),
-                Question(question: "What is the most amount of gold you can in the arena?", answers: ["155 gold", "170 gold", "185 gold", "200 gold"], answer: 4)]
-            
-        )
-        
-        //Level 5
-        questionsarray.append(
-            
-            [Question(question: "What is the most amount of gold you can win in the Arena?", answers: ["155 gold", "170 gold", "185 gold", "200 gold"], answer: 3),
-                Question(question: "Who is the Lead Designer for Hearthstone?", answers: ["Reno Jackson", "Ben Brode", "Trump", "Michael Morhaime"], answer: 2),
-                Question(question: "In what year was Hearthstone released?", answers: ["2012", "2013", "2014", "2015"], answer: 3),
-                Question(question: "What card back do you get for achieving Rank 20 in Ranked Season 1?", answers: ["Pandaria", "Pirates!", "Ragnaros", "Naxxramas"], answer: 1),
-                Question(question: "What is the most amount of gold you can in the arena?", answers: ["155 gold", "170 gold", "185 gold", "200 gold"], answer: 4),
-                Question(question: "What is the most amount of gold you can in the arena?", answers: ["155 gold", "170 gold", "185 gold", "200 gold"], answer: 4)]
-            
-        )
-        
-        //Level 6
-        questionsarray.append(
-            
-            [Question(question: "What is the most amount of gold you can win in the Arena?", answers: ["155 gold", "170 gold", "185 gold", "200 gold"], answer: 3),
-                Question(question: "Who is the Lead Designer for Hearthstone?", answers: ["Reno Jackson", "Ben Brode", "Trump", "Michael Morhaime"], answer: 2),
-                Question(question: "In what year was Hearthstone released?", answers: ["2012", "2013", "2014", "2015"], answer: 3),
-                Question(question: "What card back do you get for achieving Rank 20 in Ranked Season 1?", answers: ["Pandaria", "Pirates!", "Ragnaros", "Naxxramas"], answer: 1),
-                Question(question: "What is the most amount of gold you can in the arena?", answers: ["155 gold", "170 gold", "185 gold", "200 gold"], answer: 4),
-                Question(question: "What is the most amount of gold you can in the arena?", answers: ["155 gold", "170 gold", "185 gold", "200 gold"], answer: 4)]
-            
-        )
-        
-        //Level 7
-        questionsarray.append(
-            
-            [Question(question: "What is the most amount of gold you can win in the Arena?", answers: ["155 gold", "170 gold", "185 gold", "200 gold"], answer: 3),
-                Question(question: "Who is the Lead Designer for Hearthstone?", answers: ["Reno Jackson", "Ben Brode", "Trump", "Michael Morhaime"], answer: 2),
-                Question(question: "In what year was Hearthstone released?", answers: ["2012", "2013", "2014", "2015"], answer: 3),
-                Question(question: "What card back do you get for achieving Rank 20 in Ranked Season 1?", answers: ["Pandaria", "Pirates!", "Ragnaros", "Naxxramas"], answer: 1),
-                Question(question: "What is the most amount of gold you can in the arena?", answers: ["155 gold", "170 gold", "185 gold", "200 gold"], answer: 4),
-                Question(question: "What is the most amount of gold you can in the arena?", answers: ["155 gold", "170 gold", "185 gold", "200 gold"], answer: 4)]
-            
-        )
-        
-        //Level 8
-        questionsarray.append(
-            
-            [Question(question: "What is the most amount of gold you can win in the Arena?", answers: ["155 gold", "170 gold", "185 gold", "200 gold"], answer: 3),
-                Question(question: "Who is the Lead Designer for Hearthstone?", answers: ["Reno Jackson", "Ben Brode", "Trump", "Michael Morhaime"], answer: 2),
-                Question(question: "In what year was Hearthstone released?", answers: ["2012", "2013", "2014", "2015"], answer: 3),
-                Question(question: "What card back do you get for achieving Rank 20 in Ranked Season 1?", answers: ["Pandaria", "Pirates!", "Ragnaros", "Naxxramas"], answer: 1),
-                Question(question: "What is the most amount of gold you can in the arena?", answers: ["155 gold", "170 gold", "185 gold", "200 gold"], answer: 4),
-                Question(question: "What is the most amount of gold you can in the arena?", answers: ["155 gold", "170 gold", "185 gold", "200 gold"], answer: 4)]
-            
-        )
-        
-        //Level 9
-        questionsarray.append(
-            
-            [Question(question: "What is the most amount of gold you can win in the Arena?", answers: ["155 gold", "170 gold", "185 gold", "200 gold"], answer: 3),
-                Question(question: "Who is the Lead Designer for Hearthstone?", answers: ["Reno Jackson", "Ben Brode", "Trump", "Michael Morhaime"], answer: 2),
-                Question(question: "In what year was Hearthstone released?", answers: ["2012", "2013", "2014", "2015"], answer: 3),
-                Question(question: "What card back do you get for achieving Rank 20 in Ranked Season 1?", answers: ["Pandaria", "Pirates!", "Ragnaros", "Naxxramas"], answer: 1),
-                Question(question: "What is the most amount of gold you can in the arena?", answers: ["155 gold", "170 gold", "185 gold", "200 gold"], answer: 4),
-                Question(question: "What is the most amount of gold you can in the arena?", answers: ["155 gold", "170 gold", "185 gold", "200 gold"], answer: 4)]
-            
-        )
-        
-        //Level 10
-        questionsarray.append(
-            
-            [Question(question: "What is the most amount of gold you can win in the Arena?", answers: ["155 gold", "170 gold", "185 gold", "200 gold"], answer: 3),
-                Question(question: "Who is the Lead Designer for Hearthstone?", answers: ["Reno Jackson", "Ben Brode", "Trump", "Michael Morhaime"], answer: 2),
-                Question(question: "In what year was Hearthstone released?", answers: ["2012", "2013", "2014", "2015"], answer: 3),
-                Question(question: "What card back do you get for achieving Rank 20 in Ranked Season 1?", answers: ["Pandaria", "Pirates!", "Ragnaros", "Naxxramas"], answer: 1),
-                Question(question: "What is the most amount of gold you can in the arena?", answers: ["155 gold", "170 gold", "185 gold", "200 gold"], answer: 4),
-                Question(question: "What is the most amount of gold you can in the arena?", answers: ["155 gold", "170 gold", "185 gold", "200 gold"], answer: 4)]
-            
-        )
-        
-        //Level 11
-        questionsarray.append(
-            
-            [Question(question: "What is the most amount of gold you can win in the Arena?", answers: ["155 gold", "170 gold", "185 gold", "200 gold"], answer: 3),
-                Question(question: "Who is the Lead Designer for Hearthstone?", answers: ["Reno Jackson", "Ben Brode", "Trump", "Michael Morhaime"], answer: 2),
-                Question(question: "In what year was Hearthstone released?", answers: ["2012", "2013", "2014", "2015"], answer: 3),
-                Question(question: "What card back do you get for achieving Rank 20 in Ranked Season 1?", answers: ["Pandaria", "Pirates!", "Ragnaros", "Naxxramas"], answer: 1),
-                Question(question: "What is the most amount of gold you can in the arena?", answers: ["155 gold", "170 gold", "185 gold", "200 gold"], answer: 4),
-                Question(question: "What is the most amount of gold you can in the arena?", answers: ["155 gold", "170 gold", "185 gold", "200 gold"], answer: 4)]
-            
-        )
-        
-        //Level 12
-        questionsarray.append(
-            
-            [Question(question: "What is the most amount of gold you can win in the Arena?", answers: ["155 gold", "170 gold", "185 gold", "200 gold"], answer: 3),
-                Question(question: "Who is the Lead Designer for Hearthstone?", answers: ["Reno Jackson", "Ben Brode", "Trump", "Michael Morhaime"], answer: 2),
-                Question(question: "In what year was Hearthstone released?", answers: ["2012", "2013", "2014", "2015"], answer: 3),
-                Question(question: "What card back do you get for achieving Rank 20 in Ranked Season 1?", answers: ["Pandaria", "Pirates!", "Ragnaros", "Naxxramas"], answer: 1),
-                Question(question: "What is the most amount of gold you can in the arena?", answers: ["155 gold", "170 gold", "185 gold", "200 gold"], answer: 4),
-                Question(question: "What is the most amount of gold you can in the arena?", answers: ["155 gold", "170 gold", "185 gold", "200 gold"], answer: 4)]
-            
-        )
-        
-        //Level 13
-        questionsarray.append(
-            
-            [Question(question: "What is the most amount of gold you can win in the Arena?", answers: ["155 gold", "170 gold", "185 gold", "200 gold"], answer: 3),
-                Question(question: "Who is the Lead Designer for Hearthstone?", answers: ["Reno Jackson", "Ben Brode", "Trump", "Michael Morhaime"], answer: 2),
-                Question(question: "In what year was Hearthstone released?", answers: ["2012", "2013", "2014", "2015"], answer: 3),
-                Question(question: "What card back do you get for achieving Rank 20 in Ranked Season 1?", answers: ["Pandaria", "Pirates!", "Ragnaros", "Naxxramas"], answer: 1),
-                Question(question: "What is the most amount of gold you can in the arena?", answers: ["155 gold", "170 gold", "185 gold", "200 gold"], answer: 4),
-                Question(question: "What is the most amount of gold you can in the arena?", answers: ["155 gold", "170 gold", "185 gold", "200 gold"], answer: 4)]
-            
-        )
-        
-        //Level 14
-        questionsarray.append(
-            
-            [Question(question: "What is the most amount of gold you can win in the Arena?", answers: ["155 gold", "170 gold", "185 gold", "200 gold"], answer: 3),
-                Question(question: "Who is the Lead Designer for Hearthstone?", answers: ["Reno Jackson", "Ben Brode", "Trump", "Michael Morhaime"], answer: 2),
-                Question(question: "In what year was Hearthstone released?", answers: ["2012", "2013", "2014", "2015"], answer: 3),
-                Question(question: "What card back do you get for achieving Rank 20 in Ranked Season 1?", answers: ["Pandaria", "Pirates!", "Ragnaros", "Naxxramas"], answer: 1),
-                Question(question: "What is the most amount of gold you can in the arena?", answers: ["155 gold", "170 gold", "185 gold", "200 gold"], answer: 4),
-                Question(question: "What is the most amount of gold you can in the arena?", answers: ["155 gold", "170 gold", "185 gold", "200 gold"], answer: 4)]
-            
-        )
-        
-        //Level 15
-        questionsarray.append(
-            
-            [Question(question: "What is the most amount of gold you can win in the Arena?", answers: ["155 gold", "170 gold", "185 gold", "200 gold"], answer: 3),
-                Question(question: "Who is the Lead Designer for Hearthstone?", answers: ["Reno Jackson", "Ben Brode", "Trump", "Michael Morhaime"], answer: 2),
-                Question(question: "In what year was Hearthstone released?", answers: ["2012", "2013", "2014", "2015"], answer: 3),
-                Question(question: "What card back do you get for achieving Rank 20 in Ranked Season 1?", answers: ["Pandaria", "Pirates!", "Ragnaros", "Naxxramas"], answer: 1),
-                Question(question: "What is the most amount of gold you can in the arena?", answers: ["155 gold", "170 gold", "185 gold", "200 gold"], answer: 4),
-                Question(question: "What is the most amount of gold you can in the arena?", answers: ["155 gold", "170 gold", "185 gold", "200 gold"], answer: 4)]
-            
-        )
-        
-        //Level 16
-        questionsarray.append(
-            
-            [Question(question: "What is the most amount of gold you can win in the Arena?", answers: ["155 gold", "170 gold", "185 gold", "200 gold"], answer: 3),
-                Question(question: "Who is the Lead Designer for Hearthstone?", answers: ["Reno Jackson", "Ben Brode", "Trump", "Michael Morhaime"], answer: 2),
-                Question(question: "In what year was Hearthstone released?", answers: ["2012", "2013", "2014", "2015"], answer: 3),
-                Question(question: "What card back do you get for achieving Rank 20 in Ranked Season 1?", answers: ["Pandaria", "Pirates!", "Ragnaros", "Naxxramas"], answer: 1),
-                Question(question: "What is the most amount of gold you can in the arena?", answers: ["155 gold", "170 gold", "185 gold", "200 gold"], answer: 4),
-                Question(question: "What is the most amount of gold you can in the arena?", answers: ["155 gold", "170 gold", "185 gold", "200 gold"], answer: 4)]
-            
-        )
-        
-        //Level 17
-        questionsarray.append(
-            
-            [Question(question: "What is the most amount of gold you can win in the Arena?", answers: ["155 gold", "170 gold", "185 gold", "200 gold"], answer: 3),
-                Question(question: "Who is the Lead Designer for Hearthstone?", answers: ["Reno Jackson", "Ben Brode", "Trump", "Michael Morhaime"], answer: 2),
-                Question(question: "In what year was Hearthstone released?", answers: ["2012", "2013", "2014", "2015"], answer: 3),
-                Question(question: "What card back do you get for achieving Rank 20 in Ranked Season 1?", answers: ["Pandaria", "Pirates!", "Ragnaros", "Naxxramas"], answer: 1),
-                Question(question: "What is the most amount of gold you can in the arena?", answers: ["155 gold", "170 gold", "185 gold", "200 gold"], answer: 4),
-                Question(question: "What is the most amount of gold you can in the arena?", answers: ["155 gold", "170 gold", "185 gold", "200 gold"], answer: 4)]
-            
-        )
-
-        
-        questions = questionsarray[questionchosen-1]
-*/
-
-        
         
         PickQuestion()
         
@@ -389,27 +160,24 @@ class TriviaViewController: UIViewController {
             }
             
             order.removeAtIndex(0)
-            
-            
-            /*
-            qNumber = 0
-            qLabel.text = questions[qNumber].question
-            
-            aNumber = questions[qNumber].answer
-            
-            for i in 0..<aButtons.count{
-                aButtons[i].setTitle(questions[qNumber].answers[i], forState: UIControlState.Normal)
-            }
-            
-            questions.removeAtIndex(qNumber)
-            */
-            
-            
         }
         
         else {
             
-            Chartboost.showInterstitial(CBLocationDefault)
+            
+            let userFetch = NSFetchRequest(entityName: "User")
+            
+            do{
+                let fetchedUser = try moc.executeFetchRequest(userFetch) as! [User]
+                
+                if (fetchedUser.first!.removeads == false) {
+                    Chartboost.showInterstitial(CBLocationDefault)
+                }
+                
+                
+            } catch {
+                fatalError("Core Data Error")
+            }
             
             gameover()
         }
@@ -539,4 +307,21 @@ class TriviaViewController: UIViewController {
         
     }
     
+    func checkads() {
+        
+        let userFetch = NSFetchRequest(entityName: "User")
+        
+        do{
+            let fetchedUser = try moc.executeFetchRequest(userFetch) as! [User]
+            
+            if (fetchedUser.first!.removeads == true) {
+                self.canDisplayBannerAds = false
+            }
+            
+            
+        } catch {
+            fatalError("Core Data Error")
+        }
+        
+    }
 }

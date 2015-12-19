@@ -21,7 +21,7 @@ class GameOverViewController: UIViewController {
     
     @IBAction func sharescore(sender: AnyObject) {
         let sharescore : SLComposeViewController = SLComposeViewController(forServiceType: SLServiceTypeFacebook)
-        sharescore.addURL(NSURL(string: "www.google.com"))
+        sharescore.addURL(NSURL(string: "itms-apps://itunes.apple.com/app/id1068367208"))
         
         self.presentViewController(sharescore, animated: true, completion: nil)
     }

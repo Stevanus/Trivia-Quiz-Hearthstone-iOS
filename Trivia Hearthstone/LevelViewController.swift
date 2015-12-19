@@ -125,6 +125,7 @@ class LevelViewController: UIViewController {
         
         scrollView.contentSize.height = 550
         checkdata()
+        checkads()
     }
 
     override func didReceiveMemoryWarning() {
@@ -170,6 +171,24 @@ class LevelViewController: UIViewController {
             fatalError("Core Data Error")
         }
     
+    }
+    
+    func checkads() {
+        
+        let userFetch = NSFetchRequest(entityName: "User")
+        
+        do{
+            let fetchedUser = try moc.executeFetchRequest(userFetch) as! [User]
+            
+            if (fetchedUser.first!.removeads == true) {
+                self.canDisplayBannerAds = false
+            }
+            
+            
+        } catch {
+            fatalError("Core Data Error")
+        }
+        
     }
 }
 

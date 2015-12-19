@@ -43,7 +43,7 @@ class ViewController: UIViewController, MFMailComposeViewControllerDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        checkads()
         
         
         let userFetch = NSFetchRequest(entityName: "User")
@@ -103,6 +103,25 @@ class ViewController: UIViewController, MFMailComposeViewControllerDelegate {
         
         self.dismissViewControllerAnimated(false, completion: nil)
     }
+    
+    func checkads() {
+        
+        let userFetch = NSFetchRequest(entityName: "User")
+        
+        do{
+            let fetchedUser = try moc.executeFetchRequest(userFetch) as! [User]
+            
+            if (fetchedUser.first!.removeads == true) {
+                self.canDisplayBannerAds = false
+            }
+            
+            
+        } catch {
+            fatalError("Core Data Error")
+        }
+        
+    }
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

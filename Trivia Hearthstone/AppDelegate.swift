@@ -96,36 +96,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             
             
         }
-        PFPurchase.addObserverForProduct("1500gold") {
-            (transaction: SKPaymentTransaction?) -> Void in
-            
-            print("fourdollars")
-            
-            let userFetch = NSFetchRequest(entityName: "User")
-            
-            do{
-                let fetchedUser = try moc.executeFetchRequest(userFetch) as! [User]
-                
-                let currentgold = Int(fetchedUser.first!.gold!)
-                fetchedUser.first!.setValue(currentgold + 1500, forKey: "gold")
-                fetchedUser.first!.setValue(true, forKey: "removeads")
-                
-                do {
-                    try moc.save()
-                } catch {
-                    fatalError("Save failed to core data")
-                }
-                
-                
-                
-            } catch {
-                fatalError("Core Data Error")
-            }
-            
-            
-            
-        }
-
         
         
         return true
