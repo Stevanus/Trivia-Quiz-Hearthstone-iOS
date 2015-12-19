@@ -178,38 +178,6 @@ class PurchaseViewController: UIViewController {
         
     }
     
-    @IBAction func fourDollar(sender: AnyObject) {
-        
-        
-        
-        PFPurchase.buyProduct("1500gold") {
-            (error: NSError?) -> Void in
-            if error == nil {
-                // Run UI logic that informs user the product has been purchased, such as displaying an alert view.
-                let alert = UIAlertController(title: "Success!", message: "1500 gold has been added to your account.",preferredStyle: UIAlertControllerStyle.Alert)
-                alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.Default, handler: nil))
-                self.presentViewController(alert, animated: true, completion: nil)
-
-            }
-        }
-        
-        let parentVC = self.parentViewController as! LevelViewController
-        
-        let userFetch = NSFetchRequest(entityName: "User")
-        
-        do{
-            let fetchedUser = try moc.executeFetchRequest(userFetch) as! [User]
-            
-            parentVC.goldLabel.text = String(fetchedUser.first!.gold!)
-            
-            
-        } catch {
-            fatalError("Core Data Error")
-        }
-
-        
-        
-    }
 
     override func viewDidLoad() {
         super.viewDidLoad()

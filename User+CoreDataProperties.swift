@@ -22,15 +22,6 @@ extension User {
     @NSManaged var unlocked6: NSNumber?
     @NSManaged var unlocked7: NSNumber?
     @NSManaged var unlocked8: NSNumber?
-    @NSManaged var unlocked9: NSNumber?
-    @NSManaged var unlocked10: NSNumber?
-    @NSManaged var unlocked11: NSNumber?
-    @NSManaged var unlocked12: NSNumber?
-    @NSManaged var unlocked13: NSNumber?
-    @NSManaged var unlocked14: NSNumber?
-    @NSManaged var unlocked15: NSNumber?
-    @NSManaged var unlocked16: NSNumber?
-    @NSManaged var unlocked17: NSNumber?
     @NSManaged var rated: NSNumber?
     @NSManaged var removeads: NSNumber?
     @NSManaged var initialized: NSNumber?

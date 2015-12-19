@@ -118,38 +118,12 @@ class LevelViewController: UIViewController {
     @IBAction func level8(sender: AnyObject) {
         levelfunction(8)
     }
-    @IBAction func level9(sender: AnyObject) {
-        levelfunction(9)
-    }
-    @IBAction func level10(sender: AnyObject) {
-        levelfunction(10)
-    }
-    @IBAction func level11(sender: AnyObject) {
-        levelfunction(11)
-    }
-    @IBAction func level12(sender: AnyObject) {
-        levelfunction(12)
-    }
-    @IBAction func level13(sender: AnyObject) {
-        levelfunction(13)
-    }
-    @IBAction func level14(sender: AnyObject) {
-        levelfunction(14)
-    }
-    @IBAction func level15(sender: AnyObject) {
-        levelfunction(15)
-    }
-    @IBAction func level16(sender: AnyObject) {
-        levelfunction(16)
-    }
-    @IBAction func level17(sender: AnyObject) {
-        levelfunction(17)
-    }
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        scrollView.contentSize.height = 1500
+        scrollView.contentSize.height = 550
         checkdata()
     }
 
@@ -177,7 +151,7 @@ class LevelViewController: UIViewController {
             goldLabel.text = String(fetchedUser.first!.gold!)
     
             //Check for which levels are already unlocked
-            for index in 0...15 {
+            for index in 0...6 {
                 
                 //Checking unlocked level starts from 2, and ends at 17
                 let unlockedlevel = "unlocked\(index+2)"

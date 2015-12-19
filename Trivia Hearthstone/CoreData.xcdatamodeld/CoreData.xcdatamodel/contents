@@ -12,17 +12,8 @@
         <attribute name="unlocked6" optional="YES" attributeType="Boolean" syncable="YES"/>
         <attribute name="unlocked7" optional="YES" attributeType="Boolean" syncable="YES"/>
         <attribute name="unlocked8" optional="YES" attributeType="Boolean" syncable="YES"/>
-        <attribute name="unlocked9" optional="YES" attributeType="Boolean" syncable="YES"/>
-        <attribute name="unlocked10" optional="YES" attributeType="Boolean" syncable="YES"/>
-        <attribute name="unlocked11" optional="YES" attributeType="Boolean" syncable="YES"/>
-        <attribute name="unlocked12" optional="YES" attributeType="Boolean" syncable="YES"/>
-        <attribute name="unlocked13" optional="YES" attributeType="Boolean" syncable="YES"/>
-        <attribute name="unlocked14" optional="YES" attributeType="Boolean" syncable="YES"/>
-        <attribute name="unlocked15" optional="YES" attributeType="Boolean" syncable="YES"/>
-        <attribute name="unlocked16" optional="YES" attributeType="Boolean" syncable="YES"/>
-        <attribute name="unlocked17" optional="YES" attributeType="Boolean" syncable="YES"/>
     </entity>
     <elements>
-        <element name="User" positionX="-63" positionY="-18" width="128" height="345"/>
+        <element name="User" positionX="-63" positionY="-18" width="128" height="210"/>
     </elements>
 </model>

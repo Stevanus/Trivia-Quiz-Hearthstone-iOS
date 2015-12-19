@@ -71,7 +71,7 @@ class ViewController: UIViewController, MFMailComposeViewControllerDelegate {
         entity.setValue(false, forKey: "rated")
         entity.setValue(false, forKey: "removeads")
         
-        for index in 2...17 {
+        for index in 2...8 {
             let unlockedlevel = "unlocked\(index)"
             entity.setValue(false, forKey: unlockedlevel)
         }
