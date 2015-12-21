@@ -107,6 +107,8 @@ class PurchaseViewController: UIViewController {
                 
                 let parentVC = self.parentViewController as! LevelViewController
                 
+                parentVC.adbanner.hidden = true
+                
                 let userFetch = NSFetchRequest(entityName: "User")
                 
                 do{
@@ -118,6 +120,7 @@ class PurchaseViewController: UIViewController {
                 } catch {
                     fatalError("Core Data Error")
                 }
+                
                 
             }
             
@@ -140,6 +143,8 @@ class PurchaseViewController: UIViewController {
             if error == nil {
                 
                 let parentVC = self.parentViewController as! LevelViewController
+                
+                parentVC.adbanner.hidden = true
                 
                 let userFetch = NSFetchRequest(entityName: "User")
                 
