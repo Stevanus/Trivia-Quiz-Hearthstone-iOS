@@ -20,6 +20,7 @@ let moc = DataController().managedObjectContext
 
 class ViewController: UIViewController, MFMailComposeViewControllerDelegate {
     
+    @IBOutlet var adbanner: ADBannerView!
 
     override func prefersStatusBarHidden() -> Bool {
         return true
@@ -113,6 +114,7 @@ class ViewController: UIViewController, MFMailComposeViewControllerDelegate {
             
             if (fetchedUser.first!.removeads == true) {
                 self.canDisplayBannerAds = false
+                adbanner.hidden = true
             }
             
             

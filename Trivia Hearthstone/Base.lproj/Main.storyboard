@@ -163,6 +163,9 @@
                             <constraint firstItem="DVI-qN-3Ja" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="sxY-iJ-y5F"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="adbanner" destination="DVI-qN-3Ja" id="DFr-O8-Nci"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -490,6 +493,7 @@
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
                     <connections>
+                        <outlet property="adbanner" destination="NRH-GP-Fl2" id="HzE-Zb-zOd"/>
                         <outlet property="backLabel" destination="PNq-Bn-ZCj" id="Y1i-BY-lej"/>
                         <outlet property="goldLabel" destination="67y-c5-6m6" id="eze-ev-3I5"/>
                         <outlet property="scrollView" destination="seq-oB-ex1" id="5oF-D1-waS"/>
@@ -737,6 +741,7 @@
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
                     <connections>
+                        <outlet property="adbanner" destination="Qur-xZ-A4F" id="5qG-gh-dyJ"/>
                         <outlet property="backLabel" destination="kjP-28-WhD" id="PDc-qw-hpu"/>
                         <outlet property="displayScore" destination="3ON-au-Cyl" id="CYu-uF-qmb"/>
                         <outlet property="displayTimeLeft" destination="Vlx-sB-Yuc" id="4Vf-fg-QIJ"/>
@@ -904,8 +909,8 @@
         <image name="trivialogo.png" width="900" height="900"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="DGV-Dx-uZ0"/>
         <segue reference="34V-r0-l31"/>
         <segue reference="nER-6Q-Ypb"/>
-        <segue reference="DGV-Dx-uZ0"/>
     </inferredMetricsTieBreakers>
 </document>

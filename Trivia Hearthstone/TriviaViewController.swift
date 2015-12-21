@@ -61,6 +61,7 @@ class TriviaViewController: UIViewController {
     @IBOutlet var aButtons: [UIButton]!
     @IBOutlet var backLabel: UIButton!
     
+    @IBOutlet var adbanner: ADBannerView!
     
     var questionchosen = Int()
 /*
@@ -316,6 +317,7 @@ class TriviaViewController: UIViewController {
             
             if (fetchedUser.first!.removeads == true) {
                 self.canDisplayBannerAds = false
+                adbanner.hidden = true
             }
             
             

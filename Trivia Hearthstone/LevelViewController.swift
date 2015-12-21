@@ -17,6 +17,7 @@ class LevelViewController: UIViewController {
 
     @IBOutlet var goldLabel: UILabel!
     
+    @IBOutlet var adbanner: ADBannerView!
 
     
     @IBOutlet var storeView: UIView!
@@ -182,6 +183,7 @@ class LevelViewController: UIViewController {
             
             if (fetchedUser.first!.removeads == true) {
                 self.canDisplayBannerAds = false
+                adbanner.hidden = true
             }
             
             

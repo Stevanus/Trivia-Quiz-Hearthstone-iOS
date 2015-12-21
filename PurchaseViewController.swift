@@ -26,10 +26,50 @@ class PurchaseViewController: UIViewController {
     
     @IBAction func rateButton(sender: AnyObject) {
         
+        let userFetch = NSFetchRequest(entityName: "User")
+        
+        do{
+            let fetchedUser = try moc.executeFetchRequest(userFetch) as! [User]
+            
+            if (fetchedUser.first!.rated == false){
+                
+                UIApplication.sharedApplication().openURL(NSURL(string : "itms-apps://itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?id=\(1068367208)&onlyLatestVersion=true&pageNumber=0&sortOrdering=1)")!);
+                
+                let currentgold = Int(fetchedUser.first!.gold!)
+                fetchedUser.first!.setValue(currentgold + 100, forKey: "gold")
+                fetchedUser.first!.setValue(true, forKey: "removeads")
+                
+                
+                do {
+                    try moc.save()
+                } catch {
+                    fatalError("Save failed to core data")
+                }
+                
+                 let parentVC = self.parentViewController as! LevelViewController
+                 parentVC.goldLabel.text = String(fetchedUser.first!.gold!)
+                
+            }
+            
+            else {
+                
+                let alert = UIAlertController(title: "Failed", message: "You have already rated.",preferredStyle: UIAlertControllerStyle.Alert)
+                alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.Default, handler: nil))
+                self.presentViewController(alert, animated: true, completion: nil)
+                
+            }
+            
+            
+        } catch {
+            fatalError("Core Data Error")
+        }
+        
+        
+/*
         UIApplication.sharedApplication().openURL(NSURL(string : "itms-apps://itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?id=\(1068367208)&onlyLatestVersion=true&pageNumber=0&sortOrdering=1)")!);
         
         
-        let userFetch = NSFetchRequest(entityName: "User")
+        
         
         do{
             let fetchedUser = try moc.executeFetchRequest(userFetch) as! [User]
@@ -64,7 +104,7 @@ class PurchaseViewController: UIViewController {
         } catch {
             fatalError("Core Data Error")
         }
-        
+*/
     }
     
     
@@ -117,31 +157,31 @@ class PurchaseViewController: UIViewController {
         PFPurchase.buyProduct("300gold") {
             (error: NSError?) -> Void in
             if error == nil {
-                // Run UI logic that informs user the product has been purchased, such as displaying an alert view.
-                let alert = UIAlertController(title: "Success!", message: "300 gold has been added to your account.",preferredStyle: UIAlertControllerStyle.Alert)
-                alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.Default, handler: nil))
-                self.presentViewController(alert, animated: true, completion: nil)
+                
+                let parentVC = self.parentViewController as! LevelViewController
+                
+                let userFetch = NSFetchRequest(entityName: "User")
+                
+                do{
+                    let fetchedUser = try moc.executeFetchRequest(userFetch) as! [User]
+                    
+                    parentVC.goldLabel.text = String(fetchedUser.first!.gold!)
+                    
+                    
+                } catch {
+                    fatalError("Core Data Error")
+                }
                 
             }
             
             else {
-                print("error")
+                let alert = UIAlertController(title: "Error", message: "Failed to purchase.",preferredStyle: UIAlertControllerStyle.Alert)
+                alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.Default, handler: nil))
+                self.presentViewController(alert, animated: true, completion: nil)
             }
         }
         
-        let parentVC = self.parentViewController as! LevelViewController
-        
-        let userFetch = NSFetchRequest(entityName: "User")
-        
-        do{
-            let fetchedUser = try moc.executeFetchRequest(userFetch) as! [User]
-            
-            parentVC.goldLabel.text = String(fetchedUser.first!.gold!)
-            
-            
-        } catch {
-            fatalError("Core Data Error")
-        }
+
 
     }
     
@@ -151,31 +191,29 @@ class PurchaseViewController: UIViewController {
         PFPurchase.buyProduct("700gold") {
             (error: NSError?) -> Void in
             if error == nil {
-                // Run UI logic that informs user the product has been purchased, such as displaying an alert view.
-                let alert = UIAlertController(title: "Success!", message: "700 gold has been added to your account.",preferredStyle: UIAlertControllerStyle.Alert)
-                alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.Default, handler: nil))
-                self.presentViewController(alert, animated: true, completion: nil)
+                
+                let parentVC = self.parentViewController as! LevelViewController
+                
+                let userFetch = NSFetchRequest(entityName: "User")
+                
+                do{
+                    let fetchedUser = try moc.executeFetchRequest(userFetch) as! [User]
+                    
+                    parentVC.goldLabel.text = String(fetchedUser.first!.gold!)
+                    
+                    
+                } catch {
+                    fatalError("Core Data Error")
+                }
 
                 
             }
+            else{
+                let alert = UIAlertController(title: "Error", message: "Failed to purchase.",preferredStyle: UIAlertControllerStyle.Alert)
+                alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.Default, handler: nil))
+                self.presentViewController(alert, animated: true, completion: nil)
+            }
         }
-        
-        let parentVC = self.parentViewController as! LevelViewController
-        
-        let userFetch = NSFetchRequest(entityName: "User")
-        
-        do{
-            let fetchedUser = try moc.executeFetchRequest(userFetch) as! [User]
-            
-            parentVC.goldLabel.text = String(fetchedUser.first!.gold!)
-            
-            
-        } catch {
-            fatalError("Core Data Error")
-        }
-
-        
-        
     }
     
 
