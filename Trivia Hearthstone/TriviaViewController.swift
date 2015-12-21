@@ -186,7 +186,6 @@ class TriviaViewController: UIViewController {
     
     func gameover(){
         
-        print("Out of questions!")
         gameoverscreen.hidden = false
         self.view.backgroundColor = UIColor.blackColor()
         self.view.alpha = 0.8
@@ -276,11 +275,9 @@ class TriviaViewController: UIViewController {
         if correct == number{
             correctSound.play()
             score = score + 1
-            print("Correct")
         }
         else{
             wrongSound.play()
-            print("Wrong")
         }
         
         displayScore.text = String(score)
