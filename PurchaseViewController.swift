@@ -37,7 +37,7 @@ class PurchaseViewController: UIViewController {
                 
                 let currentgold = Int(fetchedUser.first!.gold!)
                 fetchedUser.first!.setValue(currentgold + 100, forKey: "gold")
-                fetchedUser.first!.setValue(true, forKey: "removeads")
+                fetchedUser.first!.setValue(true, forKey: "rated")
                 
                 
                 do {
@@ -64,47 +64,7 @@ class PurchaseViewController: UIViewController {
             fatalError("Core Data Error")
         }
         
-        
-/*
-        UIApplication.sharedApplication().openURL(NSURL(string : "itms-apps://itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?id=\(1068367208)&onlyLatestVersion=true&pageNumber=0&sortOrdering=1)")!);
-        
-        
-        
-        
-        do{
-            let fetchedUser = try moc.executeFetchRequest(userFetch) as! [User]
-            
-            let currentgold = Int(fetchedUser.first!.gold!)
-            fetchedUser.first!.setValue(currentgold + 100, forKey: "gold")
-            fetchedUser.first!.setValue(true, forKey: "removeads")
-            
-            
-            do {
-                try moc.save()
-            } catch {
-                fatalError("Save failed to core data")
-            }
-            
-            
-            
-        } catch {
-            fatalError("Core Data Error")
-        }
-        
-        
-        let parentVC = self.parentViewController as! LevelViewController
-        
-        
-        do{
-            let fetchedUser = try moc.executeFetchRequest(userFetch) as! [User]
-            
-            parentVC.goldLabel.text = String(fetchedUser.first!.gold!)
-            
-            
-        } catch {
-            fatalError("Core Data Error")
-        }
-*/
+
     }
     
     
@@ -119,35 +79,22 @@ class PurchaseViewController: UIViewController {
             
             let currentgold = Int(fetchedUser.first!.gold!)
             fetchedUser.first!.setValue(currentgold + 50, forKey: "gold")
-            fetchedUser.first!.setValue(true, forKey: "removeads")
-            
             
             do {
                 try moc.save()
+            
+            
             } catch {
                 fatalError("Save failed to core data")
             }
             
-            
-            
-        } catch {
-            fatalError("Core Data Error")
-        }
-
-        
-        let parentVC = self.parentViewController as! LevelViewController
-        
-        
-        do{
-            let fetchedUser = try moc.executeFetchRequest(userFetch) as! [User]
-            
+            let parentVC = self.parentViewController as! LevelViewController
             parentVC.goldLabel.text = String(fetchedUser.first!.gold!)
             
             
         } catch {
             fatalError("Core Data Error")
         }
-        
     }
     
     
