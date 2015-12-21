@@ -78,7 +78,7 @@ class TriviaViewController: UIViewController {
     @IBOutlet var displayTimeLeft: UILabel!
     
     var score = 0
-    var timeleft = 7
+    var timeleft = 15
     var order = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20].shuffle()
     
     var clock = NSTimer()
@@ -208,14 +208,13 @@ class TriviaViewController: UIViewController {
     
     func countdown(timer : NSTimer)  {
         
-        print (timeleft)
         displayTimeLeft.text = String(timeleft)
         if timeleft > 0 {
             timeleft--
         }
         else {
             
-            timeleft = 7
+            timeleft = 15
             
             wrongSound.play()
             
@@ -228,7 +227,7 @@ class TriviaViewController: UIViewController {
             
             aButtons[correct-1].setTitleColor(UIColor.yellowColor() , forState: UIControlState.Normal)
             
-            let myTimer : NSTimer = NSTimer.scheduledTimerWithTimeInterval(1.25, target: self, selector: Selector("nextQuestion:"), userInfo: nil, repeats: false)
+            let myTimer : NSTimer = NSTimer.scheduledTimerWithTimeInterval(1.75, target: self, selector: Selector("nextQuestion:"), userInfo: nil, repeats: false)
         }
         
     }
@@ -284,12 +283,11 @@ class TriviaViewController: UIViewController {
             print("Wrong")
         }
         
-        print(score)
         displayScore.text = String(score)
         
-        timeleft = 7
+        timeleft = 15
         
-        let myTimer : NSTimer = NSTimer.scheduledTimerWithTimeInterval(1.25, target: self, selector: Selector("nextQuestion:"), userInfo: nil, repeats: false)
+        let myTimer : NSTimer = NSTimer.scheduledTimerWithTimeInterval(1.75, target: self, selector: Selector("nextQuestion:"), userInfo: nil, repeats: false)
         
     }
     
@@ -302,7 +300,7 @@ class TriviaViewController: UIViewController {
         
         UIApplication.sharedApplication().endIgnoringInteractionEvents()
         
-        timeleft = 7
+        timeleft = 15
 
         PickQuestion()
         
